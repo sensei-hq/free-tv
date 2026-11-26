@@ -60,17 +60,27 @@ public struct Shelf: Sendable {
     public let channels: [Channel]
 }
 
+/// Preferred shelf order: curated categories first, then countries A-Z.
+public let preferredShelfOrder = [
+    "Sports", "News", "Documentaries", "Kids", "Movies", "Music",
+]
+
 public func makeShelves(from channels: [Channel]) -> [Shelf] {
-    var order: [String] = []
     var grouped: [String: [Channel]] = [:]
     for channel in channels {
-        if grouped[channel.category] == nil {
-            order.append(channel.category)
-            grouped[channel.category] = []
-        }
-        grouped[channel.category]?.append(channel)
+        grouped[channel.category, default: []].append(channel)
     }
-    return order.map { Shelf(title: $0, channels: grouped[$0] ?? []) }
+    let rank = Dictionary(uniqueKeysWithValues:
+        preferredShelfOrder.enumerated().map { ($1, $0) })
+    let titles = grouped.keys.sorted {
+        switch (rank[$0], rank[$1]) {
+        case let (a?, b?): return a < b
+        case (_?, nil): return true
+        case (nil, _?): return false
+        default: return $0 < $1
+        }
+    }
+    return titles.map { Shelf(title: $0, channels: grouped[$0] ?? []) }
 }
 
 public func search(channels: [Channel], query: String) -> [Channel] {

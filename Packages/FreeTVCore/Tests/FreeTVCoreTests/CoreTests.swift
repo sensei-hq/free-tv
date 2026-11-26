@@ -63,12 +63,17 @@ struct CatalogDecodingTests {
 
 @Suite("Shelves")
 struct ShelfTests {
-    @Test("groups by category in first-appearance order")
+    @Test("preferred categories first, countries alphabetical")
     func groupsByCategory() throws {
         let catalog = try Catalog.decode(from: Data(fixtureCatalog.utf8))
         let shelves = makeShelves(from: catalog.liveChannels)
-        #expect(shelves.map(\.title) == ["News", "Sports"])
-        #expect(shelves[0].channels.map(\.name) == ["News One"])
+        #expect(shelves.map(\.title) == ["Sports", "News"])
+        let albania = Channel(
+            name: "A", url: "http://x/a", logo: nil, tvgID: nil,
+            category: "Albania", country: "AL", sources: [], status: "online",
+            quarantined: false)
+        let mixed = makeShelves(from: catalog.liveChannels + [albania])
+        #expect(mixed.map(\.title) == ["Sports", "News", "Albania"])
     }
 
     @Test("search matches names case-insensitively")
