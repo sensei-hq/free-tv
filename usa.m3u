@@ -3,34 +3,24 @@
 http://23.237.104.106:8080/USA_BUZZR/index.m3u8
 #EXTINF:-1 tvg-id="RetroTVEast.us" tvg-logo="https://i.imgur.com/PNTYOgg.png" group-title="USA" tvg-country="US",Retro TV
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/retro/index.m3u8
-#EXTINF:-1 tvg-id="Stadium.us" tvg-logo="https://i.imgur.com/6ae9E8d.png" group-title="USA" tvg-country="US",Stadium
-https://bcovlive-a.akamaihd.net/e64d564b9275484f85981d8c146fb915/us-east-1/5994000126001/profile_1/976f34cf5a614518b7b539cbf9812080/chunklist_ssaiV.m3u8
 #EXTINF:-1 tvg-id="BizTV.us" tvg-logo="https://i.imgur.com/cbGvXyF.jpg" group-title="USA" tvg-country="US",Biz TV
 https://2-fss-1.streamhoster.com/pl_154/205722-2251224-1/playlist.m3u8
 #EXTINF:-1 tvg-id="HeartlandEastern.us" tvg-logo="https://i.imgur.com/a67bbag.png" group-title="USA" tvg-country="US",Heartland
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/heartland/index.m3u8
 #EXTINF:-1 tvg-id="RevnTV.us" tvg-logo="https://i.imgur.com/VUhqVgG.png" group-title="USA" tvg-country="US",Rev'n
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Revn/index.m3u8
-#EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://i.imgur.com/BTasyOy.png" group-title="USA" tvg-country="US",CNBC Ⓨ
-https://www.youtube.com/c/CNBC/live
 #EXTINF:-1 tvg-id="BloombergTelevision.us" tvg-logo="https://i.imgur.com/VnCcH73.png" group-title="USA" tvg-country="US",Bloomberg
 https://bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-id="ABCNews.us" tvg-logo="https://i.imgur.com/7sJLzKi.png" group-title="USA" tvg-country="US",ABC News
 https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
-#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://i.imgur.com/nki2HDQ.png" group-title="USA" tvg-country="US",CBS News
-https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
 #EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-logo="https://i.imgur.com/v48mMRT.png" group-title="USA" tvg-country="US",NBC News
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
-#EXTINF:-1 tvg-id="ReutersTV.us" tvg-logo="https://i.imgur.com/AbvCnoH.png" group-title="USA" tvg-country="US",Reuters TV
-https://reuters-reutersnow-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NASATVMedia.us" tvg-logo="https://i.imgur.com/rmyfoOI.png" group-title="USA" tvg-country="US",NASA TV Media
 https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 #EXTINF:-1 tvg-id="BBCFood.us" tvg-logo="https://i.imgur.com/N3xiz4m.png" group-title="USA" tvg-country="US",BBC Food
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-id="BBCHome.us" tvg-logo="https://i.imgur.com/Ii8DX1x.png" group-title="USA" tvg-country="US",BBC Home
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5836fe745b600070fc743/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
-#EXTINF:-1 tvg-id="Docurama.us" tvg-logo="https://i.imgur.com/bNg8mze.png" group-title="USA" tvg-country="US",Docurama
-https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-docuramaA/CDN/master.m3u8
 #EXTINF:-1 tvg-id="DryBarComedy.us" tvg-logo="https://i.imgur.com/EldlmTp.png" group-title="USA" tvg-country="US",Drybar Comedy
 https://drybar-drybarcomedy-1-us.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Boni-Records.com.us" tvg-logo="http://media.boni-records.com/logo.png" group-title="USA" tvg-country="US",Music Channel

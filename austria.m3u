@@ -7,12 +7,8 @@ https://rbmn-live.akamaized.net/hls/live/2002825/geoSTVATweb/master.m3u8
 https://oe24.mdn.ors.at/live/eds/oe24tv_hd/hls_nodrm/oe24tv_hd-nodrm.m3u8
 #EXTINF:-1 tvg-id="W24.at" tvg-logo="https://i.imgur.com/PGb4wYw.png" group-title="Austria" tvg-country="AT",W24
 https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="P3tv.at" tvg-logo="https://i.imgur.com/1sPhZ57.png" group-title="Austria" tvg-country="AT",P3TV
-http://p3-6.mov.at:1935/live/weekstream/playlist.m3u8
 #EXTINF:-1 tvg-id="RTV.at" tvg-logo="https://i.imgur.com/oD7GQxT.png" group-title="Austria" tvg-country="AT",RTV
 http://iptv.rtv-ooe.at/stream.m3u8
-#EXTINF:-1 tvg-id="TVTV.at" tvg-logo="https://i.imgur.com/Bhv7lvy.png" group-title="Austria" tvg-country="AT",RTS Ⓖ
-https://58b42f6c8c9bf.streamlock.net:8080/live/RTS2015/playlist.m3u8
 #EXTINF:-1 tvg-id="TirolTV.at" tvg-logo="https://i.imgur.com/1E7Nflo.jpg" group-title="Austria" tvg-country="AT",Tirol TV Ⓖ
 https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 #EXTINF:-1 tvg-id="R9.at" tvg-logo="https://i.imgur.com/2fxVYsL.jpg" group-title="Austria" tvg-country="AT",R9

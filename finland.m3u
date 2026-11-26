@@ -1,30 +1,16 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz"
-#EXTINF:-1 tvg-id="YleTV1.fi" tvg-logo="https://i.imgur.com/6yXZwUL.png" group-title="Finland" tvg-country="FI",Yle TV1 Ⓖ
-https://yletv.akamaized.net/hls/live/622365/yletv1fin/index.m3u8
-#EXTINF:-1 tvg-id="YleTV2.fi" tvg-logo="https://i.imgur.com/4xkc6PL.png" group-title="Finland" tvg-country="FI",Yle TV2 Ⓖ
-https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8
 #EXTINF:-1 tvg-id="MTV3.fi" tvg-logo="https://i.imgur.com/kNbmc8n.png" group-title="Finland" tvg-country="FI",MTV3
 https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="Nelonen.fi" tvg-logo="https://i.imgur.com/BFbCyfY.png" group-title="Finland" tvg-country="FI",Nelonen
 https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="YleTeemaFem.fi" tvg-logo="https://i.imgur.com/iDljufz.png" group-title="Finland" tvg-country="FI",Yle Teema Fem Ⓖ
-https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8
 #EXTINF:-1 tvg-id="Sub.fi" tvg-logo="https://i.imgur.com/VRCuxQt.png" group-title="Finland" tvg-country="FI",MTV Sub
 https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="TV5.fi" tvg-logo="https://i.imgur.com/MoukyGs.png" group-title="Finland" tvg-country="FI",TV5 Finland
-https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="Liv.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" group-title="Finland" tvg-country="FI",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="Jim.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" group-title="Finland" tvg-country="FI",Jim
-https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="Kutonen.fi" tvg-logo="https://i.imgur.com/4giVyxb.png" group-title="Finland" tvg-country="FI",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="TLCFinland.fi" tvg-logo="https://i.imgur.com/0d5hP3A.png" group-title="Finland" tvg-country="FI",TLC Finland
 https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="StarChannel.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/500px-Star_Channel_2020.svg.png" group-title="Finland" tvg-country="FI",Star Channel Finland
 https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="AVA.fi" tvg-logo="https://i.imgur.com/rtyJVgB.png" group-title="Finland" tvg-country="FI",MTV Ava
-https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="Hero.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" group-title="Finland" tvg-country="FI",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="Frii.fi" tvg-logo="https://i.imgur.com/ljKoG9I.png" group-title="Finland" tvg-country="FI",Frii
@@ -33,10 +19,6 @@ https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
 https://irrtv2.digitacdn.net/live/ott/irrtv/playlist.m3u8?organizationId=229401409&suiteItemId=230439940
 #EXTINF:-1 tvg-id="Eveo.fi" tvg-logo="https://i.imgur.com/sR8nA8w.png" group-title="Finland" tvg-country="FI",TapahtumaTV Eveo
 https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="NationalGeographicFinland.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png" group-title="Finland" tvg-country="FI",National Geographic Finland Ⓖ
-https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="ViaplayTV.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Viaplay_TV_logo.svg/500px-Viaplay_TV_logo.svg.png" group-title="Finland" tvg-country="FI",Viaplay TV
-https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="KotiTV.fi" tvg-logo="https://i.imgur.com/HzILf2H.png" group-title="Finland" tvg-country="FI",OnniTV
 https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8?organizationId=83459409&suiteItemId=83459780
 #EXTINF:-1 tvg-id="TaivasTV7.fi" tvg-logo="https://i.imgur.com/a4iNVXA.png" group-title="Finland" tvg-country="FI",Taivas TV7
@@ -45,15 +27,7 @@ https://vod.tv7.fi/tv7-fi/_definst_/smil:tv7-fi.smil/playlist.m3u8
 https://vod.tv7.fi/tv7-se/_definst_/smil:tv7-se.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVUutiset.fi" tvg-logo="https://i.imgur.com/IyB6mIb.png" group-title="Finland" tvg-country="FI",MTV Uutiset Live
 https://live.streaming.a2d.tv/content/channels/uutiset/cmaf.m3u8
-#EXTINF:-1 tvg-id="NopolaNews.fi" tvg-logo="https://i.imgur.com/gOj8J6O.png" group-title="Finland" tvg-country="FI",Nopola News
-https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NarTV.fi" tvg-logo="https://i.imgur.com/Ht5yePq.png" group-title="Finland" tvg-country="FI",När-TV Ⓢ
 https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="SundomTV.fi" tvg-logo="https://i.imgur.com/WgwR7nJ.png" group-title="Finland" tvg-country="FI",Sundom TV Ⓨ
-https://www.youtube.com/@SundomTV/live
-#EXTINF:-1 tvg-id="WorTV.fi" tvg-logo="https://i.imgur.com/P9O1jo0.png" group-title="Finland" tvg-country="FI",Wör TV Ⓨ
-https://www.youtube.com/@wor-tvr.f.4461/live
-#EXTINF:-1 tvg-id="YleX.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/500px-YleX.svg.png" group-title="Finland" tvg-country="FI",YleX Studio Live
-https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8
 #EXTINF:-1 tvg-id="JRTVJarviradio.fi" tvg-logo="https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg" group-title="Finland" tvg-country="FI",Järviradio TV
 https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8

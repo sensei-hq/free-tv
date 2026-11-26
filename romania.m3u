@@ -11,14 +11,8 @@ https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8
 https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ProTV.ro" tvg-logo="https://i.imgur.com/aKAfKtW.png" group-title="Romania" tvg-country="RO",Pro TV
 https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0
-#EXTINF:-1 tvg-id="RomaniaTV.ro" tvg-logo="https://i.imgur.com/ZIfEp5I.png" group-title="Romania" tvg-country="RO",România TV Ⓖ
-https://livestream.romaniatv.net/clients/romaniatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Telestar1.ro" tvg-logo="https://i.imgur.com/UZQjEsd.png" group-title="Romania" tvg-country="RO",Telestar1
 https://dvb.tennet.ro/mobile_tv/telestar.m3u8
-#EXTINF:-1 tvg-id="EuronewsRomania.ro" tvg-logo="https://i.imgur.com/jUOVUXt.png" group-title="Romania" tvg-country="RO",Euronews România Ⓨ
-https://www.youtube.com/euronewsro/live
-#EXTINF:-1 tvg-id="Antena3CNN.ro" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/Antena_3_CNN_2022_v1.png/revision/latest/scale-to-width-down/512" group-title="Romania" tvg-country="RO",Antena 3 CNN
-https://live3vox.antenaplay.ro/a3free/a3free.m3u8
 #EXTINF:-1 tvg-id="TVRCluj.ro" tvg-logo="https://i.imgur.com/8DqsGHO.png" group-title="Romania" tvg-country="RO",TVR Cluj Ⓖ
 https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRCraiova.ro" tvg-logo="https://i.imgur.com/vxWbQiy.png" group-title="Romania" tvg-country="RO",TVR Craiova Ⓖ

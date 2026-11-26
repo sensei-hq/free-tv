@@ -1,11 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="KTNNews.ke" tvg-logo="https://i.imgur.com/7yzunBK.png" group-title="Kenya" tvg-country="KE",KTN NEWS TV
-https://www.standardmedia.co.ke/ktnnews/live
-#EXTINF:-1 tvg-id="CitizenTV.ke" tvg-logo="https://i.imgur.com/DjDaD7h.png" group-title="Kenya" tvg-country="KE",Citizen TV
-https://citizentv.co.ke/live
-#EXTINF:-1 tvg-id="NTV.ke" tvg-logo="https://i.imgur.com/OpoLjfv" group-title="Kenya" tvg-country="KE",NTV Kenya Ⓨ
-https://www.youtube.com/c/NTVKenyaOnline/live
-#EXTINF:-1 tvg-id="KTNHome.ke" tvg-logo="https://i.imgur.com/7yzunBK.png" group-title="Kenya" tvg-country="KE",KTN Home
-https://www.standardmedia.co.ke/ktnhome/live
 #EXTINF:-1 tvg-id="K24.ke" tvg-logo="https://i.imgur.com/ce2P9Y4" group-title="Kenya" tvg-country="KE",K24 TV
 https://livecdn.premiumfree.tv/afxpstr/K24Backup/index.m3u8

@@ -1,21 +1,3 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz"
-#EXTINF:-1 tvg-id="BelRTL.be" tvg-logo="https://i.imgur.com/xMhSvax.png" group-title="Belgium" tvg-country="BE",RTL-Be
-https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
-#EXTINF:-1 tvg-id="LaUne.be" tvg-logo="https://i.imgur.com/hJodwJt.png" group-title="Belgium" tvg-country="BE",La Une
-http://145.239.5.177/329/index.m3u8
-#EXTINF:-1 tvg-id="Tipik.be" tvg-logo="https://i.imgur.com/PVbVj8o.png" group-title="Belgium" tvg-country="BE",Tipik
-http://193.111.198.85:8589/stream/mstv/rtbftipiklive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
-#EXTINF:-1 tvg-id="ARTEFrench.fr" tvg-logo="https://i.imgur.com/w7HzPQh.png" group-title="Belgium" tvg-country="BE",Arte Belgique Ⓖ
-https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
-#EXTINF:-1 tvg-id="LaTrois.be" tvg-logo="https://i.imgur.com/kC3pJtA.png" group-title="Belgium" tvg-country="BE",La Trois
-http://145.239.5.177/330/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7WHwYK3.png" group-title="Belgium" tvg-country="BE",TV5 Monde
-https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
-#EXTINF:-1 tvg-id="LN24.be" tvg-logo="https://i.imgur.com/hePpxnn.png" group-title="Belgium" tvg-country="BE",LN24
-https://live.cdn.ln24.be/out/v1/b191621c8b9a436cad37bb36a82d2e1c/index.m3u8
+#EXTM3U
 #EXTINF:-1 tvg-id="BX1.be" tvg-logo="https://i.imgur.com/YjKqWru.png" group-title="Belgium" tvg-country="BE",BX1
 https://59959724487e3.streamlock.net/stream/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Een.be" tvg-logo="https://i.imgur.com/66GQlc7.png" group-title="Belgium" tvg-country="BE",EEN
-https://live-vrt.rabah.net/groupc/live/8edf3bdf-7db3-41c3-a318-72cb7f82de66/live_aes.isml/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.bruzz.be/themes/custom/drupack/favicons/favicon-32x32.png" group-title="Belgium" tvg-country="BE",Bruzz
-https://hls-origin01-bruzz.cdn02.rambla.be/main/adliveorigin-bruzz/_definst_/V3n5YY.smil/playlist.m3u8

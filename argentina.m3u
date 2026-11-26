@@ -1,53 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="TodoNoticias.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/250px-TN_todo_noticias_logo.svg.png" group-title="Argentina" tvg-country="AR",TN Todo Noticias Ⓨ
-https://www.youtube.com/c/todonoticias/live
-#EXTINF:-1 tvg-id="Encuentro.ar" tvg-logo="https://i.imgur.com/IyP2UIx.png" group-title="Argentina" tvg-country="AR",Encuentro Ⓨ Ⓖ
-https://www.youtube.com/user/encuentro/live
-#EXTINF:-1 tvg-id="Pakapaka.ar" tvg-logo="https://i.imgur.com/Q4zaCuM.png" group-title="Argentina" tvg-country="AR",Pakapaka Ⓨ Ⓖ
-https://www.youtube.com/user/CanalPakapaka/live
-#EXTINF:-1 tvg-id="Aunar.ar" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/aunar.png" group-title="Argentina" tvg-country="AR",Aunar
-https://5fb24b460df87.streamlock.net/live-cont.ar/mirador/playlist.m3u8
-#EXTINF:-1 tvg-id="CineAr.ar" tvg-logo="https://i.imgur.com/RPLyrIC.png" group-title="Argentina" tvg-country="AR",Cine.AR
-https://5fb24b460df87.streamlock.net/live-cont.ar/cinear/playlist.m3u8
-#EXTINF:-1 tvg-id="TECTV.ar" tvg-logo="https://i.imgur.com/EGCq1wc.png" group-title="Argentina" tvg-country="AR",Tec TV
-https://tv.initium.net.ar:3939/live/tectvmainlive.m3u8
-#EXTINF:-1 tvg-id="TVPublica.ar" tvg-logo="https://i.imgur.com/4hYYpiu.png" group-title="Argentina" tvg-country="AR",Televisión Pública Ⓨ
-https://www.youtube.com/user/TVPublicaArgentina/live
-#EXTINF:-1 tvg-id="DeporTV.ar" tvg-logo="https://i.imgur.com/iyYLNRt.png" group-title="Argentina" tvg-country="AR",DeporTV
-https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.ar" tvg-logo="https://i.imgur.com/5pAaVih.png" group-title="Argentina" tvg-country="AR",Canal 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
-#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-logo="https://i.imgur.com/k2Ku8Ib.png" group-title="Argentina" tvg-country="AR",Crónica TV Ⓨ
-https://www.youtube.com/c/cronicatv/live
-#EXTINF:-1 tvg-id="Argentina12.ar" tvg-logo="https://i.imgur.com/atGKPhi.png" group-title="Argentina" tvg-country="AR",Argentina 12 Ⓨ
-https://www.youtube.com/c/IPNoticiasEnVivo/live
-#EXTINF:-1 tvg-id="ElDestape.ar" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAuXDwiY8UPwtAHrGXTXkAxBjdRqws2MJIN2A=s900-mo-c-c0xffffffff-rj-k-no" group-title="Argentina" tvg-country="AR",El Destape Ⓨ
-https://www.youtube.com/c/eldestapetv/live
-#EXTINF:-1 tvg-id="C5N.ar" tvg-logo="https://i.imgur.com/E3pamA5.png" group-title="Argentina" tvg-country="AR",C5N Ⓨ
-https://www.youtube.com/c/c5n/live
-#EXTINF:-1 tvg-id="LaNacionPlus.ar" tvg-logo="https://i.imgur.com/vJYzGt1.png" group-title="Argentina" tvg-country="AR",LN+ Ⓨ
-https://www.youtube.com/c/LaNacionMas/live
 #EXTINF:-1 tvg-id="MasPerfil.ar" tvg-logo="https://i.imgur.com/3wZdPwN.png" group-title="Argentina" tvg-country="AR",+Perfil
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8
 #EXTINF:-1 tvg-id="Telemax.ar" tvg-logo="https://i.imgur.com/gfX0hdB.png" group-title="Argentina" tvg-country="AR",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 #EXTINF:-1 tvg-id="NETTV.ar" tvg-logo="https://i.imgur.com/EWmshtx.png" group-title="Argentina" tvg-country="AR",Net TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUniversidad.ar" tvg-logo="https://i.imgur.com/tvLHiAT.png" group-title="Argentina" tvg-country="AR",TV Universidad
-https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
-#EXTINF:-1 tvg-id="BarricadaTV.ar" tvg-logo="https://www.barricadatv.org/?p=23082" group-title="Argentina" tvg-country="AR",Barricada TV
-https://www.youtube.com/channel/UC6YundoLrEuBJaPp_oEPWaA/live
-#EXTINF:-1 tvg-id="UrbanaTeve.ar" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQLeFMWMeoumi-o24ohLPXSEdNL5-oJ9W5oP5KnnA=s900-c-k-c0x00ffffff-no-rj" group-title="Argentina" tvg-country="AR",Urbana Tevé
-https://www.youtube.com/channel/UCTnbbQUGmWEKeCq9wWoyN0g/live
-#EXTINF:-1 tvg-id="ComarcaTV.ar" tvg-logo="http://directostv.teleame.com/wp-content/uploads/2020/10/Comarca-TV-en-vivo-Online.png" group-title="Argentina" tvg-country="AR",Comarca TV
-https://www.youtube.com/c/ComarcaTV/live
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="https://i.imgur.com/ZK7AQFg.png" group-title="Argentina" tvg-country="AR",El Trece
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
-#EXTINF:-1 tvg-id="ElNueve.ar" tvg-logo="https://i.imgur.com/EtcVSm4.png" group-title="Argentina" tvg-country="AR",El Nueve
-http://45.226.28.9:8085/Live/18e292ea93b66c65c76707f07c489d61/local-canal9.playlist.m3u8
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://i.imgur.com/wrZfMXn.png" group-title="Argentina" tvg-country="AR",Telefe
 http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://i.imgur.com/Jt7dOQm.png" group-title="Argentina" tvg-country="AR",América
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-#EXTINF:-1 tvg-id="A24.ar" tvg-logo="https://i.imgur.com/OdhF7ym.png" group-title="Argentina" tvg-country="AR",A24 Ⓨ
-https://www.youtube.com/c/A24com/live

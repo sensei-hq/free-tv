@@ -1,7 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="Armenia1.am" tvg-logo="https://i.imgur.com/HIwJ4lc.png" group-title="Armenia" tvg-country="AM",Armenia 1
-https://ifl01eu-new.bozztv.com/am1abr/index.m3u8
-#EXTINF:-1 tvg-id="KentronTV.am" tvg-logo="https://i.imgur.com/eCaxBFn.png" group-title="Armenia" tvg-country="AM",Kentron TV Ⓢ
-http://stream.mcquack.net/39/index.m3u8
-#EXTINF:-1 tvg-id="ArmeniaTV.am" tvg-logo="https://i.imgur.com/UnoI5uM.png" group-title="Armenia" tvg-country="AM",Armenia TV Ⓢ
-http://stream.mcquack.net/175/index.m3u8

@@ -1,19 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="RTS1.rs" tvg-logo="https://i.imgur.com/S1pKHSR.png" group-title="Serbia" tvg-country="RS",RTS 1
-https://webtvstream.bhtelecom.ba/rts1.m3u8
-#EXTINF:-1 tvg-id="RTS2.rs" tvg-logo="https://i.imgur.com/jltAf5h.png" group-title="Serbia" tvg-country="RS",RTS 2
-https://webtvstream.bhtelecom.ba/rts2.m3u8
-#EXTINF:-1 tvg-id="RTS3.rs" tvg-logo="https://i.imgur.com/gxuGB4J.png" group-title="Serbia" tvg-country="RS",RTS 3
-https://webtvstream.bhtelecom.ba/rts_sat.m3u8
-#EXTINF:-1 tvg-id="RedTV.rs" tvg-logo="https://i.imgur.com/cpN7NrL.png" group-title="Serbia" tvg-country="RS",Red TV
-https://edge8.pink.rs/redtv/index.m3u8
 #EXTINF:-1 tvg-id="KurirTV.rs" tvg-logo="https://i.imgur.com/HBPnUD5.png" group-title="Serbia" tvg-country="RS",Kurir TV
 https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/720p/720p.m3u8
-#EXTINF:-1 tvg-id="InformerTV.rs" tvg-logo="https://i.imgur.com/9wdEHRf.png" group-title="Serbia" tvg-country="RS",Informer TV
-https://edge-rs-03.maksnet.tv/informertv-secure/web/playlist.m3u8
-#EXTINF:-1 tvg-id="RTSSvet.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Rts-svet.png" group-title="Serbia" tvg-country="RS",RTS Svet
-https://webtvstream.bhtelecom.ba/rts_svet.m3u8
-#EXTINF:-1 tvg-id="RTV1.rs" tvg-logo="https://i.imgur.com/CG44YT3.png" group-title="Serbia" tvg-country="RS",RTV 1
-rtmp://212.200.230.50:1935/RTV/rtv1
-#EXTINF:-1 tvg-id="RTV2.rs" tvg-logo="https://i.imgur.com/skpr66t.png" group-title="Serbia" tvg-country="RS",RTV 2
-rtmp://212.200.230.50:1935/RTV/rtv2

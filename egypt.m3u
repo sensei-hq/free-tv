@@ -1,12 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="AghapyTV.eg" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg" group-title="Egypt" tvg-country="EG",Aghapy TV
 https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlGhadPlus.eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/AlGhad_TV.png" group-title="Egypt" tvg-country="EG",Al Ghad Plus
-https://playlist.fasttvcdn.com/pl/ykvm3f2fhokwxqsurp9xcg/alghad-plus/playlist.m3u8
 #EXTINF:-1 tvg-id="AlGhadTV.eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/AlGhad_TV.png" group-title="Egypt" tvg-country="EG",Al Ghad TV
 https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
-#EXTINF:-1 tvg-id="AlQaheraNews.eg" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/b/b0/%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9_%D8%A7%D9%84%D8%A5%D8%AE%D8%A8%D8%A7%D8%B1%D9%8A%D8%A9.png" group-title="Egypt" tvg-country="EG",Al Qahera News
-https://bcovlive-a.akamaihd.net/d30cbb3350af4cb7a6e05b9eb1bfd850/eu-west-1/6057955906001/playlist.m3u8
 #EXTINF:-1 tvg-id="AlhayatTV.eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/Al-Hayat_Media_Center_Logo_%28variant_2%29.svg" group-title="Egypt" tvg-country="EG",Alhayat TV
 https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="CopticTV.eg" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4c/Coptic_news.jpg" group-title="Egypt" tvg-country="EG",Coptic TV
@@ -19,7 +15,5 @@ https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
 #EXTINF:-1 tvg-id="MBCMasr2.eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/53/MBC_Masr_2_Logo.svg" group-title="Egypt" tvg-country="EG",MBC Masr 2
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
-#EXTINF:-1 tvg-id="RotanaCinema.eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Rotana_Cinema_Egy.png" group-title="Egypt" tvg-country="EG",Rotana Cinema
-https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
 #EXTINF:-1 tvg-id="WatanTV.eg" group-title="Egypt" tvg-country="EG",Watan TV
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8

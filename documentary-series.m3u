@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="CityEdenKinoDok.ru@HD" tvg-logo="https://i.imgur.com/itRbMX3.png" group-title="Documentaries" tvg-country="RU",City Eden KinoDok [Not 24/7]
 https://cityeden.catcast.tv/content/38354/index.m3u8
-#EXTINF:-1 tvg-id="GZT.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/960px-GZT_logo.svg.png" group-title="Documentaries" tvg-country="TR",GZT (1080p)
-https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAliens.us@BR" tvg-logo="https://images.pluto.tv/channels/6806d65e84f24b70109485fa/colorLogoPNG_1746817107468.png" group-title="Documentaries" tvg-country="US",Pluto TV Aliens
 https://jmp2.uk/plu-6806d65e84f24b70109485fa.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAmericanTrueCrime.de@GB" tvg-logo="https://images.pluto.tv/channels/692ebafce72f03e07e7df985/colorLogoPNG_1768902223754.png" group-title="Documentaries" tvg-country="DE",Pluto TV American True Crime

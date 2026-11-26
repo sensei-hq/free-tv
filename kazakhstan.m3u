@@ -3,5 +3,3 @@
 https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
 #EXTINF:-1 tvg-id="QazaqstanInternational.kz" group-title="Kazakhstan" tvg-country="KZ",Qazaqstan
 https://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8
-#EXTINF:-1 tvg-id="QazSport.kz" tvg-logo="https://i.imgur.com/UDJ0P5Q.png" group-title="Kazakhstan" tvg-country="KZ",QazSport
-http://stream.mcquack.net/72/index.m3u8

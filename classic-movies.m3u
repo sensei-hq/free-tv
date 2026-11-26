@@ -3,8 +3,6 @@
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BollywoodClassic.ro@Romania" tvg-logo="https://i.imgur.com/ugPo6ca.png" group-title="Movies" tvg-country="RO",Bollywood Classic Romania (576p)
 https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8
-#EXTINF:-1 tvg-id="MovifyKino.lv@SD" tvg-logo="https://i.imgur.com/XIk5EJN.png" group-title="Movies" tvg-country="LV",Movify Kino (576p)
-https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVDanskeklassikere.se@DK" tvg-logo="https://images.pluto.tv/channels/67d2b814fe36d6e7b1d2318a/colorLogoPNG.png" group-title="Movies" tvg-country="SE",Pluto TV Danske klassikere
 https://jmp2.uk/plu-67d2b814fe36d6e7b1d2318a.m3u8
 #EXTINF:-1 tvg-id="PlutoTVRetroActionMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/69a9ae4d3bd16a4ed04240d7/colorLogoPNG_1774879695281.png" group-title="Movies" tvg-country="US",Pluto TV Retro Action Movies
@@ -15,10 +13,6 @@ https://stream.smotrim.ru/hls2/fasttv03/playlist_3.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="TCM.us@West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/TCM_2021.svg/960px-TCM_2021.svg.png" group-title="Movies" tvg-country="US",TCM West (720p) [Geo-blocked]
 https://turnerlive.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-id="VelvetGoldenCollection.ru@HD" tvg-logo="https://interra-cdn-europe1.b-cdn.net/zolo.png" group-title="Movies" tvg-country="RU",Velvet. Golden Collection (1080p)
-https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8
-#EXTINF:-1 tvg-id="VelvetSovetskoeKino.ru@HD" tvg-logo="https://interra-cdn-europe1.b-cdn.net/soviet.png" group-title="Movies" tvg-country="RU",Velvet. Sovetskoe Kino (1080p)
-https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8
 #EXTINF:-1 tvg-id="XtremaCineClasico.ar@SD" tvg-logo="https://i.imgur.com/j91M4Yf.png" group-title="Movies" tvg-country="AR",Xtrema Cine Clasico
 https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
 #EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ZBCINEMA.png" group-title="Movies" tvg-country="IN",ZB Cinema (1080p)

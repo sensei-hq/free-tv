@@ -1,22 +1,4 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz"
-#EXTINF:-1 tvg-id="LCP.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/6/6a/Logo_LCP-AN_-_Public_S%C3%A9nat_%282019%29.svg/60px-Logo_LCP-AN_-_Public_S%C3%A9nat_%282019%29.svg.png" group-title="France" tvg-country="FR",LCP
-https://lcp.fr/le-live-lcp-tnt-5433
-#EXTINF:-1 tvg-id="PublicSenat.fr" tvg-logo="https://i.imgur.com/bJOdFT1.png" group-title="France" tvg-country="FR",Public Sénat
-https://www.publicsenat.fr/direct
-#EXTINF:-1 tvg-id="CNews.fr" tvg-logo="https://i.imgur.com/UMRGAHx.png" group-title="France" tvg-country="FR",CNews Ⓓ
-https://www.dailymotion.com/video/x3b68jn
-#EXTINF:-1 tvg-id="Franceinfo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Franceinfo.svg/500px-Franceinfo.svg.png" group-title="France" tvg-country="FR",franceinfo: Ⓨ
-https://www.youtube.com/c/franceinfo/live
-#EXTINF:-1 tvg-id="France24French.fr" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="France" tvg-country="FR",France 24 Ⓨ
-https://www.youtube.com/c/FRANCE24/live
-#EXTINF:-1 tvg-id="EuronewsFrench.fr" tvg-logo="https://i.imgur.com/3Lr5iAj.png" group-title="France" tvg-country="FR",Euronews Français Ⓨ
-https://www.youtube.com/euronewsfr/live
-#EXTINF:-1 tvg-id="Africanews.cg" tvg-logo="https://i.imgur.com/xocvePC.png" group-title="France" tvg-country="FR",Africanews Ⓨ
-https://www.youtube.com/c/Africanewsfr/live
-#EXTINF:-1 tvg-id="LEquipe.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/L%27%C3%89quipe_wordmark.svg/500px-L%27%C3%89quipe_wordmark.svg.png" group-title="France" tvg-country="FR",L'Équipe ⒹⒼ
-https://www.dailymotion.com/video/x2lefik
-#EXTINF:-1 tvg-id="FranceInter.fr" tvg-logo="https://i.imgur.com/d9Ncl8m.png" group-title="France" tvg-country="FR",France Inter Ⓨ
-https://www.youtube.com/c/FranceInter/live
 #EXTINF:-1 tvg-id="CGTNFrench.cn" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="France" tvg-country="FR",CGTN Français
 https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
 #EXTINF:-1 tvg-id="TVMulhouse.fr" tvg-logo="https://i.imgur.com/4esQG8H.png" group-title="France" tvg-country="FR",TV Mulhouse
@@ -27,39 +9,9 @@ http://194.163.157.137:8080/hls/radioalsace.m3u8
 https://srv.webtvmanager.fr:3697/stream/play.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="onnectTV.f" group-title="France" tvg-country="FR",Air Connect TV
 https://tv.airconnectradio.com/live.m3u8
-#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Logo_TF1_2013.svg/500px-Logo_TF1_2013.svg.png" group-title="France" tvg-country="FR",TF1
-http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/960px-France_3_2018.svg.png" group-title="France" tvg-country="FR",France 3
 http://89.187.185.76:8080/France3/index.m3u8
-#EXTINF:-1 tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="France" tvg-country="FR",France 4
-http://176.65.146.100:8047/play/a074/index.m3u8
-#EXTINF:-1 tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="France" tvg-country="FR",France 5
-http://145.239.5.177/305/index.m3u8
-#EXTINF:-1 tvg-id="TMC.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/TMC_logo_2016.svg/500px-TMC_logo_2016.svg.png" group-title="France" tvg-country="FR",TMC
-http://151.80.18.177:86/TMC/index.m3u8
-#EXTINF:-1 tvg-id="TFX.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/8/83/TFX_logo_2018.svg/500px-TFX_logo_2018.svg.png" group-title="France" tvg-country="FR",TFX
-http://145.239.5.177/315/index.m3u8
-#EXTINF:-1 tvg-id="TV5MondeInfo.fr" tvg-logo="https://i.imgur.com/NcysrWH.png" group-title="France" tvg-country="FR",TV5 Monde Info
-https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8
-#EXTINF:-1 tvg-id="TV5MondeFranceBelgiumSwitzerland.fr" tvg-logo="https://i.imgur.com/uPmwTo9.png" group-title="France" tvg-country="FR",TV5 Monde FBS
-https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/index.m3u8
-#EXTINF:-1 tvg-id="TV5MondeEurope.fr" tvg-logo="https://i.imgur.com/uPmwTo9.png" group-title="France" tvg-country="FR",TV5 Monde Europe
-https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/index.m3u8
-#EXTINF:-1 tvg-id="BFMTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_BFM_TV_%282019%29.png/60px-Logo_BFM_TV_%282019%29.png" group-title="France" tvg-country="FR",BFM TV
-https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 tvg-id="Gulli.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/18._Gulli.png/60px-18._Gulli.png" group-title="France" tvg-country="FR",Gulli
 http://99.27.51.147:8080/Gulli/index.m3u8
-#EXTINF:-1 tvg-id="6ter.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/500px-Logo_6ter_2016.svg.png" group-title="France" tvg-country="FR",6ter
-http://145.239.5.177/314/index.m3u8
-#EXTINF:-1 tvg-id="LCI.fr" group-title="France" tvg-country="FR",LCI
-http://145.239.5.177/368/index.m3u8
 #EXTINF:-1 tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/40px-Logo_M6_%282020%2C_fond_clair%29.svg.png" group-title="France" tvg-country="FR",M6
 http://99.27.51.147:8080/M6/index.m3u8
-#EXTINF:-1 tvg-id="W9.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/W9_2018.svg/60px-W9_2018.svg.png" group-title="France" tvg-country="FR",W9
-http://145.239.5.177/331a/index.m3u8
-#EXTINF:-1 tvg-id="CStar.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Logo_CStar_2016.svg/500px-Logo_CStar_2016.svg.png" group-title="France" tvg-country="FR",CStar
-http://145.239.5.177/361/index.m3u8
-#EXTINF:-1 tvg-id="LEquipe.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/L%27%C3%89quipe_wordmark.svg/500px-L%27%C3%89quipe_wordmark.svg.png" group-title="France" tvg-country="FR",L'Équipe Ⓨ
-https://www.youtube.com/@lequipe/live
-#EXTINF:-1 tvg-id="RMCLife.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ch%C3%A9rie_25_2015_logo.svg/500px-Ch%C3%A9rie_25_2015_logo.svg.png" group-title="France" tvg-country="FR",RMC Life (ex-Chérie 25)
-http://145.239.5.177/333/index.m3u8

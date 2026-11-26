@@ -1,7 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="CNBCIndonesia.am" tvg-logo="https://imgur.com/ie2zSTY" group-title="Indonesia" tvg-country="ID",CNBC Indonesia
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="CNNIndonesia.am" tvg-logo="https://imgur.com/MpxTMiP" group-title="Indonesia" tvg-country="ID",CNN Indonesia
-http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="BeritaSatu.am" tvg-logo="https://imgur.com/vYJVT07" group-title="Indonesia" tvg-country="ID",BeritaSatu
-https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8

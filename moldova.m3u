@@ -9,5 +9,3 @@ https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist.m3u8
 http://188.237.212.16:8888/live/cameraFeed.m3u8
 #EXTINF:-1 tvg-id="VoceaBasarabieiTV.md" tvg-logo="https://i.imgur.com/irP8QLs.png" group-title="Moldova" tvg-country="MD",Vocea Basarabiei
 https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8
-#EXTINF:-1 tvg-id="BaltiTV.md" tvg-logo="https://i.imgur.com/S1vEqZp.png" group-title="Moldova" tvg-country="MD",Balti TV
-http://77.89.199.174:8000/play/1024/index.m3u8

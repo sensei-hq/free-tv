@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="DR1.dk" tvg-logo="https://i.imgur.com/wEq8UnG.png" group-title="Denmark" tvg-country="DK",DR1 Ⓖ
-https://drlive01texthls.akamaized.net/hls/live/2014186/drlive01text/master.m3u8
-#EXTINF:-1 tvg-id="DR2.dk" tvg-logo="https://i.imgur.com/b79UKYN.png" group-title="Denmark" tvg-country="DK",DR2 Ⓖ
-https://drlive02texthls.akamaized.net/hls/live/2014188/drlive02text/master.m3u8
-#EXTINF:-1 tvg-id="DRRamasjang.dk" tvg-logo="https://i.imgur.com/YD0z2mN.png" group-title="Denmark" tvg-country="DK",DR Ramasjang Ⓖ
-https://drlive03texthls.akamaized.net/hls/live/2014191/drlive03text/master.m3u8
 #EXTINF:-1 tvg-id="TVfromtheDanishParliament.dk" tvg-logo="https://i.imgur.com/RqQDUzX.png" group-title="Denmark" tvg-country="DK",Folketinget TV
 https://cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-id="TVSYD.dk" tvg-logo="https://i.imgur.com/k2jf591.png" group-title="Denmark" tvg-country="DK",TV Syd+

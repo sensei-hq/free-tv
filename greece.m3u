@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ERT1.gr" tvg-logo="https://i.imgur.com/WWMe8IY.png" group-title="Greece" tvg-country="GR",ERT 1 Ⓖ
-https://ert-live.siliconweb.com/bpk-tv/ERT1/default/index.mpd
-#EXTINF:-1 tvg-id="ERT2.gr" tvg-logo="https://i.imgur.com/pcusPFl.png" group-title="Greece" tvg-country="GR",ERT 2 Ⓖ
-https://ert-live.siliconweb.com/bpk-tv/ERT2/default/index.mpd
-#EXTINF:-1 tvg-id="ERT3.gr" tvg-logo="https://i.imgur.com/KyhzDRm.png" group-title="Greece" tvg-country="GR",ERT 3 Ⓖ
-https://ert-live.siliconweb.com/bpk-tv/ERT3/default/index.mpd
 #EXTINF:-1 tvg-id="ERTNews.gr" tvg-logo="https://i.imgur.com/saIGLvr.png" group-title="Greece" tvg-country="GR",ERT News
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTNews/default/index.mpd
 #EXTINF:-1 tvg-id="ERTWorld.gr" tvg-logo="https://i.imgur.com/KsMTWYw.png" group-title="Greece" tvg-country="GR",ERT Cosmos
@@ -23,8 +17,6 @@ https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTKids/default/index.mpd
 https://diavlos-cache.cnt.grnet.gr/parltv/webtv-1b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MegaChannel.gr" tvg-logo="https://i.imgur.com/Z3k7iA0.png" group-title="Greece" tvg-country="GR",Mega News
 https://c98db5952cb54b358365984178fb898a.msvdn.net/live/S99841657/NU0xOarAMJ5X/playlist.m3u8
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://i.imgur.com/xDdVa9U.png" group-title="Greece" tvg-country="GR",ANT1
-https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8
 #EXTINF:-1 tvg-id="StarChannel.gr" tvg-logo="https://i.imgur.com/Hp0stVQ.png" group-title="Greece" tvg-country="GR",Star
 https://livestar.siliconweb.com/starvod/star4/star4.m3u8
 #EXTINF:-1 tvg-id="StarChannel.gr" tvg-logo="https://i.imgur.com/Hp0stVQ.png" group-title="Greece" tvg-country="GR",Star International
@@ -35,74 +27,44 @@ https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
 http://skai-live.siliconweb.com/media/cambria4/index.m3u8
 #EXTINF:-1 tvg-id="OpenTV.gr" tvg-logo="https://i.imgur.com/HzBmvPT.png" group-title="Greece" tvg-country="GR",Open TV
 https://liveopen.siliconweb.com/openTvLive/liveopen/playlist.m3u8
-#EXTINF:-1 tvg-id="MakTV.gr" tvg-logo="https://i.imgur.com/90iDHbQ.png" group-title="Greece" tvg-country="GR",MAK TV
-https://mcdn.antennaplus.gr/live/media0/MAK/HLS/MAK.m3u8
-#EXTINF:-1 tvg-id="EuronewsGreek.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Euronews_2016_logo.svg/500px-Euronews_2016_logo.svg.png" group-title="Greece" tvg-country="GR",Euronews Greek
-https://www.youtube.com/euronewsGreek/live
 #EXTINF:-1 tvg-id="Action24TV.gr" tvg-logo="https://i.imgur.com/Zi1YohT.png" group-title="Greece" tvg-country="GR",Action24
 https://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
 #EXTINF:-1 tvg-id="alert.gr" tvg-logo="https://i.imgur.com/xqa87lG.png" group-title="Greece" tvg-country="GR",Alert
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
-#EXTINF:-1 tvg-id="BlueSky.gr" tvg-logo="https://i.imgur.com/rzuQslM.png" group-title="Greece" tvg-country="GR",Blue Sky
-https://www.youtube.com/channel/UCBuEruzW_f-Qpj_sABmuYSg/live
 #EXTINF:-1 tvg-id="hightv.gr" tvg-logo="https://i.imgur.com/wHzCGry.png" group-title="Greece" tvg-country="GR",High TV
 https://live.streams.ovh/hightv/hightv/playlist.m3u8
 #EXTINF:-1 tvg-id="KontraChannel.gr" tvg-logo="https://i.imgur.com/ROZ9VfV.png" group-title="Greece" tvg-country="GR",Kontra
 https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
-#EXTINF:-1 tvg-id="Mad.gr" tvg-logo="https://i.imgur.com/OTTxxGe.png" group-title="Greece" tvg-country="GR",Mad Ⓨ
-https://www.youtube.com/c/madtvgreece/live
 #EXTINF:-1 tvg-id="NaftemporikiTV.gr" tvg-logo="https://i.imgur.com/9OFdMud.png" group-title="Greece" tvg-country="GR",Naftemporiki TV
 https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8
 #EXTINF:-1 tvg-id="OneChannel.gr" tvg-logo="https://i.imgur.com/GwKaHbM.png" group-title="Greece" tvg-country="GR",One Channel
 https://onechannel.siliconweb.com/one/stream/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="4E.gr" tvg-logo="https://i.imgur.com/Ed085oJ.png" group-title="Greece" tvg-country="GR",4E
 http://eu2.tv4e.gr:1935/live/myStream.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="DionTV.gr" tvg-logo="https://i.imgur.com/13MverN.png" group-title="Greece" tvg-country="GR",DION
-https://www.youtube.com/@diontileorash/live
-#EXTINF:-1 tvg-id="egnatiatv.gr" tvg-logo="https://i.imgur.com/zuyYIca.png" group-title="Greece" tvg-country="GR",Egnatia
-https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u
-#EXTINF:-1 tvg-id="eurotv.gr" tvg-logo="https://i.imgur.com/mHCk05E.png" group-title="Greece" tvg-country="GR",Euro
-https://live20.bozztv.com/akamaissh101/ssh101/eurotvlive/playlist.m3u8
 #EXTINF:-1 tvg-id="gnomitv.gr" tvg-logo="https://i.imgur.com/mHCk05E.png" group-title="Greece" tvg-country="GR",Gnomi
 https://live.streams.ovh:8081/gnomitv/index.m3u8
 #EXTINF:-1 tvg-id="pellatv.gr" tvg-logo="https://i.imgur.com/pwUkkGL.jpeg" group-title="Greece" tvg-country="GR",Pella
 https://video.streams.ovh:1936/pellatv/pellatv/playlist.m3u8
-#EXTINF:-1 tvg-id="pontostv.gr" tvg-logo="https://i.imgur.com/sbTxP6o.png" group-title="Greece" tvg-country="GR",Pontos
-https://www.youtube.com/@PontosTV/live
-#EXTINF:-1 tvg-id="TV100.gr" tvg-logo="https://i.imgur.com/9rtf8OR.png" group-title="Greece" tvg-country="GR",TV 100
-https://panel.gwebstream.eu:19360/tv100skg/tv100skg.m3u8
 #EXTINF:-1 tvg-id="verginatv.gr" tvg-logo="https://i.imgur.com/cpF6wvR.png" group-title="Greece" tvg-country="GR",Vergina
 https://verginanews.gr:8443/hls_live/stream1.m3u8
 #EXTINF:-1 tvg-id="besttv.gr" tvg-logo="https://i.imgur.com/VA13E3w.png" group-title="Greece" tvg-country="GR",Best TV
 https://besttv.siliconweb.com/bestTV/live_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="hlektra.gr" tvg-logo="https://i.imgur.com/LbogUPS.png" group-title="Greece" tvg-country="GR",Hlektra
-https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8
 #EXTINF:-1 tvg-id="ioniantv.gr" tvg-logo="https://i.imgur.com/ADVYeQd.png" group-title="Greece" tvg-country="GR",Ionian Channel
 https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="lepantortv.gr" tvg-logo="https://i.imgur.com/h6Tqe0k.png" group-title="Greece" tvg-country="GR",Lepanto
 https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8
 #EXTINF:-1 tvg-id="lychnostv.gr" tvg-logo="hhttps://i.imgur.com/JYSlBfY.png" group-title="Greece" tvg-country="GR",Lychnos
 https://thor.mental-media.gr:19360/imp/imp.m3u8
-#EXTINF:-1 tvg-id="mesogeiostv.gr" tvg-logo="https://i.imgur.com/tr0Lf9K.png" group-title="Greece" tvg-country="GR",Mesogeios TV
-https://rtmp.win:3793/live/mesogeiostvlive.m3u8
 #EXTINF:-1 tvg-id="epsilon.gr" tvg-logo="https://i.imgur.com/vUQSDvZ.png" group-title="Greece" tvg-country="GR",Epsilon
 https://neon.streams.gr:8081/epsilontv/index.m3u8
 #EXTINF:-1 tvg-id="nrg91.gr" tvg-logo="https://i.imgur.com/g1pCRRG.png" group-title="Greece" tvg-country="GR",91NRG
 http://tv.nrg91.gr:1935/onweb/live/master.m3u8
-#EXTINF:-1 tvg-id="astratv.gr" tvg-logo="https://i.imgur.com/oYRPfZm.png" group-title="Greece" tvg-country="GR",Astra
-https://server.gointernet.gr/live/livestream.m3u8
-#EXTINF:-1 tvg-id="thessaliatv.gr" tvg-logo="https://i.imgur.com/KXz67LY.png" group-title="Greece" tvg-country="GR",Thessalia
-https://www.youtube.com/c/thessaliatv1/live
 #EXTINF:-1 tvg-id="trttv.gr" tvg-logo="https://i.imgur.com/g0jPOcC.png" group-title="Greece" tvg-country="GR",TRT
 https://av.hellasnet.tv/rst/trt/index.m3u8
 #EXTINF:-1 tvg-id="acheloostv.gr" tvg-logo="https://i.imgur.com/5SVMxcu.png" group-title="Greece" tvg-country="GR",Acheloos
 https://acheloostv.streamings.gr/live/stream/index.m3u8
-#EXTINF:-1 tvg-id="arttv.gr" tvg-logo="https://i.imgur.com/LyCqQvx.png" group-title="Greece" tvg-country="GR",ART TV
-https://rtmp.win:3696/live/arttvgrlive.m3u8
 #EXTINF:-1 tvg-id="corfutv.gr" tvg-logo="https://i.imgur.com/dCMqo8w.jpeg" group-title="Greece" tvg-country="GR",Corfu
 https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8
-#EXTINF:-1 tvg-id="epirustv1.gr" tvg-logo="https://i.imgur.com/QB3aSl1.png" group-title="Greece" tvg-country="GR",Epirus TV 1
-https://rtmp.win:3929/live/epiruslive.m3u8
 #EXTINF:-1 tvg-id="CenterTV.gr" tvg-logo="https://i.imgur.com/52JW71Q.png" group-title="Greece" tvg-country="GR",Center TV
 https://eu1.streams.gr:8081/centertv/index.m3u8
 #EXTINF:-1 tvg-id="DeltaTV.gr" tvg-logo="https://i.imgur.com/PDfSkRF.png" group-title="Greece" tvg-country="GR",Delta Evros

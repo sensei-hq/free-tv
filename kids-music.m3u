@@ -1,5 +1,3 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="BabyTime.ru@SD" tvg-logo="https://i.imgur.com/lW3WIBD.png" group-title="Kids" tvg-country="RU",Baby Time (576p)
 http://178.134.1.158:8081/babytime/index.m3u8
-#EXTINF:-1 tvg-id="MiniDisco.ru@SD" tvg-logo="https://bridgemusic.ru/s/img/channels/mini-disco-logo.png" group-title="Kids" tvg-country="RU",Mini Disco (720p) [Geo-blocked]
-https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff1c3190affe00013a80ac/720p.m3u8

@@ -1,24 +1,14 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="KBS1TV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/500px-KBS_1_logo.svg.png" group-title="Korea" tvg-country="KR",KBS 1TV
-http://mytv.dothome.co.kr/ch/public/1.php
 #EXTINF:-1 tvg-id="EBS1TV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/500px-EBS_1TV_Logo.svg.png" group-title="Korea" tvg-country="KR",EBS 1 Ⓢ
 https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="EBS2TV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/500px-EBS_2TV_Logo.svg.png" group-title="Korea" tvg-country="KR",EBS 2 Ⓢ
 https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="MBCTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Munhwa_Broadcasting_Corporation.svg/500px-Munhwa_Broadcasting_Corporation.svg.png" group-title="Korea" tvg-country="KR",MBC TV Ⓨ
-https://www.youtube.com/c/mbctvlive/live
 #EXTINF:-1 tvg-id="SBSTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/500px-SBS_Korea_Logo_%28Word_Only%29.svg.png" group-title="Korea" tvg-country="KR",SBS TV
 https://allanf181.github.io/adaptive-streams/streams/kr/SBSTV.m3u8
-#EXTINF:-1 tvg-id="KNNTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/KNN_logo.svg/500px-KNN_logo.svg.png" group-title="Korea" tvg-country="KR",KNN TV
-http://211.220.195.200:1935/live/mp4:KnnTV.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="KBCTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/KBC_Gwangju_Broadcasting_logo.svg/500px-KBC_Gwangju_Broadcasting_logo.svg.png" group-title="Korea" tvg-country="KR",KBC TV
 https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TJBTV.kr" tvg-logo="https://i.imgur.com/q9Nx801.png" group-title="Korea" tvg-country="KR",TJB TV
-http://1.245.74.5:1935/live/tv/.m3u8
 #EXTINF:-1 tvg-id="UBCTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ubc_logo2.svg/500px-Ubc_logo2.svg.png" group-title="Korea" tvg-country="KR",UBC TV
 https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8
-#EXTINF:-1 tvg-id="JTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Jtv_logo.svg/500px-Jtv_logo.svg.png" group-title="Korea" tvg-country="KR",JTV TV
-https://61ff3340258d2.streamlock.net/jtv_live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="CJBTV.kr" tvg-logo="https://i.imgur.com/MvxdZhX.png" group-title="Korea" tvg-country="KR",CJB TV
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="G1TV.kr" tvg-logo="https://i.imgur.com/TYYffUe.png" group-title="Korea" tvg-country="KR",G1 TV
@@ -37,9 +27,3 @@ https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
 https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="EBSEnglish.kr" tvg-logo="https://i.imgur.com/qceaIf7.png" group-title="Korea" tvg-country="KR",EBS English Ⓢ
 https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/500px-KBS_World_%282009%29.svg.png" group-title="Korea" tvg-country="KR",KBS World Ⓨ
-https://www.youtube.com/@kbsworldtv/live
-#EXTINF:-1 tvg-id="KBSKorea.kr" tvg-logo="https://kbsworldimage.kbs.co.kr/images/layout/logo/logo_korea_n.png" group-title="Korea" tvg-country="KR",KBS Korea Ⓨ
-https://www.youtube.com/c/kbsworldtv/live
-#EXTINF:-1 tvg-id="AlltheKPop.kr" tvg-logo="https://i.imgur.com/tBbTTAx.png" group-title="Korea" tvg-country="KR",All the K-Pop Ⓨ
-https://www.youtube.com/c/ALLTHEKPOP/live

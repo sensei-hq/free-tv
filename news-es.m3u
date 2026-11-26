@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/500px-Euronews_2022.svg.png" group-title="News (ES)" tvg-country="FR",Euronews Español Ⓨ
-https://www.youtube.com/euronewses/live
 #EXTINF:-1 tvg-id="France24Espanol.fr" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="News (ES)" tvg-country="FR",France 24 Español
 https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="DWEspanol.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News (ES)" tvg-country="DE",DW Español Ⓢ
@@ -9,5 +7,3 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/strea
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/500px-Russia-today-logo.svg.png" group-title="News (ES)" tvg-country="RU",RT Español Ⓖ
 https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8
-#EXTINF:-1 tvg-id="rtve.es" tvg-logo="https://i.imgur.com/WTDKOoM.png" group-title="News (ES)" tvg-country="ES",RTVE 24H
-https://ztnr.rtve.es/ztnr/1694255.m3u8

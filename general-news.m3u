@@ -3,8 +3,6 @@
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArirangTV.kr@HD" tvg-logo="https://i.imgur.com/Asu5pE9.png" group-title="News" tvg-country="KR",Arirang TV HD (1080p)
 https://freem3u.xyz/api/live/play.m3u8?vid=111
-#EXTINF:-1 tvg-id="BXInform.us@SD" tvg-logo="https://i.imgur.com/PF71rdZ.png" group-title="News" tvg-country="US",BX Inform (1080p)
-https://reflect-stream-bronxnet.cablecast.tv/live-8/live/stream-4/live.m3u8
 #EXTINF:-1 tvg-id="Canal33Tijuana.mx@SD" tvg-logo="https://iili.io/JCt1Nbn.png" group-title="News" tvg-country="MX",Canal 33 Tijuana (720p)
 https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8
 #EXTINF:-1 tvg-id="DongNaiTV1.vn@SD" tvg-logo="https://i.imgur.com/oQyioVa.png" group-title="News" tvg-country="VN",Dong Nai TV 1 (1080p)
@@ -17,8 +15,6 @@ https://takeoff.jetstre.am/?account=nhnieuws&file=live&output=playlist.m3u8&prot
 https://amg17596-ntdtv-amg17596c1-rakuten-gb-6741.playouts.now.amagi.tv/playlist/amg17596-newtangdynastytelevision-ntdtv-rakutengb/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTVEnglish.us@UK" tvg-logo="https://i.imgur.com/26uv1ww.png" group-title="News" tvg-country="US",NTD TV English UK (1080p)
 https://ntd02.akamaized.net/NTD-UK/index.m3u8
-#EXTINF:-1 tvg-id="PROTVChisinau.md@SD" tvg-logo="https://i.imgur.com/X5PYRxF.png" group-title="News" tvg-country="MD",PRO TV Chisinau (576p)
-http://178.76.68.60:7442/15/mpegts
 #EXTINF:-1 tvg-id="SerajTV.ps@SD" tvg-logo="https://i.imgur.com/1d25a9Q.png" group-title="News" tvg-country="PS",Seraj TV (1080i)
 https://43869de4e1a0d641.servers.dvcloud.tv/hls/al_aqsa_channel/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
 #EXTINF:-1 tvg-id="Sochi24.ru@SD" tvg-logo="https://i.imgur.com/iwWxkl6.png" group-title="News" tvg-country="RU",Sochi24 (720p)

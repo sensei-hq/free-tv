@@ -1,15 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="RIK1.cy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_RIK_1_2017.svg/500px-Logo_RIK_1_2017.svg.png" group-title="Cyprus" tvg-country="CY",RIK 1 Ⓢ
-http://213.7.216.229:8888/udp/239.23.0.1:1234
-#EXTINF:-1 tvg-id="RIK2.cy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Logo_RIK_2_2017.svg/500px-Logo_RIK_2_2017.svg.png" group-title="Cyprus" tvg-country="CY",RIK 2 Ⓢ
-http://213.7.216.229:8888/udp/239.23.0.2:1234
-#EXTINF:-1 tvg-id="RIKHD.cy" tvg-logo="https://upload.wikimedia.org/wikipedia/el/7/7d/RIKHD2.png" group-title="Cyprus" tvg-country="CY",RIK HD
-http://213.7.216.229:8888/udp/239.23.0.5:1234
 #EXTINF:-1 tvg-id="RIKSat.cy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logo_RIK_Sat_2017.svg/500px-Logo_RIK_Sat_2017.svg.png" group-title="Cyprus" tvg-country="CY",RIK Sat
 https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
-#EXTINF:-1 tvg-id="AdaTV.cy" tvg-logo="https://i.imgur.com/LPQfdz2.png" group-title="Cyprus" tvg-country="CY",Ada TV
-https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KibrisTV.cy" tvg-logo="https://i.imgur.com/5MJZPTo.png" group-title="Cyprus" tvg-country="CY",Kibris TV
 https://old.kuzeykibris.tv/m3u8/kktv.m3u8
-#EXTINF:-1 tvg-id="TV2020.cy" tvg-logo="https://i.imgur.com/rtfsNdd.png" group-title="Cyprus" tvg-country="CY",TV 2020 Ⓨ
-https://www.youtube.com/@TV2020KIBRIS/live

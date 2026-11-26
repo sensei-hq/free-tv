@@ -1,21 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="LRTTV.lt" tvg-logo="https://i.imgur.com/FL2ZuGC.png" group-title="Lithuania" tvg-country="LT",LRT TV
-http://stream.mcquack.net/31/index.m3u8
 #EXTINF:-1 tvg-id="LRTLituanica.lt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/500px-LRT_Lituanica_Logo_2022.svg.png" group-title="Lithuania" tvg-country="LT",LRT Lituanica
 https://stream-live.lrt.lt/lituanica/master.m3u8
 #EXTINF:-1 tvg-id="LietuvosRytasTV.lt" tvg-logo="https://i.imgur.com/5wpxVI0.png" group-title="Lithuania" tvg-country="LT",Lietuvos Rytas TV
 https://live.lietuvosryto.tv/live/hls/eteris.m3u8
 #EXTINF:-1 tvg-id="DelfiTV.lt" tvg-logo="https://i.imgur.com/IFoHP5M.png" group-title="Lithuania" tvg-country="LT",Delfi TV
 https://s1.dcdn.lt/live/televizija/playlist.m3u8
-#EXTINF:-1 tvg-id="LRTPlius.lt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/500px-LRT_Plius_Logo_2022.svg.png" group-title="Lithuania" tvg-country="LT",LRT Plius
-http://stream.mcquack.net/353/index.m3u8
-#EXTINF:-1 tvg-id="TV3Lithuania.lt" tvg-logo="https://i.imgur.com/7nipq0y.png" group-title="Lithuania" tvg-country="LT",TV3 Ⓢ
-http://stream.mcquack.net/29/index.m3u8
-#EXTINF:-1 tvg-id="TV6Lithuania.lt" tvg-logo="https://i.imgur.com/oC0jiFW.png" group-title="Lithuania" tvg-country="LT",TV6 Ⓢ
-http://stream.mcquack.net/375/index.m3u8
-#EXTINF:-1 tvg-id="TV8Lithuania.lt" tvg-logo="https://i.imgur.com/9g3wknl.png" group-title="Lithuania" tvg-country="LT",TV8 Ⓢ
-http://stream.mcquack.net/374/index.m3u8
-#EXTINF:-1 tvg-id="LNK.lt" tvg-logo="https://i.imgur.com/arCZ56g.png" group-title="Lithuania" tvg-country="LT",LNK
-http://stream.mcquack.net/30/index.m3u8
-#EXTINF:-1 tvg-id="BTV.lt" tvg-logo="https://i.imgur.com/AeplGsP.png" group-title="Lithuania" tvg-country="LT",BTV
-http://stream.mcquack.net/35/index.m3u8

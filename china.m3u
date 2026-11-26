@@ -9,8 +9,6 @@ http://74.91.26.218:82/live/cctv3hd.m3u8
 http://74.91.26.218:82/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-id="CCTV4Europe.cn" tvg-logo="https://i.imgur.com/kx8metk.png" group-title="China" tvg-country="CN",CCTV-4 中文国际（欧）
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTV4America.cn" tvg-logo="https://i.imgur.com/1TPiRqR.png" group-title="China" tvg-country="CN",CCTV-4 中文国际（美） Ⓢ
-https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-id="CCTV6.cn" tvg-logo="https://i.imgur.com/SsPN5I3.png" group-title="China" tvg-country="CN",CCTV-6 电影
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-id="CCTV7.cn" tvg-logo="https://i.imgur.com/GhXlUpM.png" group-title="China" tvg-country="CN",CCTV-7 国防军事

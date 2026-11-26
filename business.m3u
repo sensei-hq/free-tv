@@ -5,9 +5,5 @@ https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8
 https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1088.png" group-title="Business" tvg-country="UK",CNBC Europe
 https://amg01079-nbcuuk-amg01079c1-samsung-es-1261.playouts.now.amagi.tv/playlist/amg01079-nbcuukfast-cnbcpe-samsunges/playlist.m3u8
-#EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-logo="https://i.imgur.com/bUfeG7Y.png" group-title="Business" tvg-country="ID",CNBC Indonesia
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AusbizTV.au" tvg-logo="https://i.imgur.com/8vGGdB0.png" group-title="Business" tvg-country="AU",Ausbiz
-https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8
 #EXTINF:-1 tvg-id="MoconomyEconomyFinanceInfotainment.us" tvg-logo="https://i.imgur.com/GvqbLZB.png" group-title="Business" tvg-country="US",Moconomy
 https://amogonetworx-moconomy-2-us.tcl.wurl.tv/playlist.m3u8

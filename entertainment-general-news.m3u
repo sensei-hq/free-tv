@@ -1,5 +1,3 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="RedPlus.co@SD" tvg-logo="https://i.imgur.com/kuqkTMC.png" group-title="News" tvg-country="CO",Red+ (1080p)
 https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8
-#EXTINF:-1 tvg-id="TVNatal.br@SD" tvg-logo="https://i.imgur.com/wqQmQml.png" group-title="News" tvg-country="BR",TV Natal (1080p)
-http://185.228.163.146:8000/play/a01y/index.m3u8

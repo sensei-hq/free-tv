@@ -1,29 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="SVT1.se" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SVT1_logo_2016.svg/960px-SVT1_logo_2016.svg.png" group-title="Sweden" tvg-country="SE",SVT 1 Ⓖ
-https://svt-live-channel.akamaized.net/l4/se/svt1/manifest.mpd?format=dash&defaultSubLang=1
-#EXTINF:-1 tvg-id="SVT2.se" tvg-logo="https://i.imgur.com/iB3veGx.png" group-title="Sweden" tvg-country="SE",SVT 2 Ⓖ
-https://svt-live-channel.akamaized.net/l6/se/svt2/manifest.mpd?format=dash&defaultSubLang=1
 #EXTINF:-1 tvg-id="ATGLive.se" tvg-logo="https://i.imgur.com/bPWFXkL.png" group-title="Sweden" tvg-country="SE",ATG Live Ⓢ
 https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8
 #EXTINF:-1 tvg-id="ExpressenTV.se" tvg-logo="https://i.imgur.com/8EjMSr7.png" group-title="Sweden" tvg-country="SE",Expressen TV
 https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal10.se" tvg-logo="https://i.imgur.com/vlh699v.png" group-title="Sweden" tvg-country="SE",Kanal 10 Sverige
 https://rrr.sz.xlcdn.com/?account=cn_kanal10media&file=live_transcoded&type=live&service=wowza&protocol=https&output=playlist.m3u8
-#EXTINF:-1 tvg-id="SVT24.se" tvg-logo="https://i.imgur.com/o9M7Tiq.png" group-title="Sweden" tvg-country="SE",SVT 24 Ⓖ
-https://svt-live-channel.akamaized.net/l6/se/svtb/manifest.mpd?format=dash&defaultSubLang=1
-#EXTINF:-1 tvg-id="Kunskapskanalen.se" tvg-logo="https://i.imgur.com/9YBxoGc.png" group-title="Sweden" tvg-country="SE",Kunskapskanalen Ⓖ
-https://svt-live-channel.akamaized.net/l6/se/svtk/manifest.mpd?format=dash&defaultSubLang=1
 #EXTINF:-1 tvg-id="DiTV.se" tvg-logo="https://i.imgur.com/zApTDWn.png" group-title="Sweden" tvg-country="SE",Di TV
 https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8
-#EXTINF:-1 tvg-id="VastmanlandsTV.se" tvg-logo="https://i.imgur.com/EXBaQ88.jpg" group-title="Sweden" tvg-country="SE",Västmanlands TV
-https://edg01-prd-se-dcs.solidtango.com/edge/lo9yf4l5/playlist.m3u8
 #EXTINF:-1 tvg-id="Sundskanalen.se" tvg-logo="https://i.imgur.com/8uT0p3q.jpg" group-title="Sweden" tvg-country="SE",Sundskanalen
 https://stream.sundskanalen.se/live/view/index.m3u8
-#EXTINF:-1 tvg-id="OppnaKanalenSkovde.se" tvg-logo="https://i.imgur.com/1LkYbaQ.png" group-title="Sweden" tvg-country="SE",Öppna Kanalen Skövde
-https://edg01-prd-de-ixn.solidtango.com/edge/_c6697zkv_/c6697zkv/manifest.m3u8
-#EXTINF:-1 tvg-id="LTVU.se" tvg-logo="https://i.imgur.com/cnLkbOT.png" group-title="Sweden" tvg-country="SE",Lokal-TV Uddevalla / Fyrbodal-TV Ⓨ
-https://www.youtube.com/@LtvuSeTube/live
-#EXTINF:-1 tvg-id="AryenTV.se" tvg-logo="https://i.imgur.com/qUg7edz.png" group-title="Sweden" tvg-country="SE",Aryen TV
-https://aryen.tv/live/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="SuryoyoSat.se" tvg-logo="https://i.imgur.com/naCNjaB.png" group-title="Sweden" tvg-country="SE",Suryoyo Sat
-https://player-api.new.livestream.com/accounts/10187302/events/6785118/broadcasts/237816618.secure.m3u8

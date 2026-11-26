@@ -1,23 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="1TV.ge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Pirveli_Arkhi_Logo_2022.svg/500px-Pirveli_Arkhi_Logo_2022.svg.png" group-title="Georgia" tvg-country="GE",First Channel (1TV)
-https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8
-#EXTINF:-1 tvg-id="2TV.ge" tvg-logo="https://upload.wikimedia.org/wikipedia/ka/c/c9/2_Tv_Logo.jpg" group-title="Georgia" tvg-country="GE",First Channel /Education/ (2TV)
-https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8
 #EXTINF:-1 tvg-id="ImediTV.ge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Imlogo_2020.png" group-title="Georgia" tvg-country="GE",Imedi TV
 https://tv.cdn.xsg.ge/imedihd/index.m3u8
-#EXTINF:-1 tvg-id="Rustavi2.ge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Rustavi_2_logo.png" group-title="Georgia" tvg-country="GE",Rustavi 2
-http://nue01-edge01.itdc.ge/rustavi2hqnew/mpegts
-#EXTINF:-1 tvg-id="MtavariArkhi.ge" tvg-logo="https://i.imgur.com/tLtGnJW.png" group-title="Georgia" tvg-country="GE",Mtavari Arkhi
-https://bozztv.com/36bay2/mtavariarxi/playlist.m3u8
-#EXTINF:-1 tvg-id="GDSTV.ge" tvg-logo="https://i.imgur.com/gv61tFf.png" group-title="Georgia" tvg-country="GE",GDS
-http://31.146.5.178:8087/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="TVPirveli.ge" tvg-logo="https://i.imgur.com/cGHsM1x.png" group-title="Georgia" tvg-country="GE",TV Pirveli
-http://nue01-edge01.itdc.ge/pirvelitv/mpegts
 #EXTINF:-1 tvg-id="Formula.ge" tvg-logo="https://i.imgur.com/fsqBn8G.png" group-title="Georgia" tvg-country="GE",Formula
 https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8
-#EXTINF:-1 tvg-id="PosTV.ge" tvg-logo="https://i.imgur.com/UOiXFEW.png" group-title="Georgia" tvg-country="GE",Pos TV
-https://live.postv.media/stream/index.m3u8
-#EXTINF:-1 tvg-id="ObieqtiviTV.ge" tvg-logo="https://i.imgur.com/Kqc8H8X.png" group-title="Georgia" tvg-country="GE",Obieqtivi
-https://live20.bozztv.com/dvrfl05/gin-obieqtivitv/index.m3u8
-#EXTINF:-1 tvg-id="EuroNewsGeorgia.ge" tvg-logo="https://i.imgur.com/VNJ4soR.png" group-title="Georgia" tvg-country="GE",Euronews Georgia Ⓖ
-http://nue01-edge01.itdc.ge/euronewsgeorgia/mpegts

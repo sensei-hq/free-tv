@@ -3,26 +3,12 @@
 https://mbnvvideoingest-i.akamaihd.net/hls/live/1004674/MBNV_ALHURRA_IRAQ/playlist.m3u8
 #EXTINF:-1 tvg-id="AlHurra.iq" tvg-logo="https://i.imgur.com/0izeu5z.png" group-title="Iraq" tvg-country="IQ",Al-Hurra
 https://mbnvvideoingest-i.akamaihd.net/hls/live/1004673/MBNV_ALHURRA_MAIN/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/imdV6kL.png" group-title="Iraq" tvg-country="IQ",Al-Iraqiya
-https://cdn.catiacast.video/abr/8d2ffb0aba244e8d9101a9488a7daa05/playlist.m3u8
-#EXTINF:-1 tvg-id="AlRafidainTV.iq" tvg-logo="https://i.imgur.com/D78qG91.png" group-title="Iraq" tvg-country="IQ",Al-Rafidain
-https://cdg8.edge.technocdn.com/arrafidaintv/abr_live/playlist.m3u8
-#EXTINF:-1 tvg-id="AlRasheedTV.iq" tvg-logo="https://i.imgur.com/SU9HbXY.png" group-title="Iraq" tvg-country="IQ",Al-Rasheed
-https://media1.livaat.com/AL-RASHEED-HD/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 tvg-id="AlSharqiyaNews.iq" tvg-logo="https://i.imgur.com/P6p17ZY.jpg" group-title="Iraq" tvg-country="IQ",Al-Sharqiya News
-https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
-#EXTINF:-1 tvg-id="AlSharqiya.iq" tvg-logo="https://i.imgur.com/bPYyXNf.png" group-title="Iraq" tvg-country="IQ",Al-Sharqiya
-https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
-#EXTINF:-1 tvg-id="DijlahTarab.iq" tvg-logo="https://i.imgur.com/2SBjjBQ.png" group-title="Iraq" tvg-country="IQ",Dijlah Tarab
-https://ghaasiflu.online/tarab/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="DijlahTV.iq" tvg-logo="https://i.imgur.com/FJEeYiz.png" group-title="Iraq" tvg-country="IQ",Dijlah TV
 https://ghaasiflu.online/Dijlah/index.m3u8
 #EXTINF:-1 tvg-id="INews.iq" tvg-logo="https://i.imgur.com/PeuBkaH.png" group-title="Iraq" tvg-country="IQ",iNEWS
 https://live.i-news.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IraqFuture.iq" tvg-logo="https://i.imgur.com/Z7woTe5.png" group-title="Iraq" tvg-country="IQ",Iraq Future Ⓢ
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TurkmeneliTV.iq" tvg-logo="https://i.imgur.com/iUhhg4B.png" group-title="Iraq" tvg-country="IQ",Turkmeneli TV
-https://137840.global.ssl.fastly.net/edge/live_6b7c6e205afb11ebb010f5a331abaf98/playlist.m3u8
 #EXTINF:-1 tvg-id="ZagrosTV.iq" tvg-logo="https://i.imgur.com/UjIuIQX.png" group-title="Iraq" tvg-country="IQ",Zagros TV
 https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlabbassiaTV.iq" tvg-logo="https://i.imgur.com/BPyrjO5.png" group-title="Iraq" tvg-country="IQ",Alabbassia TV

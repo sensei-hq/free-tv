@@ -43,11 +43,5 @@ https://live.presstv.co.uk/hls/ifilm2.m3u8
 https://live.presstv.co.uk/hls/ifilmar.m3u8
 #EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-logo="https://i.imgur.com/RdC0DQk.png" group-title="Iran" tvg-country="IR",iFilm English Ⓢ
 https://live.presstv.co.uk/hls/ifilmen.m3u8
-#EXTINF:-1 tvg-id="AlalamNewsChannel.ir" tvg-logo="https://i.imgur.com/UbD0Ndr.png" group-title="Iran" tvg-country="IR",Al-Alam News Network Ⓢ
-https://live2.alalam.ir/alalam.m3u8
-#EXTINF:-1 tvg-id="PressTV.ir" tvg-logo="https://i.imgur.com/X3YP2Gg.png" group-title="Iran" tvg-country="IR",Press TV
-https://cdnlive.presstv.ir/cdnlive/smil:cdnlive.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PressTVFrench.ir" tvg-logo="https://i.imgur.com/X3YP2Gg.png" group-title="Iran" tvg-country="IR",Press TV French
 https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="IranPress.ir" tvg-logo="https://i.imgur.com/Qrubr3v.png" group-title="Iran" tvg-country="IR",IranPress Ⓢ
-https://live1.presstv.ir/live/iranpress/index.m3u8
