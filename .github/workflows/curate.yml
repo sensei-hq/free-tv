@@ -30,9 +30,9 @@ jobs:
         run: |
           git config user.name "free-tv-bot"
           git config user.email "free-tv-bot@users.noreply.github.com"
-          git pull --rebase origin main
           git add state/state.json
           git diff --cached --quiet || git commit -m "Update quarantine state"
+          git pull --rebase origin main
           git push
 
       - name: Publish to GitHub Pages
