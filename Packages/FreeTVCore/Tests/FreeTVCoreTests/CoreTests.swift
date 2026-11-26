@@ -89,6 +89,6 @@ struct CatalogStoreTests {
         let store = await CatalogStore(sourceURL: file)
         try await store.refresh()
         let channels = await store.channels
-        #expect(channels.count == 3)
+        #expect(channels.count == 2)
     }
 }

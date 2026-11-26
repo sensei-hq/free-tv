@@ -110,14 +110,7 @@
 		BBBBBBBB0000000000000005 = {
 			isa = PBXTargetDependency;
 			name = FreeTVCore;
-			targetProxy = BBBBBBBB0000000000000006;
-		};
-		BBBBBBBB0000000000000006 = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAAAAAAA0000000000000001;
-			proxyType = 1;
-			remoteGlobalIDString = BBBBBBBB0000000000000008;
-			remoteInfo = FreeTVCore;
+			productRef = BBBBBBBB0000000000000007;
 		};
 		BBBBBBBB0000000000000007 = {
 			isa = XCSwiftPackageProductDependency;
