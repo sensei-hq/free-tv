@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -28,9 +30,10 @@ jobs:
         run: |
           git config user.name "free-tv-bot"
           git config user.email "free-tv-bot@users.noreply.github.com"
+          git pull --rebase origin main
           git add state/state.json
           git diff --cached --quiet || git commit -m "Update quarantine state"
-          git push || true
+          git push
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
