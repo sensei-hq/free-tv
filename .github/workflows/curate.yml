@@ -1,0 +1,39 @@
+name: curate
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tests
+
+      - name: Run curator
+        run: python3 -m curator.cli --state state/state.json --out output
+
+      - name: Persist quarantine state
+        run: |
+          git config user.name "free-tv-bot"
+          git config user.email "free-tv-bot@users.noreply.github.com"
+          git add state/state.json
+          git diff --cached --quiet || git commit -m "Update quarantine state"
+          git push || true
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
