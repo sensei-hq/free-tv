@@ -77,7 +77,7 @@ def parse_m3u(text):
             pending.url = line
             entries.append(pending)
             pending = None
-    return Playlist(epg_urls=epg_urls, entries=entries)
+    return Playlist(epg_urls=list(dict.fromkeys(epg_urls)), entries=entries)
 
 
 def normalize_url(url):

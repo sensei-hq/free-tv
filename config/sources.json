@@ -1,1 +1,48 @@
-{"blocklist": [], "epg_extra": [], "group_strategy": "category", "probe": {"max_fails": 2, "timeout": 20}, "sources": [{"category": "", "name": "free-tv", "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"}, {"category": "Sports", "name": "sports", "url": "https://iptv-org.github.io/iptv/categories/sports.m3u"}, {"category": "News", "name": "news", "url": "https://iptv-org.github.io/iptv/categories/news.m3u"}, {"category": "Documentaries", "name": "documentaries", "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u"}, {"category": "Kids", "name": "kids", "url": "https://iptv-org.github.io/iptv/categories/kids.m3u"}, {"category": "Movies", "name": "movies", "url": "https://iptv-org.github.io/iptv/categories/movies.m3u"}, {"category": "Music", "name": "music", "url": "https://iptv-org.github.io/iptv/categories/music.m3u"}]}
+{
+  "blocklist": [],
+  "epg_extra": [],
+  "group_strategy": "category",
+  "probe": {
+    "max_fails": 2,
+    "timeout": 20
+  },
+  "sources": [
+    {
+      "category": "",
+      "name": "free-tv",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+    },
+    {
+      "category": "Sports",
+      "name": "sports",
+      "url": "https://iptv-org.github.io/iptv/categories/sports.m3u"
+    },
+    {
+      "category": "News",
+      "name": "news",
+      "url": "https://iptv-org.github.io/iptv/categories/news.m3u"
+    },
+    {
+      "category": "Documentaries",
+      "name": "documentaries",
+      "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u"
+    },
+    {
+      "category": "Kids",
+      "name": "kids",
+      "url": "https://iptv-org.github.io/iptv/categories/kids.m3u"
+    },
+    {
+      "category": "Movies",
+      "name": "movies",
+      "url": "https://iptv-org.github.io/iptv/categories/movies.m3u"
+    },
+    {
+      "category": "Music",
+      "name": "music",
+      "url": "https://iptv-org.github.io/iptv/categories/music.m3u"
+    }
+  ],
+  "epg_max_mb": 8,
+  "epg_min_coverage": 0.25
+}

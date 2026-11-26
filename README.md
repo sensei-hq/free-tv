@@ -44,9 +44,13 @@ GitHub Pages. Test in UHF on Apple TV with these URLs:
 - Sports only: `https://sensei-hq.github.io/free-tv/sports.m3u`
 - News only: `https://sensei-hq.github.io/free-tv/news.m3u`
 
-In UHF: add playlist, paste the URL, and the guide loads from the
-playlist's embedded guide header. Start with `sports.m3u`; it is small
-and fast.
+In UHF: add a playlist with the M3U8 option, paste the URL, wait for
+import, then open the Live section (channels do not appear under Home).
+Start with `sports.m3u`; it is small and fast.
+
+Each playlist carries a guide header only when matched guides cover at
+least 25% of its channels; thin coverage ships no header so imports stay
+fast. Full guide work (iptv-org EPG integration) is on the roadmap.
 
 ## tvOS app (Layer 2)
 

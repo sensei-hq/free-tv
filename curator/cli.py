@@ -8,9 +8,39 @@ import sys
 from urllib.request import Request, urlopen
 
 from curator.catalog import build_catalog
+from curator.epg import (
+    coverage,
+    fetch_ids,
+    filter_by_size,
+    guides_for,
+    normalize_id,
+    select_guides,
+)
 from curator.playlist import merge_sources, parse_m3u, render_m3u
 from curator.probe import USER_AGENT, ProbeResult, probe_url
 from curator.quarantine import Tracker
+
+
+def playlist_ids(entries):
+    return {i for i in (normalize_id(e.tvg_id) for e in entries) if i}
+
+
+def match_guides(epg_urls, max_workers, max_bytes):
+    """Fetch each fitting guide's channel list (empty set if dead)."""
+    fitting = filter_by_size(epg_urls, max_bytes)
+    print(f"guides fitting size budget: {len(fitting)}/{len(epg_urls)}")
+    guide_ids = {}
+    with concurrent.futures.ThreadPoolExecutor(
+            max_workers=max_workers) as pool:
+        future_to_url = {pool.submit(fetch_ids, url): url
+                         for url in fitting}
+        for future in concurrent.futures.as_completed(future_to_url):
+            url = future_to_url[future]
+            try:
+                guide_ids[url] = future.result()
+            except Exception:  # noqa: BLE001 - dead guide means no match
+                guide_ids[url] = set()
+    return guide_ids
 
 
 def safe_result(future):
@@ -53,6 +83,8 @@ def main(argv=None):
                         help="probe only the first N channels (0 = all)")
     parser.add_argument("--no-probe", action="store_true",
                         help="skip health probing")
+    parser.add_argument("--no-epg", action="store_true",
+                        help="skip guide matching (no guide headers)")
     parser.add_argument("--max-workers", type=int, default=32)
     parser.add_argument("--timeout", type=int, default=20)
     args = parser.parse_args(argv)
@@ -102,8 +134,17 @@ def main(argv=None):
             for future in concurrent.futures.as_completed(future_to_url):
                 probes[future_to_url[future]] = safe_result(future)
 
+    max_bytes = config.get("epg_max_mb", 8) * 1024 * 1024
+    if args.no_epg:
+        guide_ids = {}
+    else:
+        guide_ids = match_guides(epg_urls, args.max_workers, max_bytes)
+    matched_global = select_guides(playlist_ids(merged), guide_ids)
+    print(f"guides matched: {len(matched_global)}, channels covered: "
+          f"{coverage(playlist_ids(merged), guide_ids, matched_global)}")
+
     tracker = Tracker.load(args.state, max_fails=max_fails)
-    catalog = build_catalog(merged, probes, tracker, epg_urls)
+    catalog = build_catalog(merged, probes, tracker, matched_global)
     tracker.save(args.state)
 
     live = [c for c in catalog["channels"] if not c["quarantined"]]
@@ -112,8 +153,11 @@ def main(argv=None):
     live_entries = [by_url[c["url"]] for c in live]
     dead_entries = [by_url[c["url"]] for c in dead]
 
+    min_coverage = config.get("epg_min_coverage", 0.25)
     write(os.path.join(args.out, "curated.m3u"),
-          render_m3u(live_entries, epg_urls, group_strategy))
+          render_m3u(live_entries,
+                     guides_for(live_entries, guide_ids, min_coverage),
+                     group_strategy))
     write(os.path.join(args.out, "quarantine.m3u"),
           render_m3u(dead_entries, [], group_strategy))
     write(os.path.join(args.out, "catalog.json"),
@@ -126,8 +170,9 @@ def main(argv=None):
         categories.setdefault(entry.group or entry.category or "Unsorted",
                               []).append(entry)
     for category, cat_entries in sorted(categories.items()):
+        matched = guides_for(cat_entries, guide_ids, min_coverage)
         write(os.path.join(args.out, f"{slug(category)}.m3u"),
-              render_m3u(cat_entries, epg_urls, group_strategy))
+              render_m3u(cat_entries, matched, group_strategy))
 
     stats = catalog["stats"]
     print(f"online={stats['online']} quarantined={stats['quarantined']} "
