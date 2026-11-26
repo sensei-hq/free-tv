@@ -1,0 +1,33 @@
+name: app
+
+on:
+  push:
+    paths:
+      - "FreeTV/**"
+      - "Packages/**"
+      - ".github/workflows/app.yml"
+  pull_request:
+    paths:
+      - "FreeTV/**"
+      - "Packages/**"
+  workflow_dispatch:
+
+jobs:
+  core-tests:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run FreeTVCore tests
+        run: swift test --package-path Packages/FreeTVCore
+
+  tvos-build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build tvOS app
+        run: >
+          xcodebuild
+          -project FreeTV/FreeTV.xcodeproj
+          -scheme FreeTV
+          -destination 'generic/platform=tvOS Simulator'
+          build CODE_SIGNING_ALLOWED=NO

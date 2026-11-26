@@ -40,3 +40,13 @@ holds URL substrings to always skip. `epg_extra` adds guide URLs.
 Push to GitHub, enable Pages for the `gh-pages` branch, and the
 `curate` workflow rebuilds daily at 06:00 UTC. Paste the published
 `curated.m3u` URL (or a small `sports.m3u`) into UHF or IPTVX on Apple TV.
+
+## tvOS app (Layer 2)
+
+Native SwiftUI app in `FreeTV/`, with shared logic in
+`Packages/FreeTVCore` (tested: `swift test --package-path Packages/FreeTVCore`).
+Open `FreeTV/FreeTV.xcodeproj` in Xcode 16+, select an Apple TV simulator or
+your Apple TV as destination, and run. The app reads
+`https://sensei-hq.github.io/free-tv/catalog.json` with on-device caching.
+CI builds the app and runs core tests on every push touching `FreeTV/`
+or `Packages/`.
