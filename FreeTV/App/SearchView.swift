@@ -4,10 +4,12 @@ import FreeTVCore
 struct SearchView: View {
     @EnvironmentObject private var store: CatalogStore
     @State private var query = ""
+    @FocusState private var fieldFocused: Bool
 
     var body: some View {
         VStack(spacing: 0) {
             TextField("Search channels", text: $query)
+                .focused($fieldFocused)
                 .frame(maxWidth: 600)
                 .padding(.top, 40)
             ChannelGrid(
@@ -18,6 +20,11 @@ struct SearchView: View {
             )
         }
         .navigationTitle("Search")
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                fieldFocused = true
+            }
+        }
     }
 }
 

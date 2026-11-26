@@ -24,10 +24,10 @@ jobs:
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
-      - name: Build tvOS app
+      - name: Build and UI-test tvOS app
         run: >
           xcodebuild
           -project FreeTV/FreeTV.xcodeproj
           -scheme FreeTV
-          -destination 'generic/platform=tvOS Simulator'
-          build CODE_SIGNING_ALLOWED=NO
+          -destination 'platform=tvOS Simulator,name=Apple TV 4K (3rd generation)'
+          test CODE_SIGNING_ALLOWED=NO
