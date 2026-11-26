@@ -37,9 +37,16 @@ holds URL substrings to always skip. `epg_extra` adds guide URLs.
 
 ## Scheduled publishing
 
-Push to GitHub, enable Pages for the `gh-pages` branch, and the
-`curate` workflow rebuilds daily at 06:00 UTC. Paste the published
-`curated.m3u` URL (or a small `sports.m3u`) into UHF or IPTVX on Apple TV.
+The `curate` workflow rebuilds daily at 06:00 UTC and publishes to
+GitHub Pages. Test in UHF on Apple TV with these URLs:
+
+- All channels: `https://sensei-hq.github.io/free-tv/curated.m3u`
+- Sports only: `https://sensei-hq.github.io/free-tv/sports.m3u`
+- News only: `https://sensei-hq.github.io/free-tv/news.m3u`
+
+In UHF: add playlist, paste the URL, and the guide loads from the
+playlist's embedded guide header. Start with `sports.m3u`; it is small
+and fast.
 
 ## tvOS app (Layer 2)
 
