@@ -76,6 +76,10 @@ class ProbeTest(unittest.TestCase):
             result = probe_url("http://x/a.m3u8", timeout=5)
         self.assertEqual(result.status, "error")
 
+    def test_placeholder_url_is_error_not_crash(self):
+        result = probe_url("[NO PUBLIC STREAM]", timeout=5)
+        self.assertEqual(result.status, "error")
+
 
 if __name__ == "__main__":
     unittest.main()

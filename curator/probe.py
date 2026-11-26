@@ -39,12 +39,12 @@ def _is_playlist_url(url):
 
 
 def probe_url(url, timeout=20):
-    request = Request(
-        url,
-        headers={"User-Agent": USER_AGENT,
-                 "Range": f"bytes=0-{SAMPLE_BYTES - 1}"},
-    )
     try:
+        request = Request(
+            url,
+            headers={"User-Agent": USER_AGENT,
+                     "Range": f"bytes=0-{SAMPLE_BYTES - 1}"},
+        )
         with urlopen(request, timeout=timeout) as response:  # noqa: S310
             status = getattr(response, "status", 200)
             content_type = (

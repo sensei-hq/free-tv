@@ -9,8 +9,17 @@ from urllib.request import Request, urlopen
 
 from curator.catalog import build_catalog
 from curator.playlist import merge_sources, parse_m3u, render_m3u
-from curator.probe import USER_AGENT, probe_url
+from curator.probe import USER_AGENT, ProbeResult, probe_url
 from curator.quarantine import Tracker
+
+
+def safe_result(future):
+    """Return future.result(), converting any unexpected exception into an
+    error probe so one bad stream never aborts the whole run."""
+    try:
+        return future.result()
+    except Exception as err:  # noqa: BLE001 - quarantine, don't crash
+        return ProbeResult("error", str(err))
 
 
 def load_config(path):
@@ -91,7 +100,7 @@ def main(argv=None):
                 for e in merged
             }
             for future in concurrent.futures.as_completed(future_to_url):
-                probes[future_to_url[future]] = future.result()
+                probes[future_to_url[future]] = safe_result(future)
 
     tracker = Tracker.load(args.state, max_fails=max_fails)
     catalog = build_catalog(merged, probes, tracker, epg_urls)
