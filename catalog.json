@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:56:44+00:00",
+  "generated_at": "2026-11-26T18:03:49+00:00",
   "epg_urls": [
     "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
@@ -39,7 +39,7 @@
   ],
   "stats": {
     "total": 5785,
-    "online": 3842,
+    "online": 3832,
     "quarantined": 0
   },
   "channels": [
@@ -1286,7 +1286,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3512,7 +3512,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -3616,7 +3616,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3997,7 +3997,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -4416,7 +4416,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -4429,7 +4429,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -4507,7 +4507,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -6091,7 +6091,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -9756,7 +9756,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -10109,7 +10109,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -11140,7 +11140,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -11362,7 +11362,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -12341,7 +12341,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -13707,7 +13707,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -13837,7 +13837,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -13850,7 +13850,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -14996,7 +14996,7 @@
         "free-tv",
         "kids"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -19140,7 +19140,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -21337,7 +21337,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22816,7 +22816,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22870,7 +22870,7 @@
         "free-tv",
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22988,7 +22988,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -23696,7 +23696,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -23735,7 +23735,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -23748,7 +23748,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -25294,7 +25294,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -25307,7 +25307,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -26591,7 +26591,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -29419,7 +29419,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -30446,7 +30446,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -31409,7 +31409,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -31552,7 +31552,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -32657,7 +32657,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -33996,7 +33996,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -34894,7 +34894,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -34959,7 +34959,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -36742,7 +36742,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -37587,7 +37587,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -37743,7 +37743,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -40567,7 +40567,7 @@
       "sources": [
         "news"
       ],
-      "status": "timeout",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -43624,7 +43624,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -44131,7 +44131,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -45994,7 +45994,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -46137,7 +46137,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -46969,7 +46969,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -47217,7 +47217,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -47386,7 +47386,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -53123,7 +53123,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -60278,7 +60278,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -60629,7 +60629,7 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -64674,7 +64674,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -65207,7 +65207,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -65844,7 +65844,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -67404,7 +67404,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -74463,7 +74463,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -75438,7 +75438,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
