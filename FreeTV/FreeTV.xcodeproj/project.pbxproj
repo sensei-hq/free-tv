@@ -48,6 +48,9 @@
 				DDDDDDDD0000000000000014,
 				DDDDDDDD0000000000000015,
 				DDDDDDDD0000000000000016,
+				DDDDDDDD0000000000000018,
+				DDDDDDDD0000000000000019,
+				DDDDDDDD0000000000000020,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -92,6 +95,9 @@
 				EEEEEEEE0000000000000014,
 				EEEEEEEE0000000000000015,
 				EEEEEEEE0000000000000016,
+				EEEEEEEE0000000000000018,
+				EEEEEEEE0000000000000019,
+				EEEEEEEE0000000000000020,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,37 @@
 		EEEEEEEE0000000000000017 = {
 			isa = PBXBuildFile;
 			productRef = BBBBBBBB0000000000000007;
+		};
+
+		DDDDDDDD0000000000000018 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PlexStore.swift;
+			sourceTree = "<group>";
+		};
+		DDDDDDDD0000000000000019 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PlexView.swift;
+			sourceTree = "<group>";
+		};
+		DDDDDDDD0000000000000020 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SettingsView.swift;
+			sourceTree = "<group>";
+		};
+		EEEEEEEE0000000000000018 = {
+			isa = PBXBuildFile;
+			fileRef = DDDDDDDD0000000000000018;
+		};
+		EEEEEEEE0000000000000019 = {
+			isa = PBXBuildFile;
+			fileRef = DDDDDDDD0000000000000019;
+		};
+		EEEEEEEE0000000000000020 = {
+			isa = PBXBuildFile;
+			fileRef = DDDDDDDD0000000000000020;
 		};
 		FFFFFFFF0000000000000001 = {
 			isa = PBXNativeTarget;

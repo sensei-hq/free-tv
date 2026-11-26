@@ -4,6 +4,7 @@ import FreeTVCore
 struct SearchView: View {
     @EnvironmentObject private var store: CatalogStore
     @State private var query = ""
+    @State private var focusTask: Task<Void, Never>?
     @FocusState private var fieldFocused: Bool
 
     var body: some View {
@@ -21,10 +22,21 @@ struct SearchView: View {
         }
         .navigationTitle("Search")
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                fieldFocused = true
+            focusTask?.cancel()
+            focusTask = Task {
+                // Toggle false/true: SwiftUI only issues a focus request
+                // on change, so repeat shots must reset first.
+                for _ in 0 ..< 4 {
+                    if Task.isCancelled { return }
+                    fieldFocused = false
+                    try? await Task.sleep(for: .seconds(0.3))
+                    if Task.isCancelled { return }
+                    fieldFocused = true
+                    try? await Task.sleep(for: .seconds(1.5))
+                }
             }
         }
+        .onDisappear { focusTask?.cancel() }
     }
 }
 

@@ -4,10 +4,21 @@ import FreeTVCore
 
 /// Full-screen player. AVPlayer handles HLS; anything else shows an error.
 struct PlayerView: View {
-    let channel: Channel
+    let title: String
+    let url: URL?
     @Environment(\.dismiss) private var dismiss
     @State private var player: AVPlayer?
     @State private var failed = false
+
+    init(channel: Channel) {
+        title = channel.name
+        url = channel.streamURL
+    }
+
+    init(title: String, url: URL?) {
+        self.title = title
+        self.url = url
+    }
 
     var body: some View {
         ZStack {
@@ -17,7 +28,7 @@ struct PlayerView: View {
                 VStack(spacing: 16) {
                     Text("This stream needs a different player")
                         .font(.title2)
-                    Text(channel.name)
+                    Text(title)
                         .foregroundStyle(.secondary)
                     Button("Back") { dismiss() }
                 }
@@ -31,7 +42,7 @@ struct PlayerView: View {
     }
 
     private func start() {
-        guard let streamURL = channel.streamURL else {
+        guard let streamURL = url else {
             failed = true
             return
         }

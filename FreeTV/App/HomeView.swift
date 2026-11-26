@@ -1,10 +1,26 @@
 import SwiftUI
 import FreeTVCore
 
+/// Test hooks: `-tab <name>` starts on a tab, `-resetData` wipes
+/// saved sources, favorites, and Plex state (keychain included).
+enum LaunchTestHooks {
+    static var initialTab: Int {
+        let args = ProcessInfo.processInfo.arguments
+        guard let flag = args.firstIndex(of: "-tab"),
+              args.indices.contains(flag + 1) else { return 0 }
+        return ["home", "search", "favorites", "plex", "settings"]
+            .firstIndex(of: args[flag + 1]) ?? 0
+    }
+
+    static var resetData: Bool {
+        ProcessInfo.processInfo.arguments.contains("-resetData")
+    }
+}
+
 /// Home tab: Netflix-style shelves, one row per category.
 struct HomeView: View {
     @EnvironmentObject private var store: CatalogStore
-    @State private var tab = 0
+    @State private var tab = LaunchTestHooks.initialTab
 
     var body: some View {
         TabView(selection: $tab) {
@@ -51,6 +67,18 @@ struct HomeView: View {
             }
             .tabItem { Label("Favorites", systemImage: "heart") }
             .tag(2)
+
+            NavigationStack {
+                PlexView()
+            }
+            .tabItem { Label("Plex", systemImage: "server.rack") }
+            .tag(3)
+
+            NavigationStack {
+                SettingsView()
+            }
+            .tabItem { Label("Settings", systemImage: "gear") }
+            .tag(4)
         }
     }
 }

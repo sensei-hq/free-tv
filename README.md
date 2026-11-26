@@ -57,7 +57,9 @@ fast. Full guide work (iptv-org EPG integration) is on the roadmap.
 Native SwiftUI app in `FreeTV/`, with shared logic in
 `Packages/FreeTVCore` (tested: `swift test --package-path Packages/FreeTVCore`).
 Open `FreeTV/FreeTV.xcodeproj` in Xcode 16+, select an Apple TV simulator or
-your Apple TV as destination, and run. The app reads
-`https://sensei-hq.github.io/free-tv/catalog.json` with on-device caching.
-CI builds the app and runs core tests on every push touching `FreeTV/`
+your Apple TV as destination, and run. Nothing is hardcoded: Settings holds
+any number of catalog or M3U sources (the curated catalog is just the
+default), and the Plex tab signs in via plex.tv/link plus local GDM
+discovery, with tokens in the keychain. Direct-play only in v1.
+CI builds the app and runs core + UI tests on every push touching `FreeTV/`
 or `Packages/`.
