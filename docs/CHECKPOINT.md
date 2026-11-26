@@ -1,11 +1,9 @@
-# Checkpoint: playlists live, app CI pending
+# Checkpoint: all CI green, playlists live
 
 Slice: free-tv Layers 1+2. Repo: sensei-hq/free-tv (public).
-Done: curator green in CI, Pages live with 5,785 channels (3,856 online
-first run); tvOS app v1 pushed (shelves, search, favorites, AVPlayer).
-Remains: app CI result (core tests + tvOS build), UHF test by user.
-Next command: `gh run view 45861189525 --repo sensei-hq/free-tv`.
-Live: https://sensei-hq.github.io/free-tv/curated.m3u (+ sports.m3u,
-news.m3u, catalog.json). Quarantine fills on 2nd scheduled run.
+Done: curator green (28 tests), Pages live (5,785 ch, 3,856 online);
+tvOS app v1 green in CI (7 core tests, tvOS build success).
+Remains: UHF test by user; run app on real Apple TV (needs Xcode).
+Next: user tests sports.m3u in UHF; then VLCKit, EPG grid, art polish.
 Open questions: user's country slice; strict-probe false positives.
 Known-broken: none. (/sensei:checkpoint unavailable in this runtime.)
