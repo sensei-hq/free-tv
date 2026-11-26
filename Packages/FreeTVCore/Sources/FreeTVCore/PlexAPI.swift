@@ -196,15 +196,24 @@ public final class PlexClient: Sendable {
         let MediaContainer: Container
     }
 
-    /// Items with direct-play URLs (no transcoding in v1).
-    public func items(server: URL, sectionKey: String,
-                      token: String) async throws -> [PlexItem] {
-        let response: ItemsResponse = try await get(
-            ItemsResponse.self,
-            url: server.appendingPathComponent(
-                "library/sections/\(sectionKey)/all"),
-            token: token)
-        return (response.MediaContainer.Metadata ?? []).compactMap { meta in
+    /// Library-wide title search (matches owned media for TMDB titles).
+    public func searchTitles(server: URL, query: String,
+                             token: String) async throws -> [PlexItem] {
+        guard var components = URLComponents(
+            url: server.appendingPathComponent("library/search"),
+            resolvingAgainstBaseURL: false) else {
+            throw PlexError.badResponse
+        }
+        components.queryItems = [URLQueryItem(name: "query", value: query)]
+        guard let url = components.url else { throw PlexError.badResponse }
+        let response: ItemsResponse = try await get(ItemsResponse.self,
+                                                    url: url, token: token)
+        return items(from: response, server: server, token: token)
+    }
+
+    private func items(from response: ItemsResponse, server: URL,
+                       token: String) -> [PlexItem] {
+        (response.MediaContainer.Metadata ?? []).compactMap { meta in
             guard let title = meta.title else { return nil }
             func authed(_ path: String?) -> URL? {
                 guard var components = path.flatMap({
@@ -221,5 +230,16 @@ public final class PlexClient: Sendable {
                             durationMS: meta.duration,
                             playURL: authed(partKey))
         }
+    }
+
+    /// Items with direct-play URLs (no transcoding in v1).
+    public func items(server: URL, sectionKey: String,
+                      token: String) async throws -> [PlexItem] {
+        let response: ItemsResponse = try await get(
+            ItemsResponse.self,
+            url: server.appendingPathComponent(
+                "library/sections/\(sectionKey)/all"),
+            token: token)
+        return items(from: response, server: server, token: token)
     }
 }

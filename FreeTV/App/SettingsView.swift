@@ -6,7 +6,10 @@ struct SettingsView: View {
     @EnvironmentObject private var sources: SourceStore
     @EnvironmentObject private var catalog: CatalogStore
     @EnvironmentObject private var plex: PlexStore
+    @EnvironmentObject private var tmdb: TMDBStore
     @State private var addingSource = false
+    @State private var keyText = ""
+    @State private var regionText = ""
 
     var body: some View {
         List {
@@ -37,6 +40,25 @@ struct SettingsView: View {
                             refresh()
                         }
                     }
+                }
+            }
+
+            Section("Movies (TMDB)") {
+                if tmdb.hasKey {
+                    Text("API key saved")
+                    Text("Region: \(tmdb.region)")
+                    Button("Remove key") { tmdb.clearKey() }
+                } else {
+                    SecureField("TMDB API key", text: $keyText)
+                    Button("Save key") {
+                        tmdb.saveKey(keyText)
+                        keyText = ""
+                    }
+                }
+                TextField("Region code (e.g. US)", text: $regionText)
+                Button("Save region") {
+                    tmdb.saveRegion(regionText)
+                    regionText = ""
                 }
             }
 

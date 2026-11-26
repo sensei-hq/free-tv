@@ -1,11 +1,10 @@
-# Checkpoint: sources + Plex in app, all green
+# Checkpoint: TMDB Movies tab live
 
-Slice: free-tv app sources. Repo: sensei-hq/free-tv (public).
-Done: SourceStore (add/toggle/remove catalog+M3U), Plex PIN sign-in,
-GDM discovery, keychain tokens, Plex browser, direct play. 22 core,
-39 curator, 5 UI tests green; UI suite covers search typing.
-Remains: user previews Plex sign-in + add-source on device/sim.
-Next: TMDB unified catalog (needs user's free API key); YouTube RSS
-shelves (channel IDs resolved); IA vintage films.
-Open questions: TMDB key; provider region; Tubi/YuppTV deep links.
+Slice: free-tv unified catalog phase 1. Repo: sensei-hq/free-tv.
+Done: TMDB client (search/discover/trending/genres/providers),
+Movies tab + detail + Plex match, key/region in Settings (keychain).
+28 core, 39 curator, 7 UI tests green; live search verified on sim.
+Remains: user preview (key entry, providers, Plex match on device).
+Next: provider deep links; IA vintage; YouTube RSS shelves; anime.
+Open questions: Tubi/YuppTV link schemes; core spotlight recipe.
 Known-broken: none. (/sensei:checkpoint unavailable in this runtime.)

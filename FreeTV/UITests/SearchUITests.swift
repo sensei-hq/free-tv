@@ -85,4 +85,35 @@ final class SearchUITests: XCTestCase {
         XCTAssertTrue(app.buttons["Sign in to Plex"].waitForExistence(
             timeout: 15))
     }
+
+    func testMoviesPromptWithoutKey() {
+        let app = launch(tab: "movies")
+        XCTAssertTrue(app.staticTexts["TMDB key needed"].waitForExistence(
+            timeout: 15))
+    }
+
+    /// Full live TMDB flow. Runs only when /tmp/freetv-tmdb-test-key
+    /// holds a key, so CI skips it and local runs prove live search.
+    func testMoviesLiveSearch() throws {
+        let keyFile = "/tmp/freetv-tmdb-test-key"
+        guard let key = try? String(contentsOfFile: keyFile,
+                                     encoding: .utf8)
+            .trimmingCharacters(in: .whitespacesAndNewlines),
+              !key.isEmpty else {
+            throw XCTSkip("TMDB test key file missing")
+        }
+        let app = XCUIApplication()
+        app.launchArguments += ["-resetData", "-tab", "movies",
+                                "-tmdbKey", key]
+        app.launch()
+        XCTAssertTrue(app.staticTexts["Trending movies"].waitForExistence(
+            timeout: 30))
+        let field = app.textFields.firstMatch
+        XCTAssertTrue(field.waitForExistence(timeout: 10))
+        press(.select)
+        field.typeText("inception")
+        XCTAssertTrue(app.staticTexts["Inception"].waitForExistence(
+            timeout: 15),
+            "search did not find Inception")
+    }
 }

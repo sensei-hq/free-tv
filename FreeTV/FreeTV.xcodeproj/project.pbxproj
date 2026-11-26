@@ -51,6 +51,8 @@
 				DDDDDDDD0000000000000018,
 				DDDDDDDD0000000000000019,
 				DDDDDDDD0000000000000020,
+				DDDDDDDD0000000000000021,
+				DDDDDDDD0000000000000022,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -98,6 +100,8 @@
 				EEEEEEEE0000000000000018,
 				EEEEEEEE0000000000000019,
 				EEEEEEEE0000000000000020,
+				EEEEEEEE0000000000000021,
+				EEEEEEEE0000000000000022,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +345,26 @@
 		EEEEEEEE0000000000000020 = {
 			isa = PBXBuildFile;
 			fileRef = DDDDDDDD0000000000000020;
+		};
+		DDDDDDDD0000000000000021 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = TMDBStore.swift;
+			sourceTree = "<group>";
+		};
+		DDDDDDDD0000000000000022 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = MoviesView.swift;
+			sourceTree = "<group>";
+		};
+		EEEEEEEE0000000000000021 = {
+			isa = PBXBuildFile;
+			fileRef = DDDDDDDD0000000000000021;
+		};
+		EEEEEEEE0000000000000022 = {
+			isa = PBXBuildFile;
+			fileRef = DDDDDDDD0000000000000022;
 		};
 		FFFFFFFF0000000000000001 = {
 			isa = PBXNativeTarget;

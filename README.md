@@ -60,6 +60,9 @@ Open `FreeTV/FreeTV.xcodeproj` in Xcode 16+, select an Apple TV simulator or
 your Apple TV as destination, and run. Nothing is hardcoded: Settings holds
 any number of catalog or M3U sources (the curated catalog is just the
 default), and the Plex tab signs in via plex.tv/link plus local GDM
-discovery, with tokens in the keychain. Direct-play only in v1.
+discovery, with tokens in the keychain. The Movies tab adds TMDB search,
+year/genre browse, trending rows, per-region where-to-watch providers,
+and Plex ownership matching (key + region in Settings, key in keychain).
+Direct-play only in v1.
 CI builds the app and runs core + UI tests on every push touching `FreeTV/`
 or `Packages/`.
