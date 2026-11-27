@@ -1,8 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz"
 #EXTINF:-1 tvg-id="MTV3.fi" tvg-logo="https://i.imgur.com/kNbmc8n.png" group-title="Finland" tvg-country="FI",MTV3
 https://live-fi.tvkaista.net/mtv3/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="Nelonen.fi" tvg-logo="https://i.imgur.com/BFbCyfY.png" group-title="Finland" tvg-country="FI",Nelonen
-https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="Sub.fi" tvg-logo="https://i.imgur.com/VRCuxQt.png" group-title="Finland" tvg-country="FI",MTV Sub
 https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="Kutonen.fi" tvg-logo="https://i.imgur.com/4giVyxb.png" group-title="Finland" tvg-country="FI",Kutonen
@@ -11,8 +9,6 @@ https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
 https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="StarChannel.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/500px-Star_Channel_2020.svg.png" group-title="Finland" tvg-country="FI",Star Channel Finland
 https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
-#EXTINF:-1 tvg-id="Hero.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" group-title="Finland" tvg-country="FI",Hero
-https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="Frii.fi" tvg-logo="https://i.imgur.com/ljKoG9I.png" group-title="Finland" tvg-country="FI",Frii
 https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
 #EXTINF:-1 tvg-id="IRRTV.fi" tvg-logo="https://upload.wikimedia.org/wikipedia/fi/9/93/IRR-TV-1.png" group-title="Finland" tvg-country="FI",Alfa Ⓢ

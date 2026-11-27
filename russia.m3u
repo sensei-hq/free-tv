@@ -23,8 +23,6 @@ http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
 #EXTINF:-1 tvg-id="Moskva24.ru" tvg-logo="https://i.imgur.com/gXbUMVy.png" group-title="Russia" tvg-country="RU",Москва 24
 https://stream.smotrim.ru/hls/moscow_24/playlist.m3u8?entity=channel&id=76&sign=e8e1bc15ce94ee7718ef8948500e5d21
-#EXTINF:-1 tvg-id="NizhniyNovgorod24.ru" tvg-logo="https://i.imgur.com/ZWgPVIC.png" group-title="Russia" tvg-country="RU",Нижний Новгород 24
-https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 #EXTINF:-1 tvg-id="Yakutiya24.ru" tvg-logo="https://i.imgur.com/2BAQklm.png" group-title="Russia" tvg-country="RU",Якутия 24
 https://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="360News.ru" tvg-logo="https://i.imgur.com/YXDeX8q.png" group-title="Russia" tvg-country="RU",360 Новости

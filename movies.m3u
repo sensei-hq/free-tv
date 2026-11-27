@@ -121,6 +121,8 @@ http://213.91.179.28:8000/play/a05i
 https://cafefhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="CanalCineDios.co@SD" tvg-logo="https://i.imgur.com/S4xqZgV.png" group-title="Movies" tvg-country="CO",Canal Cine Dios
 https://canal.mediaserver.com.co/live/cinedios.m3u8
+#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Czechia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png" group-title="Movies" tvg-country="NL",Canal+ Action Europe Czechia
+http://46.149.191.219:9106/play/a01g
 #EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Magyar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png" group-title="Movies" tvg-country="NL",Canal+ Action Europe Magyar
 http://193.33.39.108:9016/play/a02n
 #EXTINF:-1 tvg-id="CCTVStormTheater.cn@HD" tvg-logo="https://i.imgur.com/rEttkKm.png" group-title="Movies" tvg-country="CN",CCTV-Storm Theater (1080p)
@@ -341,6 +343,8 @@ http://213.91.179.28:8000/play/a06i
 http://88.212.15.50/live/test_filmbox/playlist.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Magyar" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Movies" tvg-country="PL",FILMBOX+ One Magyar
 http://88.212.7.14/live/filmbox_hungary/index.m3u8
+#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Nederland" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Movies" tvg-country="PL",FILMBOX+ One Nederland
+http://46.149.191.219:9100/play/a015
 #EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Romania" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Movies" tvg-country="PL",FILMBOX+ One Romania (576p)
 https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8
 #EXTINF:-1 tvg-id="FilmesSuspense.us@BR" tvg-logo="https://images.pluto.tv/channels/5f171d3442a0500007362f22/colorLogoPNG.png" group-title="Movies" tvg-country="US",Filmes Suspense
@@ -397,8 +401,6 @@ http://antm.dynu.net:14285/rtp/232.84.1.19:8088
 http://103.148.210.190:8000/play/a0s8/index.m3u8
 #EXTINF:-1 tvg-id="HBOAsia.sg@Taiwan" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/HBO_Asia.png/960px-HBO_Asia.png" group-title="Movies" tvg-country="SG",HBO Asia Taiwan (1080p)
 http://125.227.210.55:1003/VideoInput/play.ts
-#EXTINF:-1 tvg-id="Hero.fi@SD" tvg-logo="https://i.imgur.com/4t5JQLY.png" group-title="Movies" tvg-country="FI",Hero (720p) [Not 24/7]
-https://live-fi.tvkaista.net/hero/live.m3u8?hd=true
 #EXTINF:-1 tvg-id="HorosheeKino.ru@SD" tvg-logo="https://i.imgur.com/ZbOqfy4.png" group-title="Movies" tvg-country="RU",Horoshee Kino (720p)
 https://live-rian.cdnvideo.ru/rian/rus-radio/playlist.m3u8
 #EXTINF:-1 tvg-id="IFC.us@East" tvg-logo="https://i.imgur.com/bQdkyF9.png" group-title="Movies" tvg-country="US",IFC (1080p)
@@ -409,8 +411,6 @@ https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8
 http://176.118.197.101/Illuzion+/index.m3u8
 #EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD" tvg-logo="https://i.imgur.com/LL8GyCh.png" group-title="Movies" tvg-country="RU",Indiyskoye Kino (1080p)
 https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="JalshaMovies.in@SD" tvg-logo="https://i.imgur.com/25eWjX2.png" group-title="Movies" tvg-country="IN",Jalsha Movies (1080p)
-https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="KairaliWe.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KAIRALI_WE/images/LOGO_HD/image.png" group-title="Movies" tvg-country="IN",Kairali We (576p)
 https://mumt01.tangotv.in/O5aw8Zn3WETV/index.m3u8
 #EXTINF:-1 tvg-id="Kineko.ru@HD" tvg-logo="https://i.imgur.com/Otfvlmf.png" group-title="Movies" tvg-country="RU",Kineko HD (1080p)

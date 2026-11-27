@@ -720,6 +720,19 @@
     "quarantined": true
   },
   {
+    "name": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c 1",
+    "url": "https://edge55.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Belarus_1_logo.svg/960px-Belarus_1_logo.svg.png",
+    "tvg_id": "Belarus1.by",
+    "category": "Belarus",
+    "country": "BY",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "8 Kanal Vitebsk \u24c8",
     "url": "http://95.46.208.8:24433/art",
     "logo": "https://i.imgur.com/tjwBSTF.jpg",
@@ -1711,6 +1724,19 @@
     "quarantined": true
   },
   {
+    "name": "CNN Prima News",
+    "url": "https://sktv.mxnticek.eu/new/stream.php?ch=PrimaNews",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/cnn-prima-news-cz.png",
+    "tvg_id": "CNNPrimaNews.cz",
+    "category": "Czech Republic",
+    "country": "CZ",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Prima Krimi",
     "url": "https://sktv.mxnticek.eu/new/stream.php?ch=PrimaKrimi",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/prima-krimi-cz.png",
@@ -1720,20 +1746,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "timeout",
-    "quarantined": true
-  },
-  {
-    "name": "Prima MAX",
-    "url": "https://sktv.mxnticek.eu/new/stream.php?ch=PrimaMax",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/prima-max-cz.png",
-    "tvg_id": "PrimaMax.cz",
-    "category": "Czech Republic",
-    "country": "CZ",
-    "sources": [
-      "free-tv"
-    ],
-    "status": "timeout",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -1746,7 +1759,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "timeout",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -1759,7 +1772,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "timeout",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -1772,7 +1785,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "timeout",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -1785,7 +1798,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "timeout",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -1798,7 +1811,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "timeout",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -1948,6 +1961,19 @@
     "quarantined": true
   },
   {
+    "name": "Nelonen",
+    "url": "https://live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv",
+    "logo": "https://i.imgur.com/BFbCyfY.png",
+    "tvg_id": "Nelonen.fi",
+    "category": "Finland",
+    "country": "FI",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Yle Teema Fem \u24bc",
     "url": "https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/index.m3u8",
     "logo": "https://i.imgur.com/iDljufz.png",
@@ -2004,6 +2030,19 @@
     "url": "https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv",
     "logo": "https://i.imgur.com/rtyJVgB.png",
     "tvg_id": "AVA.fi",
+    "category": "Finland",
+    "country": "FI",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "Hero",
+    "url": "https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png",
+    "tvg_id": "Hero.fi",
     "category": "Finland",
     "country": "FI",
     "sources": [
@@ -2848,19 +2887,6 @@
     "quarantined": true
   },
   {
-    "name": "Egnatia",
-    "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u",
-    "logo": "https://i.imgur.com/zuyYIca.png",
-    "tvg_id": "egnatiatv.gr",
-    "category": "Greece",
-    "country": "GR",
-    "sources": [
-      "free-tv"
-    ],
-    "status": "blocked",
-    "quarantined": true
-  },
-  {
     "name": "Euro",
     "url": "https://live20.bozztv.com/akamaissh101/ssh101/eurotvlive/playlist.m3u8",
     "logo": "https://i.imgur.com/mHCk05E.png",
@@ -3002,6 +3028,19 @@
       "free-tv"
     ],
     "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "RTHK TV 31",
+    "url": "https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8",
+    "logo": "https://i.imgur.com/kf818kM.png",
+    "tvg_id": "RTHKTV31.hk",
+    "category": "Hong Kong",
+    "country": "HK",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "blocked",
     "quarantined": true
   },
   {
@@ -3547,7 +3586,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "error",
+    "status": "timeout",
     "quarantined": true
   },
   {
@@ -4759,7 +4798,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "timeout",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -5413,6 +5452,19 @@
     "quarantined": true
   },
   {
+    "name": "Tele Stabia / Gigli TV",
+    "url": "https://stream3.aswifi.it/giglitv/live/index.m3u8",
+    "logo": "https://hostux.pics/images/2026/09/11/28_tele_stabia_gigli_tv41f3f911222a7901.png",
+    "tvg_id": "",
+    "category": "Italy",
+    "country": "IT",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Tele Sud Puglia",
     "url": "https://64b16f23efbee.streamlock.net/telesud/telesud/playlist.m3u8",
     "logo": "https://i.imgur.com/fqTLtvs.png",
@@ -5481,6 +5533,19 @@
     "name": "Tele Video Agrigento (T.V.A.)",
     "url": "https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8",
     "logo": "https://i.imgur.com/AaPr63E.png",
+    "tvg_id": "",
+    "category": "Italy",
+    "country": "IT",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "Tele8 Tv",
+    "url": "https://57068da1deb21.streamlock.net/teletv8/teletv8/playlist.m3u8",
+    "logo": "https://i.imgur.com/dM0HE6O.png",
     "tvg_id": "",
     "category": "Italy",
     "country": "IT",
@@ -7178,6 +7243,20 @@
     "quarantined": true
   },
   {
+    "name": "History (Poland) (576i) \u24c8",
+    "url": "http://92.114.85.87:8015/play/a00c/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",
+    "tvg_id": "History.pl",
+    "category": "Poland",
+    "country": "PL",
+    "sources": [
+      "free-tv",
+      "documentaries"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Mango (Poland) (1080p) [Geo-blocked]",
     "url": "https://lb2.pluscdn.pl/ch/1580235/3496/hls/a149fc4b/masterlist.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/7/73/NewLogoMango.svg",
@@ -7242,6 +7321,19 @@
     "sources": [
       "free-tv",
       "music"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "Remonty TV (1080p)",
+    "url": "https://prx-y5cf8.4vod.tv/playout/repl-abr67/index.m3u8",
+    "logo": "https://remontytv.pl/wp-content/uploads/2026/01/Remonty_TV_logo-color1.png",
+    "tvg_id": "RemontyTV.pl",
+    "category": "Poland",
+    "country": "PL",
+    "sources": [
+      "free-tv"
     ],
     "status": "error",
     "quarantined": true
@@ -7919,7 +8011,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "timeout",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -7940,6 +8032,19 @@
     "url": "https://tv.gtrklnr.ru/hls/Lugansk24.m3u8",
     "logo": "https://i.imgur.com/YnLFQnt.png",
     "tvg_id": "Lugansk24.ua",
+    "category": "Russia",
+    "country": "RU",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434 24",
+    "url": "https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8",
+    "logo": "https://i.imgur.com/ZWgPVIC.png",
+    "tvg_id": "NizhniyNovgorod24.ru",
     "category": "Russia",
     "country": "RU",
     "sources": [
@@ -9359,6 +9464,19 @@
     "quarantined": true
   },
   {
+    "name": "TRT 2 \u24bc",
+    "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+    "logo": "https://i.imgur.com/lNWrOE2.png",
+    "tvg_id": "TRT2.tr",
+    "category": "Turkey",
+    "country": "TR",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "blocked",
+    "quarantined": true
+  },
+  {
     "name": "TRT Spor \u24bc",
     "url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
     "logo": "https://i.imgur.com/N2wGZyf.png",
@@ -9714,6 +9832,19 @@
     "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qst/3/3.m3u8",
     "logo": "https://i.imgur.com/6HZlLL3.png",
     "tvg_id": "QVCStyleUK.uk",
+    "category": "UK",
+    "country": "GB",
+    "sources": [
+      "free-tv"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "BBC Radio 1Xtra",
+    "url": "https://lsn.lv/bbcradio.m3u8?station=bbc_1xtra&bitrate=320000",
+    "logo": "https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1x-epg.png",
+    "tvg_id": "BBCRadio1Xtra.uk",
     "category": "UK",
     "country": "GB",
     "sources": [
@@ -10713,7 +10844,7 @@
     "sources": [
       "free-tv"
     ],
-    "status": "error",
+    "status": "timeout",
     "quarantined": true
   },
   {
@@ -12139,19 +12270,6 @@
     "quarantined": true
   },
   {
-    "name": "FON TV (1080p)",
-    "url": "https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8",
-    "logo": "https://play-lh.googleusercontent.com/J0YeRB884koVfecR2mp43Y2mbNtRVTSSOiq2U1gkITJ9IxzIM4VA71Rqbh3UlREI4mCnlxGHm4wxoujt5ZH1AQ",
-    "tvg_id": "FONTV.ru@HD",
-    "category": "Sports",
-    "country": "RU",
-    "sources": [
-      "sports"
-    ],
-    "status": "error",
-    "quarantined": true
-  },
-  {
     "name": "FOX",
     "url": "https://lilac19.pontiscloud.com/live/gt/FOX/index.m3u8",
     "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/FOX_wordmark.svg/960px-FOX_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
@@ -13318,7 +13436,7 @@
     "sources": [
       "sports"
     ],
-    "status": "blocked",
+    "status": "error",
     "quarantined": true
   },
   {
@@ -13814,6 +13932,19 @@
       "news"
     ],
     "status": "blocked",
+    "quarantined": true
+  },
+  {
+    "name": "4Dmas Noticias TV (1080p) [Not 24/7]",
+    "url": "https://rds3.desdeparaguay.net/4dmasnoticiastv/4dmasnoticiastv/playlist.m3u8",
+    "logo": "https://i.ibb.co/1fb5BtN/unnamed.png",
+    "tvg_id": "4DmasNoticiasTV.py@SD",
+    "category": "News",
+    "country": "PY",
+    "sources": [
+      "news"
+    ],
+    "status": "error",
     "quarantined": true
   },
   {
@@ -14935,6 +15066,19 @@
     "quarantined": true
   },
   {
+    "name": "Gugbang TV (1080p) [Not 24/7]",
+    "url": "http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8",
+    "logo": "https://i.imgur.com/f1tz5fg.png",
+    "tvg_id": "GugbangTV.kr@SD",
+    "category": "News",
+    "country": "KR",
+    "sources": [
+      "news"
+    ],
+    "status": "timeout",
+    "quarantined": true
+  },
+  {
     "name": "Guneydogu TV (720p)",
     "url": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
     "logo": "https://i.imgur.com/JT5pp3Y.png",
@@ -15270,19 +15414,6 @@
       "news"
     ],
     "status": "error",
-    "quarantined": true
-  },
-  {
-    "name": "Leman Bleu (1080p)",
-    "url": "http://livevideo.infomaniak.com/streaming/livecast/naxoo/playlist.m3u8",
-    "logo": "https://i.imgur.com/6ijbSTr.png",
-    "tvg_id": "LemanBleu.ch@SD",
-    "category": "News",
-    "country": "CH",
-    "sources": [
-      "news"
-    ],
-    "status": "blocked",
     "quarantined": true
   },
   {
@@ -16119,6 +16250,19 @@
     "quarantined": true
   },
   {
+    "name": "Reporter (720p)",
+    "url": "http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8",
+    "logo": "https://i.imgur.com/LyA3kBR.png",
+    "tvg_id": "Reporter.ua@SD",
+    "category": "News",
+    "country": "UA",
+    "sources": [
+      "news"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Roze News (576p)",
     "url": "http://103.250.28.74:8000/play/a01k/index.m3u8",
     "logo": "https://i.imgur.com/TedWqfL.png",
@@ -16275,6 +16419,19 @@
     "quarantined": true
   },
   {
+    "name": "Shuozhou News Comprehensive Channel",
+    "url": "rtmp://124.167.237.85:9935/live/xwzh2_sb",
+    "logo": "https://i.imgur.com/phBafNp.png",
+    "tvg_id": "ShuozhouNewsComprehensiveChannel.cn@SD",
+    "category": "News",
+    "country": "CN",
+    "sources": [
+      "news"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "SIC Noticias (1080p) [Geo-blocked]",
     "url": "https://sicnot.live.impresa.pt/sicnot.m3u8",
     "logo": "https://i.imgur.com/Gi6Q26M.png",
@@ -16333,6 +16490,19 @@
     "tvg_id": "StartTV.gr@SD",
     "category": "News",
     "country": "GR",
+    "sources": [
+      "news"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "STV Haryana News (576p)",
+    "url": "http://103.175.73.12:8080/live/607/607_0.m3u8",
+    "logo": "https://i.imgur.com/TJRZo9e.png",
+    "tvg_id": "STVHaryanaNews.in@SD",
+    "category": "News",
+    "country": "IN",
     "sources": [
       "news"
     ],
@@ -16483,6 +16653,19 @@
     "quarantined": true
   },
   {
+    "name": "TSi",
+    "url": "http://181.114.57.246:4000/play/9w2G3HTtuTmrtgPZ/index.m3u8",
+    "logo": "https://i.imgur.com/GEyxDnf.png",
+    "tvg_id": "TSi.hn@SD",
+    "category": "News",
+    "country": "HN",
+    "sources": [
+      "news"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "TSN TeleSondrio News (480p) [Not 24/7]",
     "url": "https://59d8c0cee6f3d.streamlock.net/tsn/tsn_mobile/playlist.m3u8",
     "logo": "https://i.imgur.com/eE37h7Q.png",
@@ -16515,6 +16698,19 @@
     "tvg_id": "TV5MondeInfo.fr@SD",
     "category": "News",
     "country": "FR",
+    "sources": [
+      "news"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "TV A Folha (720p)",
+    "url": "https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8",
+    "logo": "https://i.imgur.com/I7XGMhj.png",
+    "tvg_id": "TVAFolha.br@SD",
+    "category": "News",
+    "country": "BR",
     "sources": [
       "news"
     ],
@@ -16623,6 +16819,19 @@
       "news"
     ],
     "status": "timeout",
+    "quarantined": true
+  },
+  {
+    "name": "W14DK-D 14.2 (720p)",
+    "url": "https://2-fss-2.streamhoster.com/pl_118/204972-1954106-1/playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png",
+    "tvg_id": "W14DKD142.us@SD",
+    "category": "News",
+    "country": "US",
+    "sources": [
+      "news"
+    ],
+    "status": "error",
     "quarantined": true
   },
   {
@@ -17588,6 +17797,19 @@
     "quarantined": true
   },
   {
+    "name": "Boomerang (France) HD (720p)",
+    "url": "http://41.205.93.154/BOOMERANG/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png",
+    "tvg_id": "Boomerang.fr@HD",
+    "category": "Kids",
+    "country": "FR",
+    "sources": [
+      "kids"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Box Kids TV (720p)",
     "url": "http://170.83.49.66:8083/BOXKIDSHD/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Boxkidstv.png",
@@ -17689,6 +17911,19 @@
       "kids"
     ],
     "status": "blocked",
+    "quarantined": true
+  },
+  {
+    "name": "Cartoon Network Asia Thailand",
+    "url": "http://103.148.210.190:8000/play/a14r",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+    "tvg_id": "CartoonNetworkAsia.sg@Thailand",
+    "category": "Animation;Kids",
+    "country": "SG",
+    "sources": [
+      "kids"
+    ],
+    "status": "error",
     "quarantined": true
   },
   {
@@ -18837,6 +19072,19 @@
     "quarantined": true
   },
   {
+    "name": "TeenNick (Poland) (576i)",
+    "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TeenNick_logo_2023_%28outline%29.svg/1280px-TeenNick_logo_2023_%28outline%29.svg.png",
+    "tvg_id": "TeenNick.pl@SD",
+    "category": "Kids",
+    "country": "PL",
+    "sources": [
+      "kids"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "TeenNick (United States) (432p)",
     "url": "http://tvsen7.aynascope.net/teennick/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TeenNick_logo_2023_%28outline%29.svg/1280px-TeenNick_logo_2023_%28outline%29.svg.png",
@@ -19331,19 +19579,6 @@
     "quarantined": true
   },
   {
-    "name": "Canal+ Action Europe Czechia",
-    "url": "http://46.149.191.219:9106/play/a01g",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png",
-    "tvg_id": "CanalPlusActionEurope.nl@Czechia",
-    "category": "Movies",
-    "country": "NL",
-    "sources": [
-      "movies"
-    ],
-    "status": "timeout",
-    "quarantined": true
-  },
-  {
     "name": "Canal+ Action Europe Slovakia (720p)",
     "url": "http://151.80.18.177:86/Canal+_Family_HD/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png",
@@ -19470,7 +19705,7 @@
     "sources": [
       "movies"
     ],
-    "status": "timeout",
+    "status": "blocked",
     "quarantined": true
   },
   {
@@ -19773,19 +20008,6 @@
     "quarantined": true
   },
   {
-    "name": "FILMBOX+ One Nederland",
-    "url": "http://46.149.191.219:9100/play/a015",
-    "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png",
-    "tvg_id": "FILMBOXPlusOne.pl@Nederland",
-    "category": "Movies",
-    "country": "PL",
-    "sources": [
-      "movies"
-    ],
-    "status": "timeout",
-    "quarantined": true
-  },
-  {
     "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
     "url": "https://s70378.cdn.ngenix.net/filmbox/index.m3u8",
     "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png",
@@ -20020,6 +20242,19 @@
     "quarantined": true
   },
   {
+    "name": "Hero (720p) [Not 24/7]",
+    "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
+    "logo": "https://i.imgur.com/4t5JQLY.png",
+    "tvg_id": "Hero.fi@SD",
+    "category": "Movies",
+    "country": "FI",
+    "sources": [
+      "movies"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Hit HD (1080p)",
     "url": "http://stream.mcquack.net/363/index.m3u8",
     "logo": "https://i.imgur.com/jl3MNPe.png",
@@ -20078,6 +20313,19 @@
     "tvg_id": "ICCplus.us@SD",
     "category": "Movies",
     "country": "US",
+    "sources": [
+      "movies"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "Jalsha Movies (1080p)",
+    "url": "https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8",
+    "logo": "https://i.imgur.com/25eWjX2.png",
+    "tvg_id": "JalshaMovies.in@SD",
+    "category": "Movies",
+    "country": "IN",
     "sources": [
       "movies"
     ],
@@ -21269,6 +21517,19 @@
     "quarantined": true
   },
   {
+    "name": "Star Channel (Colombia) (1080p)",
+    "url": "http://190.61.47.54:8000/play/a035/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
+    "tvg_id": "StarChannel.co@SD",
+    "category": "Movies;Series",
+    "country": "CO",
+    "sources": [
+      "movies"
+    ],
+    "status": "blocked",
+    "quarantined": true
+  },
+  {
     "name": "Star Channel (Slovenia)",
     "url": "http://92.36.202.5:10001/play/a01s",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
@@ -21629,7 +21890,7 @@
     "sources": [
       "movies"
     ],
-    "status": "error",
+    "status": "blocked",
     "quarantined": true
   },
   {
@@ -22322,6 +22583,19 @@
     "quarantined": true
   },
   {
+    "name": "Fabulosa Estereo 100.5 FM (720p)",
+    "url": "https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8",
+    "logo": "https://i.imgur.com/YFmzkOp.png",
+    "tvg_id": "FabulosaEstereo1005FM.pa@SD",
+    "category": "Music",
+    "country": "PA",
+    "sources": [
+      "music"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Famatv (1080p) [Not 24/7]",
     "url": "https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8",
     "logo": "https://i.ibb.co/tMmRp18/Fama-TV-cor-whitebg-hotizontal.jpg",
@@ -22569,6 +22843,19 @@
     "quarantined": true
   },
   {
+    "name": "KN Music TV (1080p)",
+    "url": "https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8",
+    "logo": "https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png",
+    "tvg_id": "KNMusicTV.az@SD",
+    "category": "Music",
+    "country": "AZ",
+    "sources": [
+      "music"
+    ],
+    "status": "timeout",
+    "quarantined": true
+  },
+  {
     "name": "KpopTV Play (576p)",
     "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
     "logo": "https://i.imgur.com/Tf0vweF.png",
@@ -22803,6 +23090,19 @@
     "quarantined": true
   },
   {
+    "name": "Melody FM (720p) [Not 24/7]",
+    "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
+    "logo": "https://i.imgur.com/J8omcNz.png",
+    "tvg_id": "MelodyFM.jo@SD",
+    "category": "Music",
+    "country": "JO",
+    "sources": [
+      "music"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Mezzo Live (1080p)",
     "url": "http://stream.mcquack.net/276/index.m3u8",
     "logo": "https://i.imgur.com/H9ytKPN.png",
@@ -22839,6 +23139,19 @@
       "music"
     ],
     "status": "timeout",
+    "quarantined": true
+  },
+  {
+    "name": "Millenium 109 FM",
+    "url": "https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8",
+    "logo": "https://i.imgur.com/sfNL6Bv.png",
+    "tvg_id": "Millenium109FM.pe@SD",
+    "category": "Music",
+    "country": "PE",
+    "sources": [
+      "music"
+    ],
+    "status": "error",
     "quarantined": true
   },
   {
@@ -23258,6 +23571,19 @@
     "quarantined": true
   },
   {
+    "name": "Radio ZU (720p)",
+    "url": "https://stream1.antenaplay.ro/zurtv/zurtv/chunklist.m3u8",
+    "logo": "https://radiozu.ro/img/logo-zu.png",
+    "tvg_id": "RadioZU.ro@720p",
+    "category": "Music",
+    "country": "RO",
+    "sources": [
+      "music"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
     "name": "Rararadio (720p)",
     "url": "https://58c04fb1d143f.streamlock.net/rararadio/rararadio/playlist.m3u8",
     "logo": "https://i.imgur.com/vTpfxUG.png",
@@ -23323,19 +23649,6 @@
     "quarantined": true
   },
   {
-    "name": "Sabor TV (720p)",
-    "url": "https://v1.tustreaming.cl/sabortv/index.m3u8",
-    "logo": "https://cdn.m3u.cl/logo/416_Sabor_TV.png",
-    "tvg_id": "SaborTV.cl@SD",
-    "category": "Music",
-    "country": "CL",
-    "sources": [
-      "music"
-    ],
-    "status": "error",
-    "quarantined": true
-  },
-  {
     "name": "Salto Brasa Music (1080p)",
     "url": "https://salto-streams.nl/hls/sotv1.m3u8",
     "logo": "https://i.vimeocdn.com/portrait/31947989_640x640",
@@ -23345,7 +23658,7 @@
     "sources": [
       "music"
     ],
-    "status": "error",
+    "status": "timeout",
     "quarantined": true
   },
   {
@@ -23368,19 +23681,6 @@
     "tvg_id": "SmartRadio.ro@SD",
     "category": "Music",
     "country": "RO",
-    "sources": [
-      "music"
-    ],
-    "status": "error",
-    "quarantined": true
-  },
-  {
-    "name": "Smash Radio TT (720p)",
-    "url": "https://nginx.smashradiott.com/hls/program/master.m3u8",
-    "logo": "https://webtv.smashradiott.com/__l5e/assets-v1/a6ab6eca-c330-4710-8e62-8dc07b29e91c/smash-logo.png",
-    "tvg_id": "SmashRadioTT.tt@HD",
-    "category": "Entertainment;Music",
-    "country": "TT",
     "sources": [
       "music"
     ],
@@ -24057,6 +24357,19 @@
     "tvg_id": "VIPTV.aw@SD",
     "category": "Music",
     "country": "AW",
+    "sources": [
+      "music"
+    ],
+    "status": "error",
+    "quarantined": true
+  },
+  {
+    "name": "Vos y TV (720p) [Not 24/7]",
+    "url": "https://cloud37.ecuatel.com/vostv/live/manifest.m3u8",
+    "logo": "https://i.imgur.com/294FDCB.png",
+    "tvg_id": "VosyTV.ec@SD",
+    "category": "Music",
+    "country": "EC",
     "sources": [
       "music"
     ],

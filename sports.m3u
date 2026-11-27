@@ -217,6 +217,8 @@ https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
 https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FloRacing.us@HD" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/floracing-white.png" group-title="Sports" tvg-country="US",FloRacing (1080p)
 https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FONTV.ru@HD" tvg-logo="https://play-lh.googleusercontent.com/J0YeRB884koVfecR2mp43Y2mbNtRVTSSOiq2U1gkITJ9IxzIM4VA71Rqbh3UlREI4mCnlxGHm4wxoujt5ZH1AQ" group-title="Sports" tvg-country="RU",FON TV (1080p)
+https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8
 #EXTINF:-1 tvg-id="Formula1AntenaPlay.ro@SD" tvg-logo="https://assets.antenaplay.ro/2024/02/23/XUKfJwir4MxNeP4nHtG7.png" group-title="Sports" tvg-country="RO",Formula 1 AntenaPlay (576p) [Not 24/7]
 https://stream1.antenaplay.ro/promo/formula-1-qatar-27-2911/chunklist.m3u8
 #EXTINF:-1 tvg-id="Formula2AntenaPlay.ro@SD" tvg-logo="https://assets.antenaplay.ro/2024/02/28/YW9VML2K4hpFUKMHme97.png" group-title="Sports" tvg-country="RO",Formula 2 AntenaPlay (576p) [Not 24/7]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T12:47:41+00:00",
+  "generated_at": "2026-11-27T12:53:56+00:00",
   "epg_urls": [
     "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
@@ -39,8 +39,8 @@
   ],
   "stats": {
     "total": 5830,
-    "online": 3919,
-    "quarantined": 1849
+    "online": 3921,
+    "quarantined": 1873
   },
   "channels": [
     {
@@ -1287,7 +1287,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c 2",
@@ -2800,7 +2800,7 @@
         "free-tv",
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -2986,7 +2986,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -3486,7 +3486,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3499,7 +3499,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3512,7 +3512,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3525,7 +3525,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3538,7 +3538,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3551,7 +3551,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3564,7 +3564,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3577,7 +3577,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3590,7 +3590,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3603,8 +3603,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
-      "quarantined": false
+      "status": "error",
+      "quarantined": true
     },
     {
       "name": "Prima Krimi",
@@ -3616,7 +3616,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -3629,8 +3629,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "JOJ Family \u24c8",
@@ -3642,7 +3642,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -3655,7 +3655,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -3668,7 +3668,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -3681,7 +3681,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -3694,7 +3694,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -4339,7 +4339,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Yle Teema Fem \u24bc",
@@ -4469,7 +4469,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Frii",
@@ -4494,7 +4494,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -5031,7 +5031,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -6091,8 +6091,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Euro",
@@ -6512,7 +6512,7 @@
         "free-tv"
       ],
       "status": "blocked",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "RTHK TV 32",
@@ -7463,7 +7463,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -8127,7 +8127,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -10681,7 +10681,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -11468,7 +11468,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -11494,7 +11494,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -13721,7 +13721,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Tele Sud Puglia",
@@ -13825,7 +13825,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "TeleAmbiente",
@@ -15507,7 +15507,7 @@
         "free-tv",
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -17929,7 +17929,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -18088,7 +18088,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -18485,7 +18485,7 @@
         "documentaries"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Lone Star Poland (720p)",
@@ -18943,7 +18943,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Romance TV (576i) \u24c8",
@@ -19140,7 +19140,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -20670,7 +20670,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -20736,7 +20736,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "\u0421\u0430\u043c\u0430\u0440\u0430 24",
@@ -22817,7 +22817,7 @@
         "free-tv"
       ],
       "status": "blocked",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "TRT Haber",
@@ -22870,7 +22870,7 @@
         "free-tv",
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22883,7 +22883,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -22922,7 +22922,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -22936,7 +22936,7 @@
         "free-tv",
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -22949,7 +22949,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -23709,7 +23709,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -23761,7 +23761,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -23775,7 +23775,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "BBC Radio 4 Extra",
@@ -23813,7 +23813,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -25240,7 +25240,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -26394,7 +26394,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -30965,8 +30965,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Formula 1 AntenaPlay (576p) [Not 24/7]",
@@ -31330,7 +31330,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -31980,7 +31980,7 @@
       "sources": [
         "sports"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -32188,7 +32188,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -34021,7 +34021,7 @@
       "sources": [
         "sports"
       ],
-      "status": "blocked",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -35232,7 +35232,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "4TV News (576p)",
@@ -35492,7 +35492,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -38640,7 +38640,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -38692,7 +38692,7 @@
       "sources": [
         "news"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -39435,7 +39435,7 @@
       "sources": [
         "news"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -39487,7 +39487,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -40242,7 +40242,7 @@
         "news"
       ],
       "status": "timeout",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Gujarat First (1080p)",
@@ -41724,8 +41724,8 @@
       "sources": [
         "news"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Lenca TV (720p) [Not 24/7]",
@@ -42492,7 +42492,7 @@
       "sources": [
         "news"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -45004,7 +45004,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -45227,7 +45227,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Reporter TV (576p)",
@@ -45382,7 +45382,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -45838,7 +45838,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "SIC Noticias (1080p) [Geo-blocked]",
@@ -46085,7 +46085,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "STZ TV (1080p)",
@@ -46097,7 +46097,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -46800,7 +46800,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "TSN TeleSondrio News (480p) [Not 24/7]",
@@ -47073,7 +47073,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "TV Arta (720p)",
@@ -47660,7 +47660,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Welat TV (1080i)",
@@ -48077,7 +48077,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -48987,7 +48987,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -49026,7 +49026,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -49182,7 +49182,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -49377,7 +49377,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -49585,7 +49585,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -49598,7 +49598,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -51615,7 +51615,7 @@
         "kids"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Boomerang (Thailand)",
@@ -51887,7 +51887,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -51927,7 +51927,7 @@
         "kids"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Cartoon Network Asia Vietnam (720p)",
@@ -52069,7 +52069,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -52550,7 +52550,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -52719,7 +52719,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -53499,7 +53499,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -54244,7 +54244,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -54933,7 +54933,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -56195,7 +56195,7 @@
         "kids"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "TeenNick (United States) (432p)",
@@ -58106,8 +58106,8 @@
       "sources": [
         "movies"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Canal+ Action Europe Magyar",
@@ -58613,7 +58613,7 @@
       "sources": [
         "movies"
       ],
-      "status": "timeout",
+      "status": "blocked",
       "quarantined": true
     },
     {
@@ -58665,7 +58665,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -59302,7 +59302,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -60004,8 +60004,8 @@
       "sources": [
         "movies"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "FILMBOX+ One Romania (576p)",
@@ -60694,7 +60694,7 @@
         "movies"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "HerSphere (1080p) [Geo-blocked]",
@@ -60784,7 +60784,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -60863,7 +60863,7 @@
         "movies"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Jiangsu Movie Channel (576p)",
@@ -65232,7 +65232,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -65363,7 +65363,7 @@
         "movies"
       ],
       "status": "blocked",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Star Channel (Slovenia)",
@@ -65388,7 +65388,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -65739,7 +65739,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -65752,7 +65752,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -66389,7 +66389,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -66428,7 +66428,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true
     },
     {
@@ -68639,7 +68639,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Fairuz (1080p)",
@@ -69015,7 +69015,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -69613,7 +69613,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -69718,7 +69718,7 @@
         "music"
       ],
       "status": "timeout",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "KpopTV Play (576p)",
@@ -70524,7 +70524,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Messatida TV (720p)",
@@ -70719,7 +70719,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "MNM (720p)",
@@ -72929,7 +72929,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Radiofreccia (1080p)",
@@ -73409,8 +73409,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Salsa Gorda Television (1080p)",
@@ -73435,7 +73435,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -73617,8 +73617,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Sol Musica (720p)",
@@ -75047,7 +75047,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -75854,7 +75854,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Wah Punjabi (720p)",

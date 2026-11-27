@@ -41,6 +41,8 @@ https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8
 https://onechannel.siliconweb.com/one/stream/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="4E.gr" tvg-logo="https://i.imgur.com/Ed085oJ.png" group-title="Greece" tvg-country="GR",4E
 http://eu2.tv4e.gr:1935/live/myStream.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="egnatiatv.gr" tvg-logo="https://i.imgur.com/zuyYIca.png" group-title="Greece" tvg-country="GR",Egnatia
+https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u
 #EXTINF:-1 tvg-id="gnomitv.gr" tvg-logo="https://i.imgur.com/mHCk05E.png" group-title="Greece" tvg-country="GR",Gnomi
 https://live.streams.ovh:8081/gnomitv/index.m3u8
 #EXTINF:-1 tvg-id="pellatv.gr" tvg-logo="https://i.imgur.com/pwUkkGL.jpeg" group-title="Greece" tvg-country="GR",Pella
