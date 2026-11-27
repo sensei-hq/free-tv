@@ -9,6 +9,7 @@ from urllib.request import Request, urlopen
 
 from curator.catalog import build_catalog
 from curator.epg import (
+    build_epg_index,
     coverage,
     fetch_ids,
     filter_by_size,
@@ -164,6 +165,8 @@ def main(argv=None):
           json.dumps(catalog, indent=2) + "\n")
     write(os.path.join(args.out, "quarantine.json"),
           json.dumps(dead, indent=2) + "\n")
+    write(os.path.join(args.out, "epg-index.json"),
+          json.dumps(build_epg_index(guide_ids), indent=2) + "\n")
 
     categories = {}
     for entry in live_entries:

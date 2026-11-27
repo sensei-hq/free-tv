@@ -65,6 +65,18 @@ def coverage(playlist_ids, guide_ids, matched):
     return len(playlist_ids & covered_ids), len(playlist_ids)
 
 
+def build_epg_index(guide_ids):
+    """Invert guide->ids into channel-id->[guide urls], skipping dead
+    guides. Lets players fetch only guides covering visible channels."""
+    index = {}
+    for url, ids in guide_ids.items():
+        for channel_id in ids:
+            index.setdefault(channel_id, []).append(url)
+    for urls in index.values():
+        urls.sort()
+    return index
+
+
 def guides_for(entries, guide_ids, min_coverage):
     """Matched guide URLs, or [] when coverage is too thin to justify
     the download cost on the player."""
