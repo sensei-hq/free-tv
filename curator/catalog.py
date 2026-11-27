@@ -1,8 +1,11 @@
 """Catalog JSON: per-channel facets plus run stats for apps and debugging."""
 from datetime import datetime, timezone
 
+from curator.epg import normalize_id
 
-def build_catalog(entries, probes, tracker, epg_urls):
+
+def build_catalog(entries, probes, tracker, epg_urls, guide_coverage=None):
+    covered = guide_coverage or set()
     channels = []
     online = 0
     quarantined = 0
@@ -27,6 +30,7 @@ def build_catalog(entries, probes, tracker, epg_urls):
             "sources": entry.sources,
             "status": status,
             "quarantined": is_quarantined,
+            "has_guide": normalize_id(entry.tvg_id) in covered,
         })
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(

@@ -12,10 +12,12 @@ public struct Channel: Codable, Identifiable, Equatable, Hashable, Sendable {
     public let sources: [String]
     public let status: String
     public let quarantined: Bool
+    public let hasGuide: Bool? = nil
 
     enum CodingKeys: String, CodingKey {
         case name, url, logo, category, country, sources, status, quarantined
         case tvgID = "tvg_id"
+        case hasGuide = "has_guide"
     }
 
     public var logoURL: URL? {

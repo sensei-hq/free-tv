@@ -40,6 +40,15 @@ class CatalogTest(unittest.TestCase):
         self.assertEqual(news["status"], "online")
         self.assertFalse(news["quarantined"])
 
+    def test_has_guide_flags_covered_channels(self):
+        merged = _merged()
+        probes = {e.url: ProbeResult("online", "") for e in merged}
+        catalog = build_catalog(merged, probes, Tracker(max_fails=2), [],
+                                guide_coverage={"n1.us"})
+        by_name = {c["name"]: c for c in catalog["channels"]}
+        self.assertTrue(by_name["News One"]["has_guide"])
+        self.assertFalse(by_name["Sport One"]["has_guide"])
+
     def test_stats_and_quarantine_flag(self):
         merged = _merged()
         tracker = Tracker(max_fails=1)

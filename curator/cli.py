@@ -146,9 +146,13 @@ def main(argv=None):
     matched_global = select_guides(playlist_ids(merged), guide_ids)
     print(f"guides matched: {len(matched_global)}, channels covered: "
           f"{coverage(playlist_ids(merged), guide_ids, matched_global)}")
+    covered = set()
+    for url in matched_global:
+        covered |= guide_ids.get(url, set())
 
     tracker = Tracker.load(args.state, max_fails=max_fails)
-    catalog = build_catalog(merged, probes, tracker, matched_global)
+    catalog = build_catalog(merged, probes, tracker, matched_global,
+                            guide_coverage=covered)
     tracker.save(args.state)
 
     live = [c for c in catalog["channels"] if not c["quarantined"]]
