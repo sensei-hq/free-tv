@@ -53,6 +53,8 @@ http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04072b68-dc6a-4d5e-98af-f356ba8d5063/playlist.m3u8
 #EXTINF:-1 tvg-id="CampSpoopy.us@SD" tvg-logo="https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg" group-title="Kids" tvg-country="US",Camp Spoopy (576p)
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
+#EXTINF:-1 tvg-id="Carousel.ru@SD" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="Kids" tvg-country="RU",Carousel (1080p)
+http://s7.merlive.am/Karusel/index.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru@Plus4" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="Kids" tvg-country="RU",Carousel +4 (720p)
 http://185.37.150.46/Karusel/index.m3u8
 #EXTINF:-1 tvg-id="CartoonClassics.ru@SD" tvg-logo="https://sales.planbkino.tv//b/c/471.png" group-title="Kids" tvg-country="RU",Cartoon Classics (Russia)
@@ -65,6 +67,10 @@ http://213.91.179.28:8000/play/a0c7
 http://88.212.7.14/live/test_boomerang_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CartoonitoCEE.uk@Poland" tvg-logo="https://i.imgur.com/9MrzLb1.png" group-title="Kids" tvg-country="UK",Cartoonito CEE Poland (1080p)
 http://92.114.85.87:8007/play/a008
+#EXTINF:-1 tvg-id="CartoonitoCEE.uk@Romania" tvg-logo="https://i.imgur.com/9MrzLb1.png" group-title="Kids" tvg-country="UK",Cartoonito CEE Romania (576i)
+https://rundle.tv/proxy5.php?src=https://flash1.bogulus1.cfd/bomer/usergenrx2c86jey.m3u8
+#EXTINF:-1 tvg-id="CBeebiesAsia.uk@Vietnam" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png" group-title="Kids" tvg-country="UK",CBeebies Asia Vietnam (720p)
+http://antm.dynu.net:14285/rtp/232.84.3.200:11122
 #EXTINF:-1 tvg-id="Chikitoonz.pe@SD" tvg-logo="https://chikitoonz.com/site/wp-content/uploads/2024/08/logochikitoonz2.png" group-title="Kids" tvg-country="PE",Chikitoonz (1080p)
 http://45.70.201.81:8000/play/a00p/index.m3u8
 #EXTINF:-1 tvg-id="ChinolaTV.do@SD" tvg-logo="https://i.imgur.com/ybud4dI.png" group-title="Kids" tvg-country="DO",Chinola TV (480p)
@@ -73,6 +79,10 @@ https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
 https://cdn.pishow.tv/ott/live/1243/master.m3u8
 #EXTINF:-1 tvg-id="CTDecko.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/960px-%C4%8CT-D_logo.svg.png" group-title="Kids" tvg-country="CZ",CT Decko (1080p)
 http://88.212.15.50/live/ct_art_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-id="Cufo.al@SD" tvg-logo="https://i.imgur.com/GbBHtwD.png" group-title="Kids" tvg-country="AL",Cufo (1080p)
+https://vavoorender-vuzs.onrender.com/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/49274168ddaab25fc722
+#EXTINF:-1 tvg-id="Detskimir.ru@SD" tvg-logo="https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/51.png" group-title="Kids" tvg-country="RU",Detski mir (576p)
+http://s7.merlive.am/DetskiMir/index.m3u8
 #EXTINF:-1 tvg-id="Detskiy.ru@SD" tvg-logo="https://mt.media/upload/iblock/c22/pndw8yi2jwgppdrjikm3eusqp8087kr3.png" group-title="Kids" tvg-country="RU",Detskiy (576p)
 https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Panregional" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="Kids" tvg-country="US",Discovery Kids Latin America (1080p)
@@ -91,16 +101,22 @@ https://s6.hopslan.com/disneyX/index.m3u8
 http://88.212.7.14/live/disney_channel_hun/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.jp@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Kids" tvg-country="JP",Disney Channel (Japan)
 http://103.255.250.188:5002/bs24.m3u8?channel=zhongying&gid=bs24&token=guoziyun
+#EXTINF:-1 tvg-id="DisneyChannel.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids" tvg-country="RO",Disney Channel (Romania) (576i)
+https://rundle.tv/proxy5.php?src=https://galandriel1.thobias001.cfd/dysnee/usergendx0k2rnd.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png" group-title="Kids" tvg-country="US",Disney Channel (United States) (720p)
 http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 #EXTINF:-1 tvg-id="DisneyJunior.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Kids" tvg-country="CZ",Disney Junior (Czech Republic)
 http://88.212.15.50/live/test_disney_junior/playlist.m3u8
+#EXTINF:-1 tvg-id="DisneyJunior.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Kids" tvg-country="RO",Disney Junior (Romania) (576i)
+https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/disjr/usergendxvoq4rnd.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png" group-title="Kids" tvg-country="US",Disney XD (United States) (720p)
 http://89.187.179.148:826/1368/gXwiagaXda/1672
 #EXTINF:-1 tvg-id="DoraTV.us@CA" tvg-logo="https://i.imgur.com/zJuSbmU.png" group-title="Kids" tvg-country="US",Dora TV
 https://jmp2.uk/plu-62e951258a26d40007b3034c.m3u8
 #EXTINF:-1 tvg-id="DrakeJosh.de@DACH" tvg-logo="https://images.pluto.tv/channels/65a67c494a10d800085cab06/colorLogoPNG.png" group-title="Kids" tvg-country="DE",Drake & Josh
 https://jmp2.uk/plu-65a67c494a10d800085cab06.m3u8
+#EXTINF:-1 tvg-id="DuckTV.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bc/Duck_TV.svg/revision/latest?cb=20191212111607" group-title="Kids" tvg-country="RO",Duck TV (576i)
+https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/duk/usergenz9ak7fxt.m3u8
 #EXTINF:-1 tvg-id="ducktv.sk@SD" tvg-logo="https://i.imgur.com/gRFQ35W.png" group-title="Kids" tvg-country="SK",ducktv (720p)
 https://jmp2.uk/stvp-ESBC4700001GR
 #EXTINF:-1 tvg-id="ducktv.sk@HD" tvg-logo="https://i.imgur.com/gRFQ35W.png" group-title="Kids" tvg-country="SK",ducktv HD
@@ -169,6 +185,8 @@ https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
 http://88.212.15.50/live/test_minimax/playlist.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="Kids" tvg-country="UK",Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Mult.ru@HD" tvg-logo="https://i.imgur.com/xi351Fx.png" group-title="Kids" tvg-country="RU",Mult HD (576p)
+http://s7.merlive.am/Mult/index.m3u8
 #EXTINF:-1 tvg-id="Multilandia.ru@SD" tvg-logo="https://i.imgur.com/ccwijY0.png" group-title="Kids" tvg-country="RU",Multilandia (1080p)
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="NickJrClub.au@AU" tvg-logo="https://images.pluto.tv/channels/5f121460b73ac6000719fbaf/colorLogoPNG_1748348856602.png" group-title="Kids" tvg-country="AU",Nick Jr Club [Geo-blocked]
@@ -205,8 +223,16 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon/live.livx/playlist.
 https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
 #EXTINF:-1 tvg-id="Nickelodeon.hu@SD" tvg-logo="https://i.imgur.com/fXs8f6a.png" group-title="Kids" tvg-country="HU",Nickelodeon (Hungary)
 http://88.212.7.14/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" group-title="Kids" tvg-country="IN",Nickelodeon (India)
+http://103.148.210.190:8000/play/a0zu
+#EXTINF:-1 tvg-id="Nickelodeon.pl@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids" tvg-country="PL",Nickelodeon (Poland) (1080p)
+https://vavoorender-vuzs.onrender.com/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/5189779876700e71d303b
+#EXTINF:-1 tvg-id="Nickelodeon.pt@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png" group-title="Kids" tvg-country="PT",Nickelodeon (Portugal) (1080p)
+https://vavoorender-vuzs.onrender.com/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/398241518529a84217dd1f
 #EXTINF:-1 tvg-id="Nickelodeon.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318" group-title="Kids" tvg-country="RO",Nickelodeon (Romania) (576i)
 http://91.235.165.117:8001/play/a05z/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.ru@SD" tvg-logo="https://i.imgur.com/w8iE8dV.png" group-title="Kids" tvg-country="RU",Nickelodeon (Russia) (576p)
+http://s7.merlive.am/Nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonArabia.ae@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids" tvg-country="AE",Nickelodeon Arabia (1080i)
 http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonAsia.sg@Indonesia" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids" tvg-country="SG",Nickelodeon Asia Indonesia (720p)

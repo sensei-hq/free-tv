@@ -1,8 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="50CentAction.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/bcfb9977-809f-49ae-acc7-430f2c6ffb26/50CentAction_Logo_1500x1000_DarkBG_-_Chris_Connors.png" group-title="Movies" tvg-country="US",50 Cent Action (720p)
 https://jmp2.uk/plu-68487fb3f212bedacf5a53e3.m3u8
+#EXTINF:-1 tvg-id="AXNAsia.sg@Indonesia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies" tvg-country="SG",AXN Asia Indonesia (720p)
+http://103.165.207.108:8000/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="AXNAsia.sg@Taiwan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies" tvg-country="SG",AXN Asia Taiwan (1080p)
 http://125.227.210.55:4050/VideoInput/play.ts
+#EXTINF:-1 tvg-id="AXNAsia.sg@Vietnam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies" tvg-country="SG",AXN Asia Vietnam (720p)
+http://antm.dynu.net:14285/rtp/232.84.1.14:8058
 #EXTINF:-1 tvg-id="BattlestarGalactica.us@SD" tvg-logo="https://images.pluto.tv/channels/69d7ebff029c431826bd328e/colorLogoPNG_1776982986391.png" group-title="Movies" tvg-country="US",Battlestar Galactica
 https://jmp2.uk/plu-69d7ebff029c431826bd328e.m3u8
 #EXTINF:-1 tvg-id="Bonanza.us@SD" tvg-logo="https://images.pluto.tv/channels/696e647b07ea70192d49f6a5/colorLogoPNG_1768842647658.png" group-title="Movies" tvg-country="US",Bonanza
@@ -17,12 +21,18 @@ https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playl
 https://dash2.antik.sk/live/test_film_drama_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="HallmarkMystery.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg" group-title="Movies" tvg-country="US",Hallmark Mystery (720p) [Geo-blocked]
 http://41.205.93.154/HALLMARK/index.m3u8
+#EXTINF:-1 tvg-id="HBO2.ro@SD" tvg-logo="https://i.imgur.com/53mBgZI.png" group-title="Movies" tvg-country="RO",HBO 2 (Romania) (576i)
+https://rundle.tv/proxy5.php?src=https://onyx1.mofta001.cfd/h2/usergendxn430rnd.m3u8
 #EXTINF:-1 tvg-id="HBO2LatinAmerica.us@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png" group-title="Movies" tvg-country="US",HBO 2 Latin America HD (1080p)
 http://45.171.64.30:6060/play/a00i/index.m3u8
+#EXTINF:-1 tvg-id="HBO.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" group-title="Movies" tvg-country="RO",HBO (Romania) (576i)
+https://rundle.tv/proxy5.php?src=https://thor1.syndula001.cfd/h1/usergendx172s9rnd.m3u8
 #EXTINF:-1 tvg-id="HBOXtremeLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/960px-HBO_Xtreme.svg.png" group-title="Movies" tvg-country="US",HBO Xtreme Latin America
 http://181.78.61.202:8000/play/a02a
 #EXTINF:-1 tvg-id="HerSphere.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3ed082aa-5659-4fd0-8775-22613a65f924/HerSphere_1500x1000_Logo_Dark.png" group-title="Movies" tvg-country="US",HerSphere (1080p) [Geo-blocked]
 https://amg00353-lionsgatestudios-amg00353c3-vizio-us-802.playouts.now.amagi.tv/playlist/amg00353-lionsgatetvfast-hersphere-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="HTVCMovies.vn@SD" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/HTVC%20Phim%20HD.png" group-title="Movies" tvg-country="VN",HTVC Movies (720p)
+https://dethich.pw/htvcphim/index.m3u8
 #EXTINF:-1 tvg-id="Medium.de@ES" tvg-logo="https://images.pluto.tv/channels/6578808014fbe400086e21bc/colorLogoPNG.png" group-title="Movies" tvg-country="DE",Medium (Germany)
 https://jmp2.uk/plu-6578808014fbe400086e21bc.m3u8
 #EXTINF:-1 tvg-id="OuterSphere.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f162df8b-6532-43fe-9202-83a658090651/OuterSphere_1500x1000_Logo_Dark_-_Chris_Connors__1_.png" group-title="Movies" tvg-country="US",OuterSphere (1080p)

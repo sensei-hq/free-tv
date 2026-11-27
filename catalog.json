@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:18:59+00:00",
+  "generated_at": "2026-11-27T12:47:41+00:00",
   "epg_urls": [
     "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
@@ -13,14 +13,14 @@
     "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_LT1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz",
@@ -38,9 +38,9 @@
     "https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz"
   ],
   "stats": {
-    "total": 5785,
-    "online": 3839,
-    "quarantined": 1916
+    "total": 5830,
+    "online": 3919,
+    "quarantined": 1849
   },
   "channels": [
     {
@@ -1286,7 +1286,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -1312,7 +1312,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -1338,8 +1338,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "\u0421\u0422\u0412",
@@ -1377,8 +1377,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "1Mus",
@@ -2800,7 +2800,7 @@
         "free-tv",
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -3290,8 +3290,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "TV Jadran",
@@ -3486,7 +3486,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3499,7 +3499,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3512,7 +3512,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3525,7 +3525,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3538,7 +3538,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3551,7 +3551,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3564,7 +3564,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3577,7 +3577,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3590,7 +3590,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3603,7 +3603,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -3616,8 +3616,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": false
+      "status": "timeout",
+      "quarantined": true
     },
     {
       "name": "Prima MAX",
@@ -3629,7 +3629,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -3642,7 +3642,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -3655,7 +3655,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -3668,7 +3668,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -3681,7 +3681,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -3694,7 +3694,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -3919,7 +3919,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3932,7 +3932,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3945,7 +3945,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -3958,7 +3958,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -4338,7 +4338,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -4442,7 +4442,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -4468,7 +4468,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -5096,8 +5096,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "First Channel /Education/ (2TV)",
@@ -5109,8 +5109,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Imedi TV",
@@ -6511,7 +6511,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -6615,8 +6615,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "M5 Hungary \u24bc",
@@ -6654,8 +6654,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "TV2",
@@ -6667,8 +6667,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "ATV",
@@ -6823,8 +6823,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Story4.",
@@ -6927,8 +6927,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "EuroSport1",
@@ -7096,8 +7096,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Oxygen Music",
@@ -10681,7 +10681,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -11140,8 +11140,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "GO-TV Channel",
@@ -11218,7 +11218,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -11362,7 +11362,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -11468,7 +11468,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -11494,8 +11494,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Medjugorje Tv Puglia",
@@ -11624,7 +11624,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -12471,8 +12471,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Rete Sole",
@@ -13707,7 +13707,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -13720,7 +13720,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -13824,7 +13824,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -15402,7 +15402,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "TV J\u016brmala",
@@ -15507,8 +15507,8 @@
         "free-tv",
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Voice of Lebanon",
@@ -16609,8 +16609,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Suld TV",
@@ -17353,8 +17353,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "M\u00bbNet",
@@ -18484,7 +18484,7 @@
         "free-tv",
         "documentaries"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -18942,7 +18942,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -19140,7 +19140,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -20123,8 +20123,8 @@
         "free-tv",
         "news"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "TVR Cluj \u24bc",
@@ -20735,7 +20735,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22803,8 +22803,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "TRT 2 \u24bc",
@@ -22816,7 +22816,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -22883,7 +22883,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22922,7 +22922,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22936,7 +22936,7 @@
         "free-tv",
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22949,7 +22949,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -22988,8 +22988,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "TRT EBA Lise",
@@ -23709,7 +23709,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -23761,7 +23761,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -23774,7 +23774,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -23800,7 +23800,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -23813,7 +23813,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -25016,8 +25016,7 @@
       "category": "USA",
       "country": "US",
       "sources": [
-        "free-tv",
-        "news"
+        "free-tv"
       ],
       "status": "online",
       "quarantined": false
@@ -25241,7 +25240,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -26395,7 +26394,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -26591,7 +26590,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true
     },
     {
@@ -29020,19 +29019,6 @@
       "quarantined": true
     },
     {
-      "name": "beIN Sports 1",
-      "url": "https://vg162.adcdsd123321.shop/7.m3u8",
-      "logo": "https://i.imgur.com/Vtk2cGI.png",
-      "tvg_id": "beINSports1.qa@MENA",
-      "category": "Sports",
-      "country": "QA",
-      "sources": [
-        "sports"
-      ],
-      "status": "blocked",
-      "quarantined": true
-    },
-    {
       "name": "beIN Sports 1 Turk (1080p)",
       "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F300113394ceebba66c8ad",
       "logo": "https://static.wikia.nocookie.net/logopedia/images/2/27/BeinSports1.svg/revision/latest?cb=20230910184457",
@@ -29133,8 +29119,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Bellator MMA",
@@ -29731,7 +29717,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -30251,7 +30237,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -30980,7 +30966,7 @@
         "sports"
       ],
       "status": "error",
-      "quarantined": false
+      "quarantined": true
     },
     {
       "name": "Formula 1 AntenaPlay (576p) [Not 24/7]",
@@ -30996,8 +30982,8 @@
       "quarantined": false
     },
     {
-      "name": "Formula 2 AntenaPlay (576i) [Not 24/7]",
-      "url": "https://stream1.antenaplay.ro/promo/formula-2-qatar/chunklist.m3u8",
+      "name": "Formula 2 AntenaPlay (576p) [Not 24/7]",
+      "url": "https://stream1.antenaplay.ro/promo/formula-2-qatar-27-2911/chunklist.m3u8",
       "logo": "https://assets.antenaplay.ro/2024/02/28/YW9VML2K4hpFUKMHme97.png",
       "tvg_id": "Formula2AntenaPlay.ro@SD",
       "category": "Sports",
@@ -31005,8 +30991,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "FOX",
@@ -31383,7 +31369,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -31656,7 +31642,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -31994,7 +31980,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -32202,8 +32188,34 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "ON Sports HD (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.1.208:9222",
+      "logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/ON%20Sports.png",
+      "tvg_id": "ONSports.vn@HD",
+      "category": "Sports",
+      "country": "VN",
+      "sources": [
+        "sports"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "ON Sports+ (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.1.220:9294",
+      "logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/On%20Sports%2B.png",
+      "tvg_id": "ONSportsPlus.vn@SD",
+      "category": "Entertainment;Sports",
+      "country": "VN",
+      "sources": [
+        "sports"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "One 2 (1080p)",
@@ -32635,6 +32647,19 @@
       "quarantined": false
     },
     {
+      "name": "Prima PPV 3 (576p)",
+      "url": "https://rundle.tv/proxy5.php?src=https://pulse1.sanseny001.shop/puki2/usergendxpk2s6utg0l.m3u8",
+      "logo": "https://www.primaplay.ro/uploads/thumb/publisher/99e3b9471f4939aaa6acc29c2df971dc.png",
+      "tvg_id": "PrimaPPV3.ro@SD",
+      "category": "Sports",
+      "country": "RO",
+      "sources": [
+        "sports"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Prima Sport 1 (576p)",
       "url": "http://91.235.165.117:8001/play/a07x/index.m3u8",
       "logo": "https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Prima_Sport_1_%282022-.n.v.%29.png/revision/latest/scale-to-width-down/1000?cb=20240205121905",
@@ -32657,7 +32682,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -32683,8 +32708,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Prima Sport 3 (576p)",
@@ -32709,8 +32734,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Prima Sport 4 (576p)",
@@ -32735,7 +32760,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -32748,7 +32773,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -32774,7 +32799,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -32787,7 +32812,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -33177,7 +33202,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -33525,6 +33550,19 @@
       "tvg_id": "SlopesTV.us@SD",
       "category": "Sports",
       "country": "US",
+      "sources": [
+        "sports"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Sony Sports Ten 2 (1080p)",
+      "url": "http://103.16.24.4:8083/6.m3u8",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png",
+      "tvg_id": "SonySportsTen2.in@SD",
+      "category": "Sports",
+      "country": "IN",
       "sources": [
         "sports"
       ],
@@ -33957,7 +33995,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true
     },
     {
@@ -33970,7 +34008,7 @@
       "sources": [
         "sports"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -33983,7 +34021,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true
     },
     {
@@ -34091,6 +34129,19 @@
       "quarantined": false
     },
     {
+      "name": "Star Sports Khel (1080p)",
+      "url": "http://103.175.73.12:8080/live/151/151_0.m3u8",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_KHEL/images/LOGO_HD/LOGO_HD_image.png",
+      "tvg_id": "StarSportsKhel.in@SD",
+      "category": "Sports",
+      "country": "IN",
+      "sources": [
+        "sports"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Start Triumf (1080p)",
       "url": "https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8",
       "logo": "https://i.imgur.com/L9jTieL.png",
@@ -34191,7 +34242,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -35180,7 +35231,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -35519,8 +35570,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": ":24 (1080p)",
@@ -35679,6 +35730,19 @@
       "quarantined": false
     },
     {
+      "name": "ABC News Live 1 (1080p)",
+      "url": "https://abcnews-livestreams.akamaized.net/out/v1/42a9b78d0a1f4b6599bbdfb1ae512bc4/abcn-live-01-cmaf-manifest/abcn-live-01-index.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
+      "tvg_id": "ABCNewsLive1.us@SD",
+      "category": "News",
+      "country": "US",
+      "sources": [
+        "news"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "ABC News Live 2 (720p)",
       "url": "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
@@ -35731,8 +35795,8 @@
       "quarantined": false
     },
     {
-      "name": "ABC News Live 6 (720p)",
-      "url": "https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8",
+      "name": "ABC News Live 6 (1080p)",
+      "url": "https://abcnews-livestreams.akamaized.net/out/v1/9a9ee355c85a41139f57059aa69e2dbb/abcn-live-06-cmaf-manifest/abcn-live-06-index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "tvg_id": "ABCNewsLive6.us@SD",
       "category": "News",
@@ -35744,8 +35808,8 @@
       "quarantined": false
     },
     {
-      "name": "ABC News Live 7 (720p)",
-      "url": "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8",
+      "name": "ABC News Live 7 (1080p)",
+      "url": "https://abcnews-livestreams.akamaized.net/out/v1/154d2c2958f641ebaff682b130320ea5/abcn-live-07-cmaf-manifest/abcn-live-07-index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "tvg_id": "ABCNewsLive7.us@SD",
       "category": "News",
@@ -35757,8 +35821,8 @@
       "quarantined": false
     },
     {
-      "name": "ABC News Live 8 (720p)",
-      "url": "https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8",
+      "name": "ABC News Live 8 (1080p)",
+      "url": "https://abcnews-livestreams.akamaized.net/out/v1/b95119c72ad7477ca49c4d9dfd1271d5/abcn-live-08-cmaf-manifest/abcn-live-08-index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "tvg_id": "ABCNewsLive8.us@SD",
       "category": "News",
@@ -35770,8 +35834,8 @@
       "quarantined": false
     },
     {
-      "name": "ABC News Live 9 (720p)",
-      "url": "https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8",
+      "name": "ABC News Live 9 (1080p)",
+      "url": "https://abcnews-livestreams.akamaized.net/out/v1/4122fc2fd19e4064861b3c6a096286fb/abcn-live-09-cmaf-manifest/abcn-live-09-index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "tvg_id": "ABCNewsLive9.us@SD",
       "category": "News",
@@ -35783,8 +35847,8 @@
       "quarantined": false
     },
     {
-      "name": "ABC News Live 10 (720p)",
-      "url": "https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8",
+      "name": "ABC News Live 10 (1080p)",
+      "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "tvg_id": "ABCNewsLive10.us@SD",
       "category": "News",
@@ -35935,8 +35999,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Actualidad 360",
@@ -36742,7 +36806,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -38394,7 +38458,7 @@
       "sources": [
         "news"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true
     },
     {
@@ -38628,7 +38692,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -38981,8 +39045,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "DD News (1080p)",
@@ -39371,7 +39435,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -39423,7 +39487,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -40177,7 +40241,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -41726,8 +41790,8 @@
         "news",
         "music"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Linieros TV (480p) [Not 24/7]",
@@ -41921,7 +41985,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -42428,7 +42492,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -42953,7 +43017,7 @@
     },
     {
       "name": "News12 New York (1080p)",
-      "url": "https://aegis-cloudfront-1.tubi.video/97fbb992-c212-4164-8406-abb6f731e517/playlist.m3u8",
+      "url": "https://cda7bae2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fTmV3czEyTmV3WW9ya19ITFM/playlist.m3u8",
       "logo": "https://i.imgur.com/Ez7qAZP.png",
       "tvg_id": "News12NewYork.us@SD",
       "category": "News",
@@ -42961,8 +43025,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "News12 Westchester (1080p) [Geo-blocked]",
@@ -43208,8 +43272,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "News 24 (Albania) (392p)",
@@ -43270,6 +43334,19 @@
       "tvg_id": "News24World.au@SD",
       "category": "News",
       "country": "AU",
+      "sources": [
+        "news"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "News Adda (720p)",
+      "url": "https://mumbai-edge.smartplaytv.in/NewsAdda/index.m3u8",
+      "logo": "https://yt3.googleusercontent.com/P0cbg1fLI_EaEjNvXmZFVY12temn0DLW9Ii-8WUHuYlqFVpzGJBI_ITGHdHRmdmpeJSIpjrmPKw=s900-c-k-c0x00ffffff-no-rj",
+      "tvg_id": "NewsAdda.in@SD",
+      "category": "News",
+      "country": "IN",
       "sources": [
         "news"
       ],
@@ -43624,7 +43701,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -43962,7 +44039,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -44446,7 +44523,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -44745,7 +44822,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -44763,7 +44840,7 @@
     },
     {
       "name": "Public First (576p)",
-      "url": "https://samitaorigin.tangotv.in/PUBLICFIRST/SAMITAORIGIN/index.m3u8",
+      "url": "http://103.175.73.12:8080/live/237/237_0.m3u8",
       "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Public_First.png",
       "tvg_id": "PublicFirst.in@SD",
       "category": "News",
@@ -45149,7 +45226,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -45751,6 +45828,19 @@
       "quarantined": false
     },
     {
+      "name": "Shuozhou News Comprehensive Channel",
+      "url": "rtmp://124.167.237.85:9935/live/xwzh2_sb",
+      "logo": "https://i.imgur.com/phBafNp.png",
+      "tvg_id": "ShuozhouNewsComprehensiveChannel.cn@SD",
+      "category": "News",
+      "country": "CN",
+      "sources": [
+        "news"
+      ],
+      "status": "error",
+      "quarantined": false
+    },
+    {
       "name": "SIC Noticias (1080p) [Geo-blocked]",
       "url": "https://sicnot.live.impresa.pt/sicnot.m3u8",
       "logo": "https://i.imgur.com/Gi6Q26M.png",
@@ -45985,6 +46075,19 @@
       "quarantined": false
     },
     {
+      "name": "STV Haryana News (576p)",
+      "url": "http://103.175.73.12:8080/live/607/607_0.m3u8",
+      "logo": "https://i.imgur.com/TJRZo9e.png",
+      "tvg_id": "STVHaryanaNews.in@SD",
+      "category": "News",
+      "country": "IN",
+      "sources": [
+        "news"
+      ],
+      "status": "error",
+      "quarantined": false
+    },
+    {
       "name": "STZ TV (1080p)",
       "url": "https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8",
       "logo": "https://i.imgur.com/SeF2I7q.png",
@@ -45994,7 +46097,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -46137,8 +46240,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Syria TV (1080p)",
@@ -46514,7 +46617,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -46696,7 +46799,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -46969,7 +47072,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -47009,8 +47112,8 @@
         "news",
         "music"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "TV Natal (1080p)",
@@ -47113,7 +47216,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -47178,8 +47281,21 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "TVN News (576p)",
+      "url": "https://cdn.pishow.tv/ott/live/10010/master.m3u8",
+      "logo": "https://www.vivalivetv.com/public/files/shows/0/1/4037-800x450-FFFFFF.jpg",
+      "tvg_id": "TVNNews.in@SD",
+      "category": "News",
+      "country": "IN",
+      "sources": [
+        "news"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "UMSA TVU LP (720p)",
@@ -47230,8 +47346,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Unicanal",
@@ -47256,8 +47372,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "UNU TV (1080p)",
@@ -47543,7 +47659,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -48073,6 +48189,19 @@
       "url": "http://88.212.7.14/live/bbce_hun/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/BBC_Earth_2023.svg",
       "tvg_id": "BBCEarth.uk@Hungary",
+      "category": "Documentary",
+      "country": "UK",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "BBC Earth Romania (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/ert/usergenrx8ofzq1kr.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/BBC_Earth_2023.svg",
+      "tvg_id": "BBCEarth.uk@Romania",
       "category": "Documentary",
       "country": "UK",
       "sources": [
@@ -49084,7 +49213,7 @@
     },
     {
       "name": "Istoriya (576p)",
-      "url": "https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv",
+      "url": "http://s7.merlive.am/History2/index.m3u8",
       "logo": "https://i.imgur.com/eEjPail.png",
       "tvg_id": "Istoriya.ru@SD",
       "category": "Documentary",
@@ -49092,8 +49221,8 @@
       "sources": [
         "documentaries"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "kabel eins Doku (720p)",
@@ -49131,7 +49260,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -49248,7 +49377,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -49408,6 +49537,19 @@
       "quarantined": true
     },
     {
+      "name": "National Geographic (Romania) (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://onyx1.mofta001.cfd/ngeo/usergenrnd84oeigt.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
+      "tvg_id": "NationalGeographic.ro@SD",
+      "category": "Documentary",
+      "country": "RO",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "National Geographic (Russia) (1080p)",
       "url": "http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
@@ -49523,6 +49665,19 @@
       ],
       "status": "error",
       "quarantined": true
+    },
+    {
+      "name": "National Geographic Wild (Romania) HD (1080i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://flash1.bogulus1.cfd/wild/usergenr9qsi5gt.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",
+      "tvg_id": "NationalGeographicWild.ro@HD",
+      "category": "Documentary",
+      "country": "RO",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "National Geographic Wild (Russia) (576p)",
@@ -50306,7 +50461,7 @@
     },
     {
       "name": "Reelz Famous & Infamous (1080p)",
-      "url": "https://aegis-cloudfront-1.tubi.video/dfd312a3-99b3-45fe-89b2-d20579fee2e9/playlist.m3u8",
+      "url": "https://linear-190.frequency.stream/mt/vizio/190/hls/master/playlist.m3u8",
       "logo": "https://i.imgur.com/czrTtNK.png",
       "tvg_id": "ReelzFamousInfamous.us@HD",
       "category": "Documentary",
@@ -50314,8 +50469,8 @@
       "sources": [
         "documentaries"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "RL PRO TV (480p)",
@@ -50461,6 +50616,19 @@
       "quarantined": false
     },
     {
+      "name": "Tayny Galaktiki (576p)",
+      "url": "http://s7.merlive.am/tainigalaktiki/index.m3u8",
+      "logo": "https://i.imgur.com/fR3abSD.png",
+      "tvg_id": "TaynyGalaktiki.ru@SD",
+      "category": "Documentary",
+      "country": "RU",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Teen Mom",
       "url": "https://jmp2.uk/plu-6127e12ed140e900077e7b6f.m3u8",
       "logo": "https://i.imgur.com/8o3ClCV.png",
@@ -50532,6 +50700,32 @@
       "tvg_id": "TheNest.us@SD",
       "category": "Documentary;Entertainment",
       "country": "US",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Tochka.rf (1080p)",
+      "url": "http://s7.merlive.am/HDLife/index.m3u8",
+      "logo": "https://cdn2.red-media.ru/wp-content/uploads/2016/08/TochkaRF-Logo.png",
+      "tvg_id": "Tochkarf.ru@HD",
+      "category": "Documentary;Travel",
+      "country": "RU",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Top Secret (576p)",
+      "url": "http://s7.merlive.am/sovershennosekretno/index.m3u8",
+      "logo": "https://i.imgur.com/HM4xy4G.png",
+      "tvg_id": "TopSecret.ru@SD",
+      "category": "Documentary",
+      "country": "RU",
       "sources": [
         "documentaries"
       ],
@@ -50630,6 +50824,19 @@
       "quarantined": true
     },
     {
+      "name": "Viasat Explore (Romania)",
+      "url": "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/vexplr/usergenrnd7ke5lgt.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Viasat_Explore_2026.svg",
+      "tvg_id": "ViasatExplore.ro@SD",
+      "category": "Documentary",
+      "country": "RO",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Viasat Explore (Slovenia)",
       "url": "https://lb.dstvmultimedia.com/ViasatExplore/index.m3u8",
       "logo": "https://i.imgur.com/jboGcoY.png",
@@ -50675,6 +50882,19 @@
       "tvg_id": "ViasatHistory.hu@SD",
       "category": "Documentary",
       "country": "HU",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Viasat History (Romania) (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/vhis/usergenrnd4v6g8eigt.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Viasat_History_2026.svg",
+      "tvg_id": "ViasatHistory.ro@SD",
+      "category": "Documentary",
+      "country": "RO",
       "sources": [
         "documentaries"
       ],
@@ -50753,6 +50973,19 @@
       "tvg_id": "ViasatNature.hu@SD",
       "category": "Documentary",
       "country": "HU",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Viasat Nature (Romania) (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/vnature/usergenrnd2g9eqk.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cropped-viasat-nature.png",
+      "tvg_id": "ViasatNature.ro@SD",
+      "category": "Documentary",
+      "country": "RO",
       "sources": [
         "documentaries"
       ],
@@ -51381,7 +51614,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -51503,7 +51736,7 @@
     },
     {
       "name": "Carousel (1080p)",
-      "url": "http://31.148.48.15/Karusel_HD/index.m3u8",
+      "url": "http://s7.merlive.am/Karusel/index.m3u8",
       "logo": "https://i.imgur.com/4wmnx1W.png",
       "tvg_id": "Carousel.ru@SD",
       "category": "Kids",
@@ -51511,8 +51744,8 @@
       "sources": [
         "kids"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Carousel +4 (720p)",
@@ -51693,6 +51926,19 @@
       "sources": [
         "kids"
       ],
+      "status": "error",
+      "quarantined": false
+    },
+    {
+      "name": "Cartoon Network Asia Vietnam (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.1.16:8070",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+      "tvg_id": "CartoonNetworkAsia.sg@Vietnam",
+      "category": "Animation;Kids",
+      "country": "SG",
+      "sources": [
+        "kids"
+      ],
       "status": "online",
       "quarantined": false
     },
@@ -51753,6 +51999,32 @@
       "url": "http://92.114.85.87:8007/play/a009",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
       "tvg_id": "CartoonNetworkCEE.uk@Poland",
+      "category": "Animation;Kids",
+      "country": "UK",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Cartoon Network CEE Romania (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/cartun/usergenrx2xfzol0q.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+      "tvg_id": "CartoonNetworkCEE.uk@Romania",
+      "category": "Animation;Kids",
+      "country": "UK",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Cartoon Network CEE Russia (576p)",
+      "url": "http://s7.merlive.am/CartoonNetwork/index.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+      "tvg_id": "CartoonNetworkCEE.uk@Russia",
       "category": "Animation;Kids",
       "country": "UK",
       "sources": [
@@ -51840,8 +52112,8 @@
       "quarantined": false
     },
     {
-      "name": "Cartoon Network Western Europe Portugal (576p)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F327818589842dbaee1327c",
+      "name": "Cartoon Network Western Europe Portugal (1080p)",
+      "url": "https://vavoorender-vuzs.onrender.com/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/2672740913728a31b548ec",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
       "tvg_id": "CartoonNetworkWesternEurope.uk@Portugal",
       "category": "Animation;Kids",
@@ -51849,8 +52121,8 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Cartoonito HD (720p)",
@@ -51931,6 +52203,19 @@
       "quarantined": false
     },
     {
+      "name": "Cartoonito CEE Romania (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://flash1.bogulus1.cfd/bomer/usergenrx2c86jey.m3u8",
+      "logo": "https://i.imgur.com/9MrzLb1.png",
+      "tvg_id": "CartoonitoCEE.uk@Romania",
+      "category": "Kids",
+      "country": "UK",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Cartoonito Latin America (1080p)",
       "url": "http://45.173.12.70:8000/play/a0hh",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png",
@@ -51994,6 +52279,19 @@
       ],
       "status": "error",
       "quarantined": true
+    },
+    {
+      "name": "CBeebies Asia Vietnam (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.3.200:11122",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png",
+      "tvg_id": "CBeebiesAsia.uk@Vietnam",
+      "category": "Kids",
+      "country": "UK",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Chikitoonz (1080p)",
@@ -52100,8 +52398,8 @@
       "quarantined": false
     },
     {
-      "name": "Cufo",
-      "url": "https://digitalb-live.morescreens.com/DAL_1_005/playlist.m3u8?application_id=backoffice1&application_installation_id=1&authority_instance_id=spectar-prd-digitalb&detected_delivery_method=hls&id=DAL_1_005&playlist_template=nginx&profile_id=1&ps=94d0066599d8f74d1c090e93ac4617b6491d3629d2e2d770870fcef1f7effa25b204aa53b3821da5e9e65bee8e94331bcae2cb344d0739ca3a938b4ef2051cc8&subscriber_id=1&token=142cda7d50870275a9ca7988ff001b32ab30709b&uuid=backoffice1&vh=7ab82e63aae8510c6b37ea16da502e54e441a5a1a88bce0c8ed63da99bce948d86253d64ae00424dda8b9c8b6e2cd0f6cd79d8b0a56e10759210cdf4f6761d11&video_id=12498",
+      "name": "Cufo (1080p)",
+      "url": "https://vavoorender-vuzs.onrender.com/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/49274168ddaab25fc722",
       "logo": "https://i.imgur.com/GbBHtwD.png",
       "tvg_id": "Cufo.al@SD",
       "category": "Kids",
@@ -52109,8 +52407,8 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Cula4 (576p) [Not 24/7]",
@@ -52171,6 +52469,19 @@
       "tvg_id": "DetectiveConan.us@France",
       "category": "Animation;Kids",
       "country": "US",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Detski mir (576p)",
+      "url": "http://s7.merlive.am/DetskiMir/index.m3u8",
+      "logo": "https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/51.png",
+      "tvg_id": "Detskimir.ru@SD",
+      "category": "Kids",
+      "country": "RU",
       "sources": [
         "kids"
       ],
@@ -52373,8 +52684,8 @@
       "quarantined": true
     },
     {
-      "name": "Disney Channel (Romania)",
-      "url": "https://galandriel1.thobias11.cfd/dysnee/usergendx0k2rnd.m3u8",
+      "name": "Disney Channel (Romania) (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://galandriel1.thobias001.cfd/dysnee/usergendx0k2rnd.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
       "tvg_id": "DisneyChannel.ro@SD",
       "category": "Kids",
@@ -52382,8 +52693,8 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Disney Channel (United States) (720p)",
@@ -52581,8 +52892,8 @@
       "quarantined": true
     },
     {
-      "name": "Disney Junior (Romania)",
-      "url": "https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8",
+      "name": "Disney Junior (Romania) (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/disjr/usergendxvoq4rnd.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",
       "tvg_id": "DisneyJunior.ro@SD",
       "category": "Kids",
@@ -52590,8 +52901,8 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Disney Junior (United States) (480p)",
@@ -52665,6 +52976,19 @@
       "tvg_id": "DrakeJosh.de@DACH",
       "category": "Kids",
       "country": "DE",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Duck TV (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/duk/usergenz9ak7fxt.m3u8",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/b/bc/Duck_TV.svg/revision/latest?cb=20191212111607",
+      "tvg_id": "DuckTV.ro@SD",
+      "category": "Kids",
+      "country": "RO",
       "sources": [
         "kids"
       ],
@@ -53123,8 +53447,8 @@
       "sources": [
         "kids"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Jiangxi Children's Channel",
@@ -53612,6 +53936,19 @@
       "quarantined": false
     },
     {
+      "name": "Minimax (Romania) (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/minimaxy/usergendxny9zrnd.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/b/ba/Minimax_2021.svg",
+      "tvg_id": "Minimax.ro@SD",
+      "category": "Animation;Kids",
+      "country": "RO",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Minimax CEE (576p)",
       "url": "http://88.212.15.50/live/test_minimax/playlist.m3u8",
       "logo": "https://i.imgur.com/WWOlm1x.png",
@@ -53714,6 +54051,19 @@
       ],
       "status": "timeout",
       "quarantined": true
+    },
+    {
+      "name": "Mult HD (576p)",
+      "url": "http://s7.merlive.am/Mult/index.m3u8",
+      "logo": "https://i.imgur.com/xi351Fx.png",
+      "tvg_id": "Mult.ru@HD",
+      "category": "Kids",
+      "country": "RU",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Mult International (576p)",
@@ -54106,6 +54456,19 @@
       "quarantined": false
     },
     {
+      "name": "Nickelodeon (India)",
+      "url": "http://103.148.210.190:8000/play/a0zu",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png",
+      "tvg_id": "Nickelodeon.in@SD",
+      "category": "Kids",
+      "country": "IN",
+      "sources": [
+        "kids"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Nickelodeon (Italy)",
       "url": "http://185.227.34.104/stream/117/index.m3u8",
       "logo": "https://i.imgur.com/E84jnP8.png",
@@ -54145,8 +54508,8 @@
       "quarantined": true
     },
     {
-      "name": "Nickelodeon (Poland)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F5189779876700e71d303b",
+      "name": "Nickelodeon (Poland) (1080p)",
+      "url": "https://vavoorender-vuzs.onrender.com/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/5189779876700e71d303b",
       "logo": "https://i.imgur.com/E84jnP8.png",
       "tvg_id": "Nickelodeon.pl@SD",
       "category": "Kids",
@@ -54154,12 +54517,12 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
-      "name": "Nickelodeon (Portugal)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F398241518529a84217dd1f",
+      "name": "Nickelodeon (Portugal) (1080p)",
+      "url": "https://vavoorender-vuzs.onrender.com/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/398241518529a84217dd1f",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png",
       "tvg_id": "Nickelodeon.pt@SD",
       "category": "Kids",
@@ -54167,8 +54530,8 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Nickelodeon (Romania) (576i)",
@@ -54185,7 +54548,7 @@
     },
     {
       "name": "Nickelodeon (Russia) (576p)",
-      "url": "http://stream.mcquack.net/443/index.m3u8",
+      "url": "http://s7.merlive.am/Nickelodeon/index.m3u8",
       "logo": "https://i.imgur.com/w8iE8dV.png",
       "tvg_id": "Nickelodeon.ru@SD",
       "category": "Kids",
@@ -54193,8 +54556,8 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Nickelodeon (Spain)",
@@ -54570,7 +54933,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -55831,7 +56194,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -55896,7 +56259,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -56850,6 +57213,19 @@
       "quarantined": false
     },
     {
+      "name": "AMC Europe Romania (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/amece/usergenrx3oq1kr.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png",
+      "tvg_id": "AMCEurope.uk@Romania",
+      "category": "Movies",
+      "country": "UK",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "AMC Latin America (1080p)",
       "url": "http://15.204.246.24:8080/AMCHD/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png",
@@ -56941,6 +57317,32 @@
       "quarantined": true
     },
     {
+      "name": "Anmol Cinema 2 (576p)",
+      "url": "http://103.175.73.12:8080/live/257/257_0.m3u8",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL_CINEMA_2/images/LOGO_HD/LOGO_HD_image.png",
+      "tvg_id": "AnmolCinema2.in@SD",
+      "category": "Movies",
+      "country": "IN",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Anmol Cinema (576p)",
+      "url": "http://103.175.73.12:8080/live/271/271_0.m3u8",
+      "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00260YG8.png?lock=720x540",
+      "tvg_id": "AnmolCinema.in@SD",
+      "category": "Movies",
+      "country": "IN",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Armenia Premium (720p)",
       "url": "http://stream.mcquack.net/123/index.m3u8",
       "logo": "",
@@ -56960,6 +57362,19 @@
       "tvg_id": "ARTFLIXMovieClassics.us@SD",
       "category": "Classic;Movies",
       "country": "US",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Asianet Cinema (576p)",
+      "url": "https://b-tr1.planetcast.in/asianet/master.m3u8",
+      "logo": "https://mena-img-cdn-lb.aws.playco.com/ev-livechannels-avod/AVODASIANETCINEMAY2025MML/AVODASIANETCINEMAY2025MML-title-logo-en.png",
+      "tvg_id": "AsianetCinema.in@SD",
+      "category": "Movies",
+      "country": "IN",
       "sources": [
         "movies"
       ],
@@ -57058,8 +57473,8 @@
       "quarantined": true
     },
     {
-      "name": "AXN Asia Indonesia",
-      "url": "http://202.150.165.66:8088/play/301-AXN/index.m3u8",
+      "name": "AXN Asia Indonesia (720p)",
+      "url": "http://103.165.207.108:8000/play/a00n/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
       "tvg_id": "AXNAsia.sg@Indonesia",
       "category": "Movies;Series",
@@ -57067,8 +57482,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "AXN Asia Taiwan (1080p)",
@@ -57084,17 +57499,17 @@
       "quarantined": false
     },
     {
-      "name": "AXN Asia Thailand",
-      "url": "http://103.253.74.210:7070/stream/89/index.m3u8",
+      "name": "AXN Asia Vietnam (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.1.14:8058",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
-      "tvg_id": "AXNAsia.sg@Thailand",
+      "tvg_id": "AXNAsia.sg@Vietnam",
       "category": "Movies;Series",
       "country": "SG",
       "sources": [
         "movies"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "AXN Black (Germany)",
@@ -57140,6 +57555,19 @@
       "url": "http://141.94.193.53/axn_black/index.m3u8",
       "logo": "https://i.imgur.com/Peo1QiZ.png",
       "tvg_id": "AXNBlack.us@Hungary",
+      "category": "Movies",
+      "country": "US",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "AXN Black (United States) Romania (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/axyblack/usergenrxi6s93hs2.m3u8",
+      "logo": "https://i.imgur.com/Peo1QiZ.png",
+      "tvg_id": "AXNBlack.us@Romania",
       "category": "Movies",
       "country": "US",
       "sources": [
@@ -57199,6 +57627,19 @@
       ],
       "status": "error",
       "quarantined": true
+    },
+    {
+      "name": "AXN CEE Romania HD (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://cronos.mangora1.cfd/axy/usergend3h5jkc9rnd.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
+      "tvg_id": "AXNCEE.es@RomaniaHD",
+      "category": "Movies",
+      "country": "ES",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "AXN Crime",
@@ -57306,7 +57747,7 @@
     },
     {
       "name": "B4U Kadak (1080p)",
-      "url": "https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8",
+      "url": "https://amg01408-amg01408c6-amgplt0747.playout.now3.amagi.tv/b4ua001/playlist.m3u8",
       "logo": "https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540",
       "tvg_id": "B4UKadak.in@SD",
       "category": "Movies",
@@ -57314,12 +57755,12 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "B4U Movies (1080p)",
-      "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+      "url": "https://amg01408-amg01408c7-amgplt0747.playout.now3.amagi.tv/b4umo001/playlist.m3u8",
       "logo": "https://i.imgur.com/M9kMFJl.png",
       "tvg_id": "B4UMovies.in@India",
       "category": "Movies",
@@ -57327,8 +57768,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Battlestar Galactica",
@@ -57532,6 +57973,19 @@
       "tvg_id": "Boreal.do@SD",
       "category": "Movies",
       "country": "DO",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Box Hits (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.1.10:8034",
+      "logo": "https://i.imgur.com/kL9ubfw.png",
+      "tvg_id": "BoxHits.vn@SD",
+      "category": "Movies",
+      "country": "VN",
       "sources": [
         "movies"
       ],
@@ -58293,10 +58747,36 @@
       "quarantined": false
     },
     {
+      "name": "CinemaWorld Vietnam (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.1.44:8244",
+      "logo": "https://i.imgur.com/D2qNVZ7.png",
+      "tvg_id": "CinemaWorld.my@Vietnam",
+      "category": "Movies",
+      "country": "MY",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Cinemax 2",
       "url": "http://88.212.15.50/live/test_cinemax2_hd_hevc/playlist.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cinemax_2_%282016%29.png/960px-Cinemax_2_%282016%29.png",
       "tvg_id": "Cinemax2.cz@Czechia",
+      "category": "Movies",
+      "country": "CZ",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Cinemax 2 Romania (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://cronos.mangora1.cfd/xmas2/usergendxt1v8klq6rnd.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cinemax_2_%282016%29.png/960px-Cinemax_2_%282016%29.png",
+      "tvg_id": "Cinemax2.cz@Romania",
       "category": "Movies",
       "country": "CZ",
       "sources": [
@@ -58332,6 +58812,19 @@
       "quarantined": false
     },
     {
+      "name": "Cinemax (Czech Republic) Romania (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://cronos.mangora1.cfd/xmas1/usergendx27y41s0rnd.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/960px-Cinemax_2016.svg.png",
+      "tvg_id": "Cinemax.cz@Romania",
+      "category": "Movies",
+      "country": "CZ",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Cinemax (United States) West (720p)",
       "url": "http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/960px-Cinemax_2016.svg.png",
@@ -58358,23 +58851,23 @@
       "quarantined": true
     },
     {
-      "name": "Cinemax Asia HD (1080p)",
-      "url": "http://202.150.165.66:8088/play/104-Cinemax/index.m3u8",
+      "name": "Cinemax Asia Taiwan (1080p)",
+      "url": "http://125.227.210.55:1001/VideoInput/play.ts",
       "logo": "https://i.imgur.com/c8crJfA.png",
-      "tvg_id": "CinemaxAsia.sg@HD",
+      "tvg_id": "CinemaxAsia.sg@Taiwan",
       "category": "Movies",
       "country": "SG",
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
-      "name": "Cinemax Asia Taiwan (1080p)",
-      "url": "http://125.227.210.55:1001/VideoInput/play.ts",
+      "name": "Cinemax Asia Vietnam (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.1.20:8094",
       "logo": "https://i.imgur.com/c8crJfA.png",
-      "tvg_id": "CinemaxAsia.sg@Taiwan",
+      "tvg_id": "CinemaxAsia.sg@Vietnam",
       "category": "Movies",
       "country": "SG",
       "sources": [
@@ -58462,8 +58955,8 @@
       "quarantined": false
     },
     {
-      "name": "Cinevault 80s (720p)",
-      "url": "https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8",
+      "name": "Cinevault 80s (540p) [Geo-blocked]",
+      "url": "https://gsn-cinevault-80s-2-us.roku.wurl.tv/playlist.m3u8",
       "logo": "https://i.imgur.com/xaCyyDd.png",
       "tvg_id": "Cinevault80s.us@SD",
       "category": "Movies",
@@ -58471,8 +58964,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "CineWow (576i)",
@@ -59125,8 +59618,8 @@
       "quarantined": false
     },
     {
-      "name": "Film Cafe Romania",
-      "url": "https://atlantida1.aquax1.cfd/cofyfilm/usergendxn8lzrnd.m3u8",
+      "name": "Film Cafe Romania (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/cofyfilm/usergendxn8lzrnd.m3u8",
       "logo": "https://i.imgur.com/jaKRnzU.png",
       "tvg_id": "FilmCafe.hu@Romania",
       "category": "Movies",
@@ -59134,8 +59627,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Film Mania",
@@ -59149,6 +59642,19 @@
       ],
       "status": "timeout",
       "quarantined": true
+    },
+    {
+      "name": "Film Now (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://thor1.syndula001.cfd/df/usergendlg1ks0t2n.m3u8",
+      "logo": "https://i.imgur.com/sSoRvGz.png",
+      "tvg_id": "FilmNow.ro@SD",
+      "category": "Movies",
+      "country": "RO",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Film+ (Czech Republic)",
@@ -60022,6 +60528,19 @@
       "quarantined": false
     },
     {
+      "name": "HBO 2 (Romania) (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://onyx1.mofta001.cfd/h2/usergendxn430rnd.m3u8",
+      "logo": "https://i.imgur.com/53mBgZI.png",
+      "tvg_id": "HBO2.ro@SD",
+      "category": "Movies;Series",
+      "country": "RO",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "HBO 2 Latin America HD (1080p)",
       "url": "http://45.171.64.30:6060/play/a00i/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png",
@@ -60061,6 +60580,19 @@
       "quarantined": false
     },
     {
+      "name": "HBO (Romania) (576i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://thor1.syndula001.cfd/h1/usergendx172s9rnd.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png",
+      "tvg_id": "HBO.ro@SD",
+      "category": "Movies;Series",
+      "country": "RO",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "HBO (United States) (720p)",
       "url": "http://tvsen7.aynascope.net/hbo/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png",
@@ -60074,21 +60606,21 @@
       "quarantined": true
     },
     {
-      "name": "HBO Asia HD (1080p)",
-      "url": "http://202.150.165.66:8088/play/100-HBO/index.m3u8",
+      "name": "HBO Asia (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.1.19:8088",
       "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/HBO_Asia.png/960px-HBO_Asia.png",
-      "tvg_id": "HBOAsia.sg@HD",
+      "tvg_id": "HBOAsia.sg@Vietnam",
       "category": "Movies",
       "country": "SG",
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
-      "name": "HBO Asia SD (720p) [Geo-blocked]",
-      "url": "https://tinyurl.com/yn3d3rmd",
+      "name": "HBO Asia SD (576p)",
+      "url": "http://103.148.210.190:8000/play/a0s8/index.m3u8",
       "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/HBO_Asia.png/960px-HBO_Asia.png",
       "tvg_id": "HBOAsia.sg@SD",
       "category": "Movies",
@@ -60096,8 +60628,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "HBO Asia Taiwan (1080p)",
@@ -60126,19 +60658,6 @@
       "quarantined": true
     },
     {
-      "name": "HBO Hits Asia HD (1080p)",
-      "url": "http://202.150.165.66:8088/play/102-HBOHits/index.m3u8",
-      "logo": "https://i.imgur.com/CTjmocc.png",
-      "tvg_id": "HBOHitsAsia.sg@HD",
-      "category": "Movies",
-      "country": "SG",
-      "sources": [
-        "movies"
-      ],
-      "status": "error",
-      "quarantined": true
-    },
-    {
       "name": "HBO Mundi Latin America",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cinemax.stream/chunks.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/960px-HBO_Mundi.svg.png",
@@ -60149,19 +60668,6 @@
         "movies"
       ],
       "status": "blocked",
-      "quarantined": true
-    },
-    {
-      "name": "HBO Signature Asia HD (1080p)",
-      "url": "http://202.150.165.66:8088/play/101-HBOSignature/index.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HBO_Signature_Asia.png/960px-HBO_Signature_Asia.png",
-      "tvg_id": "HBOSignatureAsia.sg@HD",
-      "category": "Movies",
-      "country": "SG",
-      "sources": [
-        "movies"
-      ],
-      "status": "error",
       "quarantined": true
     },
     {
@@ -60187,7 +60693,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -60278,8 +60784,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "ICC plus (1080p)",
@@ -60334,19 +60840,6 @@
       "quarantined": false
     },
     {
-      "name": "India Talkies (360p)",
-      "url": "https://samitaorigin.tangotv.in/INDIATALKIES/SAMITAORIGIN/index.m3u8",
-      "logo": "https://papaji.freetvindia.com/media/FreeTV_India_Talkies.png",
-      "tvg_id": "IndiaTalkies.in@SD",
-      "category": "Movies",
-      "country": "IN",
-      "sources": [
-        "movies"
-      ],
-      "status": "online",
-      "quarantined": false
-    },
-    {
       "name": "Indiyskoye Kino (1080p)",
       "url": "https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8",
       "logo": "https://i.imgur.com/LL8GyCh.png",
@@ -60369,7 +60862,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -60462,6 +60955,19 @@
       ],
       "status": "timeout",
       "quarantined": true
+    },
+    {
+      "name": "Kineko HD (1080p)",
+      "url": "http://s7.merlive.am/kineko/index.m3u8",
+      "logo": "https://i.imgur.com/Otfvlmf.png",
+      "tvg_id": "Kineko.ru@HD",
+      "category": "Movies",
+      "country": "RU",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Kino 1 (Russia) [Not 24/7]",
@@ -60620,6 +61126,19 @@
       "quarantined": false
     },
     {
+      "name": "Kinomix HD (1080p)",
+      "url": "http://s7.merlive.am/Kinomix/index.m3u8",
+      "logo": "https://i.imgur.com/D4q2XUT.png",
+      "tvg_id": "Kinomix.ru@HD",
+      "category": "Movies",
+      "country": "RU",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Kinopokaz (1080p)",
       "url": "https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8",
       "logo": "https://i.imgur.com/nNjMyAq.png",
@@ -60634,7 +61153,7 @@
     },
     {
       "name": "Kinopremyera (1080p)",
-      "url": "https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv",
+      "url": "http://s7.merlive.am/Kinopremera/index.m3u8",
       "logo": "https://i.imgur.com/s0UYT8T.png",
       "tvg_id": "Kinopremyera.ru@HD",
       "category": "Movies",
@@ -60642,8 +61161,8 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "KinoSat (576p)",
@@ -60660,7 +61179,7 @@
     },
     {
       "name": "Kinosemja (576p)",
-      "url": "http://stream.mcquack.net/170/index.m3u8",
+      "url": "http://s7.merlive.am/Kinosemya/index.m3u8",
       "logo": "https://i.imgur.com/4BF5VeK.png",
       "tvg_id": "Kinosemja.ru@SD",
       "category": "Movies",
@@ -60668,12 +61187,12 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Kinoseriya (576p)",
-      "url": "https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv",
+      "url": "http://s7.merlive.am/Kinoseria/index.m3u8",
       "logo": "https://i.imgur.com/iao7zLZ.png",
       "tvg_id": "Kinoseriya.ru@SD",
       "category": "Movies",
@@ -61619,6 +62138,19 @@
       ],
       "status": "blocked",
       "quarantined": true
+    },
+    {
+      "name": "Nashe Lubimoe Kino (576p)",
+      "url": "http://s7.merlive.am/lubimoekino/index.m3u8",
+      "logo": "https://i.imgur.com/iKPfM5K.png",
+      "tvg_id": "NasheLubimoeKino.ru@SD",
+      "category": "Movies",
+      "country": "RU",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Nashe Lubimoe Kino Ukraine (1080p)",
@@ -64361,8 +64893,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Shemaroo Filmi Gaane (1080p)",
@@ -64403,6 +64935,19 @@
       ],
       "status": "blocked",
       "quarantined": true
+    },
+    {
+      "name": "Shot TV (576p)",
+      "url": "http://s7.merlive.am/SHOTTV/index.m3u8",
+      "logo": "https://i.imgur.com/MLSG7tA.png",
+      "tvg_id": "ShotTV.ru@SD",
+      "category": "Movies",
+      "country": "RU",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Shubh Cinema TV (720p)",
@@ -64674,8 +65219,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Sony Movies Latin America (720p)",
@@ -64817,7 +65362,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false
     },
     {
@@ -65207,7 +65752,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -66043,6 +66588,19 @@
       "quarantined": false
     },
     {
+      "name": "Zee Action (576p)",
+      "url": "http://103.175.73.12:8080/live/270/270_0.m3u8",
+      "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540",
+      "tvg_id": "ZeeAction.in@SD",
+      "category": "Movies",
+      "country": "IN",
+      "sources": [
+        "movies"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
       "name": "Zee Cinema APAC (720p)",
       "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8",
       "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png",
@@ -66356,7 +66914,7 @@
     },
     {
       "name": "A1 (576p)",
-      "url": "http://31.148.48.15/A1/index.m3u8",
+      "url": "http://s7.merlive.am/Amedia1/index.m3u8",
       "logo": "https://i.imgur.com/2pAHdAi.png",
       "tvg_id": "A1.ru@SD",
       "category": "Music",
@@ -66364,8 +66922,8 @@
       "sources": [
         "music"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "A2i Music (720p) [Not 24/7]",
@@ -66546,7 +67104,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -66751,6 +67309,19 @@
       "tvg_id": "B4UMusic.in@India",
       "category": "Music",
       "country": "IN",
+      "sources": [
+        "music"
+      ],
+      "status": "online",
+      "quarantined": false
+    },
+    {
+      "name": "Balcan Music TV (1080i)",
+      "url": "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/balkmus/usergenko4x0g.m3u8",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/d/d4/Balcan_Music_TV.svg/revision/latest?cb=20220815201215",
+      "tvg_id": "BalcanMusicTV.ro@HD",
+      "category": "Music",
+      "country": "RO",
       "sources": [
         "music"
       ],
@@ -68067,7 +68638,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -68132,8 +68703,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Favorit TV2 (1080i)",
@@ -68306,7 +68877,7 @@
     },
     {
       "name": "FON Music (576p)",
-      "url": "https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8",
+      "url": "http://s7.merlive.am/TNTMusic/index.m3u8",
       "logo": "https://i.imgur.com/tXABQDE.png",
       "tvg_id": "FONMusic.ru@SD",
       "category": "Music",
@@ -68314,8 +68885,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "FTV (Uzbekistan) (576p)",
@@ -68444,7 +69015,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -69146,7 +69717,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false
     },
     {
@@ -69952,7 +70523,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -70008,8 +70579,8 @@
       "quarantined": false
     },
     {
-      "name": "Mezzo",
-      "url": "http://92.180.26.103/stream/62/index.m3u8",
+      "name": "Mezzo (576p)",
+      "url": "http://s7.merlive.am/Mezzo/index.m3u8",
       "logo": "https://i.imgur.com/auNdGeW.png",
       "tvg_id": "Mezzo.fr@SD",
       "category": "Music",
@@ -70017,8 +70588,8 @@
       "sources": [
         "music"
       ],
-      "status": "blocked",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Mezzo Live (1080p)",
@@ -70147,7 +70718,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -70396,6 +70967,19 @@
       ],
       "status": "blocked",
       "quarantined": true
+    },
+    {
+      "name": "Music Box SD (720p)",
+      "url": "http://antm.dynu.net:14285/rtp/232.84.3.144:9588",
+      "logo": "https://i.ibb.co/cSHpm7qf/Music-Box.webp",
+      "tvg_id": "MusicBox.vn@SD",
+      "category": "Music",
+      "country": "VN",
+      "sources": [
+        "music"
+      ],
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Music Box Brazil (720p)",
@@ -71655,7 +72239,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true
     },
     {
@@ -72240,7 +72824,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false
     },
     {
@@ -72344,7 +72928,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {
@@ -74008,8 +74592,8 @@
       "sources": [
         "music"
       ],
-      "status": "timeout",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Topical Moon RD (720p) [Not 24/7]",
@@ -75191,8 +75775,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true
+      "status": "online",
+      "quarantined": false
     },
     {
       "name": "Vision Television (720p)",
@@ -75269,7 +75853,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false
     },
     {

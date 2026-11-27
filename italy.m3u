@@ -209,6 +209,8 @@ https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5.m3u8
 https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/lR08pb3.jpeg" group-title="Italy" tvg-country="IT",Globo Tv
 https://nrvideo1.newradio.it:1936/awrgaebshj/awrgaebshj/playlist.m3u8
+#EXTINF:-1 tvg-id="GoldTV.it" tvg-logo="https://i.imgur.com/3rVi4kD.png" group-title="Italy" tvg-country="IT",Gold Tv
+https://5f11919dca3bd.streamlock.net/goldtv/goldtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/z05VSSN.png" group-title="Italy" tvg-country="IT",Icaro Tv Rimini
 https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
 #EXTINF:-1 tvg-id="Italia2TV.it" tvg-logo="https://i.imgur.com/ISbxfY0.png" group-title="Italy" tvg-country="IT",Italia 2 Tv
@@ -237,6 +239,8 @@ https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
 https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/fdx5YXi.png" group-title="Italy" tvg-country="IT",Maria Vision
 https://1601580044.rsc.cdn77.org/live/_jcn_/amls:CHANNEL_2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/hkZScXf.png" group-title="Italy" tvg-country="IT",Medjugorje Italia Tv
+https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/VJNtnZM.jpg" group-title="Italy" tvg-country="IT",Minformo Tv
 https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/NWXQKbl.png" group-title="Italy" tvg-country="IT",Motori Tv
@@ -349,6 +353,8 @@ https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
 https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/kCJ621Q.png" group-title="Italy" tvg-country="IT",Rete Mia
 https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/OCxGtwA.png" group-title="Italy" tvg-country="IT",Rete Oro Tv
+https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/u0ezKgE.png" group-title="Italy" tvg-country="IT",Rete Sole
 https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/lXGWoV9.png" group-title="Italy" tvg-country="IT",Rete Tv Italia

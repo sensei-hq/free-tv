@@ -3,5 +3,7 @@
 https://freem3u.xyz/api/live/play.m3u8?vid=255
 #EXTINF:-1 tvg-id="ITVDeportes.mx@SD" tvg-logo="https://iili.io/J1kV1Bn.png" group-title="Sports" tvg-country="MX",ITV Deportes (720p)
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+#EXTINF:-1 tvg-id="ONSportsPlus.vn@SD" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/On%20Sports%2B.png" group-title="Sports" tvg-country="VN",ON Sports+ (720p)
+http://antm.dynu.net:14285/rtp/232.84.1.220:9294
 #EXTINF:-1 tvg-id="RightNowTV.us@SD" tvg-logo="https://i.imgur.com/u8zXUOg.png" group-title="Sports" tvg-country="US",Right Now TV (720p)
 https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8

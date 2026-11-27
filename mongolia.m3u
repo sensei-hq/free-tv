@@ -57,6 +57,8 @@ https://cdn4.skygo.mn/live/disk1/UlziiTV/HLSv3-FTA/UlziiTV.m3u8
 https://cdn4.skygo.mn/live/disk1/Malchin/HLSv3-FTA/Malchin.m3u8
 #EXTINF:-1 tvg-id="ParliamentTV.mn" group-title="Mongolia" tvg-country="MN",Parliament TV
 https://cdn4.skygo.mn/live/disk1/Parlament/HLSv3-FTA/Parlament.m3u8
+#EXTINF:-1 tvg-id="StarTV.mn" group-title="Mongolia" tvg-country="MN",Star TV
+https://cdn4.skygo.mn/live/disk1/Star/HLSv3-FTA/Star.m3u8
 #EXTINF:-1 tvg-id="SuldTV.mn" group-title="Mongolia" tvg-country="MN",Suld TV
 https://cdn4.skygo.mn/live/disk1/SuldTV/HLSv3-FTA/SuldTV.m3u8
 #EXTINF:-1 tvg-id="SevenChannel.mn" group-title="Mongolia" tvg-country="MN",Seven Channel

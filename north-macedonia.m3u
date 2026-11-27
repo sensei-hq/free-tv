@@ -7,6 +7,8 @@ https://teve.mk/tvstanici/s1/playlist.m3u8
 https://t2.tvmak.com/tv/TV21MK.m3u8?QScgsh2FfM
 #EXTINF:-1 tvg-id="Zdravkin" tvg-logo="https://i.imgur.com/kSmcAER.png" group-title="North Macedonia" tvg-country="MK",Телевизија Здравкин
 http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
+#EXTINF:-1 tvg-id="TV Orbis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" group-title="North Macedonia" tvg-country="MK",Орбис
+http://tvorbis.hugo.mk:1935/live/orbis/index.m3u8
 #EXTINF:-1 tvg-id="tvnova12.mk" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" group-title="North Macedonia" tvg-country="MK",ТВ НОВА 12
 http://151.236.247.171:8080/nova/index.m3u8
 #EXTINF:-1 tvg-id="NasaTV.mk" tvg-logo="https://i.imgur.com/EOLrXvB.png" group-title="North Macedonia" tvg-country="MK",Наша ТВ

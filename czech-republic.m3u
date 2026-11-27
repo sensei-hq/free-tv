@@ -19,8 +19,6 @@ https://sktv.mxnticek.eu/new/stream.php?ch=NovaLady
 https://sktv.mxnticek.eu/new/stream.php?ch=Nova%20TN%20Live
 #EXTINF:-1 tvg-id="CNNPrimaNews.cz" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/cnn-prima-news-cz.png" group-title="Czech Republic" tvg-country="CZ",CNN Prima News
 https://sktv.mxnticek.eu/new/stream.php?ch=PrimaNews
-#EXTINF:-1 tvg-id="PrimaKrimi.cz" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/prima-krimi-cz.png" group-title="Czech Republic" tvg-country="CZ",Prima Krimi
-https://sktv.mxnticek.eu/new/stream.php?ch=PrimaKrimi
 #EXTINF:-1 tvg-id="Ocko.cz" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/ocko-cz.png" group-title="Czech Republic" tvg-country="CZ",Óčko Ⓢ
 https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist.m3u8
 #EXTINF:-1 tvg-id="OckoStar.cz" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/ocko-star-cz.png" group-title="Czech Republic" tvg-country="CZ",Óčko Star Ⓢ

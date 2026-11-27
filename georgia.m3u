@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="1TV.ge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Pirveli_Arkhi_Logo_2022.svg/500px-Pirveli_Arkhi_Logo_2022.svg.png" group-title="Georgia" tvg-country="GE",First Channel (1TV)
+https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8
+#EXTINF:-1 tvg-id="2TV.ge" tvg-logo="https://upload.wikimedia.org/wikipedia/ka/c/c9/2_Tv_Logo.jpg" group-title="Georgia" tvg-country="GE",First Channel /Education/ (2TV)
+https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8
 #EXTINF:-1 tvg-id="ImediTV.ge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Imlogo_2020.png" group-title="Georgia" tvg-country="GE",Imedi TV
 https://tv.cdn.xsg.ge/imedihd/index.m3u8
 #EXTINF:-1 tvg-id="Formula.ge" tvg-logo="https://i.imgur.com/fsqBn8G.png" group-title="Georgia" tvg-country="GE",Formula
