@@ -1,10 +1,10 @@
-# Checkpoint: hero + resume shipped
+# Checkpoint: EPG grid + unified search
 
-Slice: free-tv mock slice 1 (Home hero + resume). Repo: sensei-hq/free-tv.
-Done: watch progress core, playback store, player reporting + seek,
-hero + continue shelf, resume-loop UI test. 35 core, 39 curator,
-8 UI tests green; hero verified on sim.
-Remains: user preview; mock slices 2-3 (EPG grid, unified search).
-Next: Channels EPG grid (needs XMLTV parsing) or unified search.
-Open questions: Tubi/YuppTV schemes still unverified; EPG source pick.
+Slice: free-tv slices 2-3. Repo: sensei-hq/free-tv.
+Done: unified search (channels/TMDB/Plex + scopes), XMLTV parser,
+curator guide.xml merge (234 ch, 30k programmes), Channels grid tab
+with now-line, screen titles removed per mock.
+Remains: verify grid shows programmes on fresh catalog; user preview.
+Next: mock tab bar restyle; Shows split; YouTube shelves; IA vintage.
+Open questions: Tubi/YuppTV schemes still unverified; EPG coverage 5%.
 Known-broken: none. (/sensei:checkpoint unavailable in this runtime.)
