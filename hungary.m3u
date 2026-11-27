@@ -119,6 +119,8 @@ https://cloudfront44.lexanetwork.com:1344/relay01/broadcast007.sdp/playlist.m3u8
 https://cloudfront44.lexanetwork.com:1344/freerelay/kanizsavtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Hungary" tvg-country="HU",Líceum TV
 http://193.225.32.62:8890/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/iD5tCjX.png" group-title="Hungary" tvg-country="HU",Pannon RTV
+https://stream2.nmih.hu:4102/live.m3u8
 #EXTINF:-1 tvg-id="EsztergomTV.hu" group-title="Hungary" tvg-country="HU",ES TV (Esztergom)
 https://cloudfront44.lexanetwork.com:1344/relay44_1/HDE040.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="KomaromiTelevizio.hu" group-title="Hungary" tvg-country="HU",Komáromi Televízió

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:07:20+00:00",
+  "generated_at": "2026-11-27T16:16:17+00:00",
   "epg_urls": [
     "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
@@ -15,9 +15,9 @@
     "https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_LT1.xml.gz",
@@ -38,9 +38,9 @@
     "https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz"
   ],
   "stats": {
-    "total": 5830,
-    "online": 3911,
-    "quarantined": 1873
+    "total": 5821,
+    "online": 3916,
+    "quarantined": 1844
   },
   "channels": [
     {
@@ -1380,8 +1380,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -1394,7 +1394,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -1408,7 +1408,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -1749,7 +1749,7 @@
       "has_guide": false
     },
     {
-      "name": "BHT 1",
+      "name": "BHT 1 \u24bc",
       "url": "https://bhrtstream.bhtelecom.ba/bhrtportal_hd.m3u8",
       "logo": "https://i.imgur.com/LEwlEEE.png",
       "tvg_id": "BHT1.ba",
@@ -1763,24 +1763,10 @@
       "has_guide": false
     },
     {
-      "name": "BHT 1 \u24c8",
+      "name": "BHT 1 \u24c8 \u24bc",
       "url": "https://bhrtstream.bhtelecom.ba/bhrtportal.m3u8",
       "logo": "https://i.imgur.com/LEwlEEE.png",
       "tvg_id": "BHT1.ba",
-      "category": "Bosnia and Herzegovina",
-      "country": "BA",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "timeout",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
-      "name": "Federalna televizija (FTV) \u24c8",
-      "url": "http://94.250.2.6:7374/play/a02s/index.m3u8",
-      "logo": "https://i.imgur.com/Jpvs4u3.png",
-      "tvg_id": "FederalnaTV.ba",
       "category": "Bosnia and Herzegovina",
       "country": "BA",
       "sources": [
@@ -1820,7 +1806,7 @@
     },
     {
       "name": "N1 Bosna i Hercegovina",
-      "url": "https://best-str.umn.cdn.united.cloud/stream?channel=n1bos&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info",
+      "url": "https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1bos&u=n1info&p=n1Sh4redSecre7iNf0&player=m3u8",
       "logo": "https://i.imgur.com/72oMSWz.png",
       "tvg_id": "N1BosniaHerzegovina.ba",
       "category": "Bosnia and Herzegovina",
@@ -1861,36 +1847,6 @@
       "has_guide": false
     },
     {
-      "name": "RTV Glas Drine",
-      "url": "http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8",
-      "logo": "https://i.imgur.com/9NgxOdb.png",
-      "tvg_id": "RTVGlasDrine.ba",
-      "category": "Bosnia and Herzegovina",
-      "country": "BA",
-      "sources": [
-        "free-tv",
-        "music"
-      ],
-      "status": "timeout",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
-      "name": "TNT Kids",
-      "url": "https://restreamer1.tnt.ba/hls/tntkids.m3u8",
-      "logo": "https://i.imgur.com/irTDbpn.png",
-      "tvg_id": "TNTKidsTV.ba",
-      "category": "Bosnia and Herzegovina",
-      "country": "BA",
-      "sources": [
-        "free-tv",
-        "kids"
-      ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
       "name": "Televizija 5",
       "url": "https://balkanmedia.dynu.net/hls/tv5web.m3u8",
       "logo": "https://i.imgur.com/znpvJys.png",
@@ -1905,22 +1861,8 @@
       "has_guide": false
     },
     {
-      "name": "Kanal 6",
-      "url": "https://restreamer1.tnt.ba/hls/kanal6.m3u8",
-      "logo": "https://i.imgur.com/GGhvR0l.png",
-      "tvg_id": "Kanal6.ba",
-      "category": "Bosnia and Herzegovina",
-      "country": "BA",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
       "name": "SuperTV",
-      "url": "https://live.tv-m.net/hls/stream.m3u8",
+      "url": "https://live.probaj.net/live/mirtv/index.m3u8",
       "logo": "https://i.imgur.com/XYWgd3E.png",
       "tvg_id": "SuperTV.ba",
       "category": "Bosnia and Herzegovina",
@@ -1928,36 +1870,23 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
-      "quarantined": true,
+      "status": "error",
+      "quarantined": false,
       "has_guide": false
     },
     {
-      "name": "Neon TV",
-      "url": "rtsp://185.50.56.16:554/neontelvizija",
-      "logo": "https://i.imgur.com/thC9NFp.png",
-      "tvg_id": "ntv.ba",
+      "name": "Newsmax Balkans",
+      "url": "https://newsmaxadria.mts-si.tv/newsmaxadria/index.m3u8",
+      "logo": "https://i.imgur.com/BXFPz8c.png",
+      "tvg_id": "NewsmaxBalkans.ba@SD",
       "category": "Bosnia and Herzegovina",
       "country": "BA",
       "sources": [
-        "free-tv"
+        "free-tv",
+        "news"
       ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
-      "name": "RTV USK \u24ce",
-      "url": "https://www.youtube.com/@rtvusk/live",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/f/ff/Logo_of_RTVUSK.png",
-      "tvg_id": "RTVUSK.ba",
-      "category": "Bosnia and Herzegovina",
-      "country": "BA",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -1972,20 +1901,6 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
-    },
-    {
-      "name": "TV BPK \u24c8",
-      "url": "http://94.250.2.6:7374/play/a02u/index.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Logo_of_RTV_BPK_Gora%C5%BEde.jpg",
-      "tvg_id": "RTVBPK.ba",
-      "category": "Bosnia and Herzegovina",
-      "country": "BA",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "timeout",
-      "quarantined": true,
       "has_guide": false
     },
     {
@@ -2643,7 +2558,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -3328,32 +3243,30 @@
       "has_guide": false
     },
     {
-      "name": "HRT 3 \u24bc",
-      "url": "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT3/default/index.mpd",
+      "name": "HRT 3",
+      "url": "https://webtvstream.bhtelecom.ba/hls9/hrt3_1200.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/HRT3_Logo_aktuell.png",
       "tvg_id": "HRT3.hr",
       "category": "Croatia",
       "country": "HR",
       "sources": [
-        "free-tv",
-        "documentaries"
+        "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
     {
-      "name": "HRT 4 \u24bc",
-      "url": "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT4/default/index.mpd",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/76/HRT4-logo.png",
+      "name": "HRT 4 \u24ce",
+      "url": "https://www.youtube.com/@HRT_vijesti/live",
+      "logo": "https://i.imgur.com/VcNrY0m.png",
       "tvg_id": "HRT4.hr",
       "category": "Croatia",
       "country": "HR",
       "sources": [
-        "free-tv",
-        "news"
+        "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -3416,7 +3329,7 @@
     },
     {
       "name": "Plava Vinkova\u010dka",
-      "url": "https://player-api.new.livestream.com/accounts/26611954/events/7977299/broadcasts/237205435.secure.m3u8",
+      "url": "https://edge2.livebroadcastsolutions.com/hls/stream.m3u8",
       "logo": "https://i.imgur.com/WJJNtQ3.jpg",
       "tvg_id": "PlavaVinkovacka.hr",
       "category": "Croatia",
@@ -3424,8 +3337,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -3444,7 +3357,7 @@
     },
     {
       "name": "Osje\u010dka televizija (OSTV) \u24c8",
-      "url": "https://player-api.new.livestream.com/accounts/27681961/events/8347875/broadcasts/237202062.secure.m3u8",
+      "url": "https://live.osjecka.com/live/index.m3u8",
       "logo": "https://i.imgur.com/o9JgEyG.png",
       "tvg_id": "OSTV.hr",
       "category": "Croatia",
@@ -3452,14 +3365,14 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
       "name": "SBTV",
       "url": "https://live.leveex.hr/hls/live.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/SBTV_Logo.svg/500px-SBTV_Logo.svg.png",
+      "logo": "https://i.imgur.com/MIampxZ.png",
       "tvg_id": "SBTV.hr",
       "category": "Croatia",
       "country": "HR",
@@ -3471,38 +3384,9 @@
       "has_guide": true
     },
     {
-      "name": "OTV",
-      "url": "https://stream.agatin.hr:3559/live/otvlive.m3u8",
-      "logo": "https://i.imgur.com/67zVdu2.png",
-      "tvg_id": "OTV.hr",
-      "category": "Croatia",
-      "country": "HR",
-      "sources": [
-        "free-tv",
-        "news"
-      ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": true
-    },
-    {
-      "name": "Z1 \u24ce",
-      "url": "https://www.youtube.com/@z1televizija/live",
-      "logo": "https://upload.wikimedia.org/wikipedia/hr/9/9e/Z1-tv_logo.png",
-      "tvg_id": "Z1.hr",
-      "category": "Croatia",
-      "country": "HR",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": true
-    },
-    {
       "name": "Kanal Ri",
-      "url": "https://live.kanal-ri.click/LiveApp/streams/B6HK3voDwNsRQoLm1124882102135504.m3u8",
-      "logo": "https://kanal-ri.hr/wp-content/uploads/2022/09/kanalRi_logo_v1.png",
+      "url": "https://live.kanalri-transfer.org/kanalri/main_stream.m3u8",
+      "logo": "https://i.imgur.com/aSPMh0o.png",
       "tvg_id": "KanalRi.hr",
       "category": "Croatia",
       "country": "HR",
@@ -3510,7 +3394,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": true,
+      "quarantined": false,
       "has_guide": true
     },
     {
@@ -3518,20 +3402,6 @@
       "url": "https://stream.agatin.hr:3727/live/tvnovalive.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png",
       "tvg_id": "TVNova.hr",
-      "category": "Croatia",
-      "country": "HR",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "online",
-      "quarantined": false,
-      "has_guide": false
-    },
-    {
-      "name": "Diadora",
-      "url": "https://diadoratv.stream/live/diadora/playlist.m3u8",
-      "logo": "https://i.imgur.com/qZzsASl.png",
-      "tvg_id": "DiadoraTV.hr",
       "category": "Croatia",
       "country": "HR",
       "sources": [
@@ -3557,87 +3427,31 @@
       "has_guide": false
     },
     {
-      "name": "TV Dalmacija \u24ce",
-      "url": "https://www.youtube.com/channel/UCvNIJIY4CM-T28UQgbUE4rQ/live",
-      "logo": "https://upload.wikimedia.org/wikipedia/hr/b/ba/Televizija_dalmacija_logo.jpg",
-      "tvg_id": "TVDalmacija.hr",
-      "category": "Croatia",
-      "country": "HR",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
       "name": "Libertas TV",
-      "url": "https://stream.luci.xyz/hls/LTV.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/hr/8/8a/LibertasTV.png",
+      "url": "https://stream.libertas.tv/memfs/6767a62d-34ce-4756-8df5-0722b0475870.m3u8",
+      "logo": "https://i.imgur.com/4R4fhbd.png",
       "tvg_id": "LibertasTV.hr",
       "category": "Croatia",
       "country": "HR",
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
-      "name": "Trend TV",
-      "url": "http://185.62.75.22:1935/trend/myStream/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/hr/2/22/TrendTV.jpg",
-      "tvg_id": "TrendTV.hr",
-      "category": "Croatia",
-      "country": "HR",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "timeout",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
-      "name": "Televizija Zapad",
-      "url": "http://webtv.zapad.tv:8080/memfs/1ad23803-84c3-41c7-aa91-fce4c7eac52e.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/hr/9/97/TVZ-2018.png",
-      "tvg_id": "TVZapad.hr",
-      "category": "Croatia",
-      "country": "HR",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
-      "name": "Al Jazeera Balkans",
-      "url": "https://live-hls-web-ajb.getaj.net/AJB/index.m3u8",
-      "logo": "https://i.imgur.com/Z1FB6wl.png",
-      "tvg_id": "AlJazeeraBalkans.ba",
-      "category": "Croatia",
-      "country": "HR",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
-      "name": "N1 Hrvatska \u24ce",
-      "url": "https://www.youtube.com/@N1_Hrvatska/live",
+      "name": "N1 Hrvatska",
+      "url": "https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1hrv&u=n1info&p=n1Sh4redSecre7iNf0&player=m3u8",
       "logo": "https://i.imgur.com/qcD1OOZ.png",
-      "tvg_id": "N1Croatia.hr",
+      "tvg_id": "N1.hr",
       "category": "Croatia",
       "country": "HR",
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -3748,7 +3562,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3762,7 +3576,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3776,7 +3590,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3790,7 +3604,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3804,7 +3618,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3818,7 +3632,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3832,7 +3646,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3846,7 +3660,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3860,7 +3674,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3874,7 +3688,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -3888,7 +3702,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -3902,8 +3716,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
-      "quarantined": false,
+      "status": "error",
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -3916,7 +3730,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -3930,7 +3744,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -3944,7 +3758,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -3958,7 +3772,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -3972,7 +3786,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -4088,7 +3902,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4298,7 +4112,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4707,8 +4521,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -4805,8 +4619,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": true
     },
     {
@@ -4833,8 +4647,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -6172,7 +5986,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -6552,7 +6366,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -7004,8 +6818,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -8029,8 +7843,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -16674,7 +16488,7 @@
         "free-tv",
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -16888,7 +16702,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -20624,7 +20438,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -20806,7 +20620,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -22243,7 +22057,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -22313,8 +22127,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -22811,20 +22625,6 @@
       "has_guide": false
     },
     {
-      "name": "RTS 3",
-      "url": "https://webtvstream.bhtelecom.ba/rts_sat.m3u8",
-      "logo": "https://i.imgur.com/gxuGB4J.png",
-      "tvg_id": "RTS3.rs",
-      "category": "Serbia",
-      "country": "RS",
-      "sources": [
-        "free-tv"
-      ],
-      "status": "blocked",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
       "name": "Red TV",
       "url": "https://edge8.pink.rs/redtv/index.m3u8",
       "logo": "https://i.imgur.com/cpN7NrL.png",
@@ -22854,10 +22654,24 @@
       "has_guide": false
     },
     {
-      "name": "Informer TV",
-      "url": "https://edge-rs-03.maksnet.tv/informertv-secure/web/playlist.m3u8",
-      "logo": "https://i.imgur.com/9wdEHRf.png",
-      "tvg_id": "InformerTV.rs",
+      "name": "Blic TV",
+      "url": "https://edge-rs-06.maksnet.tv/blictv-secure/smil:blictv-secure.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/XM5Qz1i.png",
+      "tvg_id": "BlicTV.rs",
+      "category": "Serbia",
+      "country": "RS",
+      "sources": [
+        "free-tv"
+      ],
+      "status": "online",
+      "quarantined": false,
+      "has_guide": false
+    },
+    {
+      "name": "RTS Svet",
+      "url": "https://webtvstream.bhtelecom.ba/rts_svet.m3u8",
+      "logo": "https://i.imgur.com/LjunOdy.png",
+      "tvg_id": "RTSSvet.rs",
       "category": "Serbia",
       "country": "RS",
       "sources": [
@@ -22868,17 +22682,17 @@
       "has_guide": false
     },
     {
-      "name": "RTS Svet",
-      "url": "https://webtvstream.bhtelecom.ba/rts_svet.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Rts-svet.png",
-      "tvg_id": "RTSSvet.rs",
+      "name": "IDJ TV",
+      "url": "https://best-str.umn.cdn.united.cloud/stream?stream=hp1400&sp=idjtv&u=idjtv&p=In$trum300na765ta&channel=idjhd&player=m3u8",
+      "logo": "https://i.imgur.com/btvyrzr.png",
+      "tvg_id": "IDJTV.rs",
       "category": "Serbia",
       "country": "RS",
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -22961,7 +22775,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -24553,8 +24367,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -25500,7 +25314,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -25514,7 +25328,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -25529,7 +25343,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -27219,7 +27033,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -28404,7 +28218,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true,
       "has_guide": false
     },
@@ -30946,7 +30760,7 @@
         "sports",
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -31380,7 +31194,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -31394,7 +31208,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -32500,7 +32314,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -33327,7 +33141,7 @@
         "sports"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -33719,7 +33533,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -33943,7 +33757,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -34643,8 +34457,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -35147,7 +34961,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -35259,7 +35073,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -35273,7 +35087,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -35301,7 +35115,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -35315,7 +35129,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -36589,7 +36403,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -36617,7 +36431,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -36631,7 +36445,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -37527,7 +37341,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -37612,7 +37426,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -37641,7 +37455,7 @@
         "sports"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -37682,7 +37496,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -38845,7 +38659,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -38859,7 +38673,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -39238,7 +39052,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -40694,7 +40508,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -41086,7 +40900,7 @@
       "sources": [
         "news"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -41591,7 +41405,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -42447,7 +42261,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -42587,7 +42401,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -42993,7 +42807,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -43676,6 +43490,20 @@
       "tvg_id": "HornbillTV.in@SD",
       "category": "News",
       "country": "IN",
+      "sources": [
+        "news"
+      ],
+      "status": "online",
+      "quarantined": false,
+      "has_guide": false
+    },
+    {
+      "name": "HRT 4 HD (720p) [Geo-blocked]",
+      "url": "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT4/default/index.mpd",
+      "logo": "https://i.imgur.com/VcNrY0m.png",
+      "tvg_id": "HRT4.hr@HD",
+      "category": "News",
+      "country": "HR",
       "sources": [
         "news"
       ],
@@ -44716,7 +44544,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -44913,7 +44741,7 @@
         "news"
       ],
       "status": "blocked",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -47032,20 +46860,6 @@
       "has_guide": false
     },
     {
-      "name": "Newsmax Balkans (1080p)",
-      "url": "https://newsmaxadria.mts-si.tv/newsmaxadria/index.m3u8",
-      "logo": "https://i.imgur.com/BXFPz8c.png",
-      "tvg_id": "NewsmaxBalkans.ba@SD",
-      "category": "News",
-      "country": "BA",
-      "sources": [
-        "news"
-      ],
-      "status": "online",
-      "quarantined": false,
-      "has_guide": false
-    },
-    {
       "name": "Newsmax Spanish (1080p)",
       "url": "https://n1ottesorkatv.akamaized.net/hls/live/2113795/Live_1/index.m3u8",
       "logo": "https://i.imgur.com/mrXMW7H.png",
@@ -47405,7 +47219,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -47730,7 +47544,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -47747,6 +47561,20 @@
       "status": "blocked",
       "quarantined": true,
       "has_guide": false
+    },
+    {
+      "name": "OTV (Croatia) (720p) [Not 24/7]",
+      "url": "https://stream.agatin.hr:3559/live/otvlive.m3u8",
+      "logo": "https://i.imgur.com/67zVdu2.png",
+      "tvg_id": "OTV.hr@SD",
+      "category": "News",
+      "country": "HR",
+      "sources": [
+        "news"
+      ],
+      "status": "error",
+      "quarantined": true,
+      "has_guide": true
     },
     {
       "name": "Palestine Al Yawm (720p)",
@@ -47814,7 +47642,7 @@
       "sources": [
         "news"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -47926,7 +47754,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -48683,8 +48511,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -48851,7 +48679,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -49607,8 +49435,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -49621,7 +49449,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -49915,7 +49743,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -50377,8 +50205,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -50671,7 +50499,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -50715,7 +50543,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -50966,7 +50794,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -51303,8 +51131,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -51753,7 +51581,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -52733,7 +52561,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -52775,7 +52603,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -52833,6 +52661,20 @@
       ],
       "status": "blocked",
       "quarantined": true,
+      "has_guide": false
+    },
+    {
+      "name": "HRT 3 HD (720p) [Geo-blocked]",
+      "url": "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT3/default/index.mpd",
+      "logo": "https://i.imgur.com/4OrOJRx.png",
+      "tvg_id": "HRT3.hr@HD",
+      "category": "Culture;Documentary",
+      "country": "HR",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -52943,7 +52785,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -53377,7 +53219,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -53391,7 +53233,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -55352,7 +55194,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -55562,8 +55404,8 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": true
     },
     {
@@ -55856,7 +55698,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -56052,7 +55894,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -56108,7 +55950,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -56416,7 +56258,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": true
     },
@@ -56570,7 +56412,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -56752,7 +56594,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -57592,7 +57434,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -58394,7 +58236,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -59458,7 +59300,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -60018,7 +59860,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -60607,6 +60449,20 @@
         "kids"
       ],
       "status": "blocked",
+      "quarantined": true,
+      "has_guide": false
+    },
+    {
+      "name": "TNT Kids TV (288p)",
+      "url": "https://restreamer1.tnt.ba/hls/tntkids.m3u8",
+      "logo": "https://i.imgur.com/irTDbpn.png",
+      "tvg_id": "TNTKidsTV.ba@SD",
+      "category": "Kids",
+      "country": "BA",
+      "sources": [
+        "kids"
+      ],
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -62553,7 +62409,7 @@
       "sources": [
         "movies"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -63155,7 +63011,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -63841,7 +63697,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -64597,7 +64453,7 @@
       "sources": [
         "movies"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -65339,8 +65195,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": true
     },
     {
@@ -65437,8 +65293,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -65899,7 +65755,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -66754,7 +66610,7 @@
         "movies"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -70227,7 +70083,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -70395,7 +70251,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -70815,7 +70671,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -70829,7 +70685,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -70843,7 +70699,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -70857,7 +70713,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -71515,7 +71371,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -73895,8 +73751,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -74091,7 +73947,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -74217,7 +74073,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -74231,8 +74087,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -74945,7 +74801,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -75575,7 +75431,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -75953,7 +75809,7 @@
       "sources": [
         "music"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -76135,8 +75991,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -77101,7 +76957,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -77535,7 +77391,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -78165,7 +78021,7 @@
       "sources": [
         "music"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -78278,7 +78134,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -78403,7 +78259,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -78954,6 +78810,20 @@
       "has_guide": false
     },
     {
+      "name": "RTV Glas Drine (404p) [Not 24/7]",
+      "url": "http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8",
+      "logo": "https://i.imgur.com/9NgxOdb.png",
+      "tvg_id": "RTVGlasDrine.ba@SD",
+      "category": "General;Music",
+      "country": "BA",
+      "sources": [
+        "music"
+      ],
+      "status": "timeout",
+      "quarantined": true,
+      "has_guide": false
+    },
+    {
       "name": "RTV Vida (1080p)",
       "url": "https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8",
       "logo": "https://i.imgur.com/EqUfEAh.png",
@@ -78977,7 +78847,7 @@
       "sources": [
         "music"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -79061,7 +78931,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true,
       "has_guide": false
     },
@@ -79313,7 +79183,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -81553,7 +81423,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },

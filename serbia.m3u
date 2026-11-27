@@ -1,3 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="KurirTV.rs" tvg-logo="https://i.imgur.com/HBPnUD5.png" group-title="Serbia" tvg-country="RS",Kurir TV
 https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/720p/720p.m3u8
+#EXTINF:-1 tvg-id="BlicTV.rs" tvg-logo="https://i.imgur.com/XM5Qz1i.png" group-title="Serbia" tvg-country="RS",Blic TV
+https://edge-rs-06.maksnet.tv/blictv-secure/smil:blictv-secure.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="IDJTV.rs" tvg-logo="https://i.imgur.com/btvyrzr.png" group-title="Serbia" tvg-country="RS",IDJ TV
+https://best-str.umn.cdn.united.cloud/stream?stream=hp1400&sp=idjtv&u=idjtv&p=In$trum300na765ta&channel=idjhd&player=m3u8
