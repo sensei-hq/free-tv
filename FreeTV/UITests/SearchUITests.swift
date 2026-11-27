@@ -72,6 +72,25 @@ final class SearchUITests: XCTestCase {
             "search did not filter to Sky News")
     }
 
+    func testChannelsGridLoadsGuide() {
+        let app = launch(tab: "channels")
+        XCTAssertTrue(app.buttons["Sports"].waitForExistence(timeout: 60),
+                      "channel shelves never loaded")
+        let query = app.staticTexts.matching(
+            NSPredicate(format: "label CONTAINS 'programmes'"))
+        var loaded = false
+        for _ in 0 ..< 36 {
+            if query.allElementsBoundByIndex.contains(where: {
+                !$0.label.hasPrefix("0 ")
+            }) {
+                loaded = true
+                break
+            }
+            sleep(5)
+        }
+        XCTAssertTrue(loaded, "guide programmes never loaded")
+    }
+
     func testSettingsListsSources() {
         let app = launch(tab: "settings")
         XCTAssertTrue(app.buttons["Add source"].waitForExistence(

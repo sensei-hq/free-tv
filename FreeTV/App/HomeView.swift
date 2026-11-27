@@ -8,7 +8,8 @@ enum LaunchTestHooks {
         let args = ProcessInfo.processInfo.arguments
         guard let flag = args.firstIndex(of: "-tab"),
               args.indices.contains(flag + 1) else { return 0 }
-        return ["home", "search", "movies", "favorites", "settings"]
+        return ["home", "search", "movies", "channels", "favorites",
+                "settings"]
             .firstIndex(of: args[flag + 1]) ?? 0
     }
 
@@ -51,19 +52,25 @@ struct HomeView: View {
             .tag(2)
 
             NavigationStack {
+                EPGGridView()
+            }
+            .tabItem { Label("Channels", systemImage: "tv") }
+            .tag(3)
+
+            NavigationStack {
                 FavoritesView()
                     .navigationDestination(for: Channel.self) { channel in
                         ChannelDetailView(channel: channel)
                     }
             }
             .tabItem { Label("Favorites", systemImage: "heart") }
-            .tag(3)
+            .tag(4)
 
             NavigationStack {
                 SettingsView()
             }
             .tabItem { Label("Settings", systemImage: "gear") }
-            .tag(4)
+            .tag(5)
         }
     }
 }

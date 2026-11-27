@@ -18,6 +18,11 @@ public struct EPGProgramme: Hashable, Sendable {
 public struct EPGGuide: Sendable {
     public let channels: [EPGChannel]
     public let programmes: [String: [EPGProgramme]]
+
+    public init(channels: [EPGChannel], programmes: [String: [EPGProgramme]]) {
+        self.channels = channels
+        self.programmes = programmes
+    }
 }
 
 /// Same normalization as the curator (lowercase, strip @suffix).

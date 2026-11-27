@@ -7,12 +7,22 @@ struct SettingsView: View {
     @EnvironmentObject private var catalog: CatalogStore
     @EnvironmentObject private var plex: PlexStore
     @EnvironmentObject private var tmdb: TMDBStore
+    @EnvironmentObject private var epg: EPGStore
     @State private var addingSource = false
     @State private var keyText = ""
     @State private var regionText = ""
+    @State private var guideText = ""
 
     var body: some View {
         List {
+            Section("Program guide") {
+                TextField("Guide XML URL", text: $guideText)
+                Button("Save guide URL") {
+                    epg.saveGuideURL(guideText)
+                    guideText = ""
+                }
+            }
+
             Section("Channel sources") {
                 Button("Add source") { addingSource = true }
                 ForEach(sources.sources) { source in
