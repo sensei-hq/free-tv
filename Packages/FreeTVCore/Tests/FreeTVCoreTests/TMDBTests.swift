@@ -7,6 +7,7 @@ let tmdbSearchFixture = """
 {"page":1,"total_results":2,"results":[
   {"id":27205,"media_type":"movie","title":"Inception",
    "release_date":"2010-07-16","poster_path":"/p.jpg",
+   "backdrop_path":"/b.jpg",
    "overview":"A thief.","genre_ids":[28,878],"vote_average":8.4},
   {"id":1396,"media_type":"tv","name":"Breaking Bad",
    "first_air_date":"2008-01-20","poster_path":null,
@@ -21,8 +22,8 @@ let tmdbProvidersFixture = """
     "flatrate":[{"provider_id":8,"provider_name":"Netflix",
       "logo_path":"/nf.jpg","display_priority":0}]},
   "IN":{"link":"https://www.justwatch.com/in/movie/x",
-    "flatrate":[{"provider_id":385,"provider_name":"YuppTV",
-      "logo_path":"/yupp.jpg","display_priority":5}]}}}
+    "flatrate":[{"provider_id":232,"provider_name":"Zee5",
+      "logo_path":"/zee5.jpg","display_priority":5}]}}}
 """
 
 let tmdbGenresFixture = """
@@ -50,6 +51,8 @@ struct TMDBTests {
         #expect(titles[0].year == "2010")
         #expect(titles[1].mediaType == .show)
         #expect(titles[0].posterURL?.absoluteString.contains("/p.jpg") == true)
+        #expect(titles[0].backdropURL?.absoluteString.contains("/b.jpg")
+            == true)
     }
 
     @Test("discovers by year and genre")
@@ -76,7 +79,7 @@ struct TMDBTests {
         #expect(groups.free.map(\.name) == ["Tubi"])
         let india = try await client.providers(media: .movie, id: 27205,
                                                region: "IN")
-        #expect(india.flatrate.map(\.name) == ["YuppTV"])
+        #expect(india.flatrate.map(\.name) == ["Zee5"])
     }
 
     @Test("fetches genre names")

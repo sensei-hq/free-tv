@@ -14,6 +14,7 @@ public struct TMDBTitle: Hashable, Sendable {
     public let name: String
     public let year: String
     public let posterPath: String?
+    public let backdropPath: String?
     public let overview: String
     public let genreIDs: [Int]
     public let rating: Double
@@ -21,6 +22,11 @@ public struct TMDBTitle: Hashable, Sendable {
     public var posterURL: URL? {
         guard let posterPath else { return nil }
         return URL(string: "https://image.tmdb.org/t/p/w500\(posterPath)")
+    }
+
+    public var backdropURL: URL? {
+        guard let backdropPath else { return nil }
+        return URL(string: "https://image.tmdb.org/t/p/w1280\(backdropPath)")
     }
 }
 
@@ -32,7 +38,7 @@ public struct TMDBProvider: Hashable, Sendable {
 
     public var logoURL: URL? {
         guard let logoPath else { return nil }
-        return URL(string: "https://image.tmdb.org/t/p/w92\(logoPath)")
+        return URL(string: "https://image.tmdb.org/t/p/w185\(logoPath)")
     }
 }
 
@@ -97,6 +103,7 @@ public final class TMDBClient: Sendable {
         let release_date: String?
         let first_air_date: String?
         let poster_path: String?
+        let backdrop_path: String?
         let overview: String?
         let genre_ids: [Int]?
         let vote_average: Double?
@@ -124,6 +131,7 @@ public final class TMDBClient: Sendable {
                 name: name ?? "Unknown",
                 year: String((date ?? "").prefix(4)),
                 posterPath: item.poster_path,
+                backdropPath: item.backdrop_path,
                 overview: item.overview ?? "",
                 genreIDs: item.genre_ids ?? [],
                 rating: item.vote_average ?? 0)

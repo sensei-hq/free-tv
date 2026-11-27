@@ -53,6 +53,7 @@
 				DDDDDDDD0000000000000020,
 				DDDDDDDD0000000000000021,
 				DDDDDDDD0000000000000022,
+				DDDDDDDD0000000000000023,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -102,6 +103,7 @@
 				EEEEEEEE0000000000000020,
 				EEEEEEEE0000000000000021,
 				EEEEEEEE0000000000000022,
+				EEEEEEEE0000000000000023,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +367,16 @@
 		EEEEEEEE0000000000000022 = {
 			isa = PBXBuildFile;
 			fileRef = DDDDDDDD0000000000000022;
+		};
+		DDDDDDDD0000000000000023 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AppLauncher.swift;
+			sourceTree = "<group>";
+		};
+		EEEEEEEE0000000000000023 = {
+			isa = PBXBuildFile;
+			fileRef = DDDDDDDD0000000000000023;
 		};
 		FFFFFFFF0000000000000001 = {
 			isa = PBXNativeTarget;

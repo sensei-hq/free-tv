@@ -8,7 +8,7 @@ enum LaunchTestHooks {
         let args = ProcessInfo.processInfo.arguments
         guard let flag = args.firstIndex(of: "-tab"),
               args.indices.contains(flag + 1) else { return 0 }
-        return ["home", "search", "movies", "favorites", "plex", "settings"]
+        return ["home", "search", "movies", "favorites", "settings"]
             .firstIndex(of: args[flag + 1]) ?? 0
     }
 
@@ -75,16 +75,10 @@ struct HomeView: View {
             .tag(3)
 
             NavigationStack {
-                PlexView()
-            }
-            .tabItem { Label("Plex", systemImage: "server.rack") }
-            .tag(4)
-
-            NavigationStack {
                 SettingsView()
             }
             .tabItem { Label("Settings", systemImage: "gear") }
-            .tag(5)
+            .tag(4)
         }
     }
 }

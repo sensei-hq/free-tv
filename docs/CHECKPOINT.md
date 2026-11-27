@@ -1,10 +1,10 @@
-# Checkpoint: TMDB Movies tab live
+# Checkpoint: unified detail shipped
 
-Slice: free-tv unified catalog phase 1. Repo: sensei-hq/free-tv.
-Done: TMDB client (search/discover/trending/genres/providers),
-Movies tab + detail + Plex match, key/region in Settings (keychain).
-28 core, 39 curator, 7 UI tests green; live search verified on sim.
-Remains: user preview (key entry, providers, Plex match on device).
-Next: provider deep links; IA vintage; YouTube RSS shelves; anime.
-Open questions: Tubi/YuppTV link schemes; core spotlight recipe.
+Slice: free-tv detail + providers. Repo: sensei-hq/free-tv.
+Done: filters-above-search layout, 300px cards, backdrop detail,
+provider card grid with cost badges + app launch, owned-first order,
+Plex moved to Settings. 31 core, 39 curator, 7 UI tests green.
+Remains: user preview (search flow, provider launch on real Apple TV).
+Next: IA vintage shelves; YouTube RSS shelves; anime metadata.
+Open questions: unverified schemes (Tubi/YuppTV/Disney+); spotlight.
 Known-broken: none. (/sensei:checkpoint unavailable in this runtime.)

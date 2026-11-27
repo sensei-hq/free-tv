@@ -6,39 +6,21 @@ struct PlexView: View {
     @EnvironmentObject private var plex: PlexStore
 
     var body: some View {
-        if plex.isSignedIn {
-            List(plex.sections, id: \.key) { section in
-                NavigationLink(value: section) {
-                    HStack {
-                        Text(section.title).font(.headline)
-                        Spacer()
-                        Text(section.type).font(.caption)
-                            .foregroundStyle(.secondary)
-                    }
+        List(plex.sections, id: \.key) { section in
+            NavigationLink(value: section) {
+                HStack {
+                    Text(section.title).font(.headline)
+                    Spacer()
+                    Text(section.type).font(.caption)
+                        .foregroundStyle(.secondary)
                 }
             }
-            .navigationTitle(plex.serverName ?? "Plex")
-            .navigationDestination(for: LibrarySection.self) { section in
-                PlexSectionView(section: section)
-            }
-            .onAppear { plex.refreshSections() }
-        } else {
-            VStack(spacing: 16) {
-                Text("Plex is not connected")
-                    .font(.title2)
-                Text("Sign in under Settings to browse this server")
-                    .foregroundStyle(.secondary)
-                if plex.isLinking, let code = plex.linkCode {
-                    Text("Enter this code at plex.tv/link")
-                    Text(code).font(.largeTitle).bold()
-                    Button("Cancel") { plex.cancelLink() }
-                } else {
-                    Button("Sign in to Plex") { plex.beginLink() }
-                }
-            }
-            .frame(maxWidth: .infinity, minHeight: 400)
-            .navigationTitle("Plex")
         }
+        .navigationTitle(plex.serverName ?? "Plex")
+        .navigationDestination(for: LibrarySection.self) { section in
+            PlexSectionView(section: section)
+        }
+        .onAppear { plex.refreshSections() }
     }
 }
 

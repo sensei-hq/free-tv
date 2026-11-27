@@ -65,6 +65,7 @@ struct SettingsView: View {
             Section("Plex") {
                 if plex.isSignedIn {
                     Text("Server: \(plex.serverName ?? "")")
+                    NavigationLink("Plex libraries") { PlexView() }
                     Button("Sign out") { plex.signOut() }
                 } else if plex.isLinking, let code = plex.linkCode {
                     VStack(alignment: .leading, spacing: 8) {

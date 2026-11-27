@@ -61,8 +61,10 @@ your Apple TV as destination, and run. Nothing is hardcoded: Settings holds
 any number of catalog or M3U sources (the curated catalog is just the
 default), and the Plex tab signs in via plex.tv/link plus local GDM
 discovery, with tokens in the keychain. The Movies tab adds TMDB search,
-year/genre browse, trending rows, per-region where-to-watch providers,
-and Plex ownership matching (key + region in Settings, key in keychain).
-Direct-play only in v1.
+year/genre browse, trending rows, and per-region where-to-watch cards
+ordered owned → free → subscription → rent → buy, with app launch
+where installed (verified schemes only) and Plex ownership matching
+(key + region in Settings, key in keychain). Plex lives under Settings
+as a source, not a tab. Direct-play only in v1; no prices exist in TMDB.
 CI builds the app and runs core + UI tests on every push touching `FreeTV/`
 or `Packages/`.

@@ -30,14 +30,6 @@ final class SearchUITests: XCTestCase {
         }
     }
 
-    /// Moves focus down until the button is focused (or gives up).
-    private func focus(_ button: XCUIElement) {
-        for _ in 0 ..< 6 {
-            if button.exists && button.hasFocus { return }
-            press(.down)
-        }
-    }
-
     func testShelvesLoad() {
         let app = launchLoadedApp()
         XCTAssertTrue(app.staticTexts["News"].exists)
@@ -63,16 +55,6 @@ final class SearchUITests: XCTestCase {
         XCTAssertTrue(
             app.staticTexts["Sky News"].waitForExistence(timeout: 15),
             "search did not filter to Sky News")
-    }
-
-    func testPlexLinkCodeAppears() {
-        let app = launch(tab: "plex")
-        let button = app.buttons["Sign in to Plex"]
-        XCTAssertTrue(button.waitForExistence(timeout: 15))
-        focus(button)
-        press(.select)
-        XCTAssertTrue(app.staticTexts["Enter this code at plex.tv/link"]
-            .waitForExistence(timeout: 20))
     }
 
     func testSettingsListsSources() {
@@ -108,12 +90,20 @@ final class SearchUITests: XCTestCase {
         app.launch()
         XCTAssertTrue(app.staticTexts["Trending movies"].waitForExistence(
             timeout: 30))
-        let field = app.textFields.firstMatch
+        let field = app.textFields["TitleSearchField"]
         XCTAssertTrue(field.waitForExistence(timeout: 10))
         press(.select)
         field.typeText("inception")
         XCTAssertTrue(app.staticTexts["Inception"].waitForExistence(
             timeout: 15),
             "search did not find Inception")
+        press(.menu)
+        press(.down)
+        press(.select)
+        XCTAssertTrue(
+            app.staticTexts["Rent"].waitForExistence(timeout: 20),
+            "provider sections never rendered on detail")
+        XCTAssertTrue(app.staticTexts["RENT"].waitForExistence(timeout: 10),
+                      "cost badges never rendered")
     }
 }
