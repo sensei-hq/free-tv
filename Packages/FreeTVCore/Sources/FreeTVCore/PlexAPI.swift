@@ -25,10 +25,20 @@ public struct LibrarySection: Hashable, Sendable {
 }
 
 public struct PlexItem: Hashable, Sendable {
+    public let key: String?
     public let title: String
     public let thumbURL: URL?
     public let durationMS: Int?
     public let playURL: URL?
+
+    public init(key: String? = nil, title: String, thumbURL: URL? = nil,
+                durationMS: Int? = nil, playURL: URL? = nil) {
+        self.key = key
+        self.title = title
+        self.thumbURL = thumbURL
+        self.durationMS = durationMS
+        self.playURL = playURL
+    }
 }
 
 public enum PlexError: Error {
@@ -183,6 +193,7 @@ public final class PlexClient: Sendable {
     }
 
     private struct ItemMetadata: Decodable {
+        let key: String?
         let title: String?
         let thumb: String?
         let duration: Int?
@@ -225,7 +236,8 @@ public final class PlexClient: Sendable {
                 return components.url
             }
             let partKey = meta.Media?.first?.Part?.first?.key
-            return PlexItem(title: title,
+            return PlexItem(key: meta.key,
+                            title: title,
                             thumbURL: authed(meta.thumb),
                             durationMS: meta.duration,
                             playURL: authed(partKey))

@@ -54,6 +54,7 @@
 				DDDDDDDD0000000000000021,
 				DDDDDDDD0000000000000022,
 				DDDDDDDD0000000000000023,
+				DDDDDDDD0000000000000024,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -104,6 +105,7 @@
 				EEEEEEEE0000000000000021,
 				EEEEEEEE0000000000000022,
 				EEEEEEEE0000000000000023,
+				EEEEEEEE0000000000000024,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +379,16 @@
 		EEEEEEEE0000000000000023 = {
 			isa = PBXBuildFile;
 			fileRef = DDDDDDDD0000000000000023;
+		};
+		DDDDDDDD0000000000000024 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PlaybackStore.swift;
+			sourceTree = "<group>";
+		};
+		EEEEEEEE0000000000000024 = {
+			isa = PBXBuildFile;
+			fileRef = DDDDDDDD0000000000000024;
 		};
 		FFFFFFFF0000000000000001 = {
 			isa = PBXNativeTarget;

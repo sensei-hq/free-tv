@@ -43,6 +43,21 @@ final class SearchUITests: XCTestCase {
                       "channel detail never opened")
     }
 
+    func testPlaybackResumeAppears() {
+        let app = launchLoadedApp()
+        press(.down)
+        press(.select)
+        XCTAssertTrue(app.buttons["Play"].waitForExistence(timeout: 15))
+        press(.down)
+        press(.select)
+        sleep(10)
+        press(.menu)
+        press(.menu)
+        XCTAssertTrue(app.staticTexts["Continue watching"].waitForExistence(
+            timeout: 20),
+            "continue shelf never appeared after playback")
+    }
+
     func testSearchFindsChannel() {
         let app = launch(tab: "search")
         let field = app.textFields.firstMatch

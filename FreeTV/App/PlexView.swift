@@ -76,7 +76,12 @@ struct PlexSectionView: View {
 
 struct PlexDetailView: View {
     let item: PlexItem
+    @EnvironmentObject private var playback: PlaybackStore
     @State private var playing = false
+
+    private var progressID: String {
+        item.key ?? item.title
+    }
 
     var body: some View {
         HStack(spacing: 60) {
@@ -95,7 +100,7 @@ struct PlexDetailView: View {
             VStack(alignment: .leading, spacing: 16) {
                 Text(item.title).font(.largeTitle).bold()
                 if item.playURL != nil {
-                    Button("Play") { playing = true }
+                    Button(playbackButtonLabel) { playing = true }
                 } else {
                     Text("No direct-play file for this item")
                         .foregroundStyle(.secondary)
@@ -105,7 +110,22 @@ struct PlexDetailView: View {
         }
         .padding(60)
         .fullScreenCover(isPresented: $playing) {
-            PlayerView(title: item.title, url: item.playURL)
+            PlayerView(title: item.title, url: item.playURL,
+                       resumeFrom: playback.progress(id: progressID)?
+                           .resumeFrom,
+                       onProgress: { position, duration in
+                           playback.record(WatchProgress(
+                               id: progressID, title: item.title, kind: .vod,
+                               url: item.playURL, tmdbID: nil,
+                               artwork: item.thumbURL, position: position,
+                               duration: duration, updatedAt: Date()))
+                       },
+                       onFinished: { playback.clear(id: progressID) })
         }
+    }
+
+    private var playbackButtonLabel: String {
+        playback.progress(id: progressID)?.resumeFrom != nil
+            ? "Resume" : "Play"
     }
 }

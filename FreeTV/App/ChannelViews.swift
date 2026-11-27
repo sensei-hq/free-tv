@@ -46,6 +46,7 @@ struct ChannelMonogram: View {
 struct ChannelDetailView: View {
     let channel: Channel
     @EnvironmentObject private var favorites: FavoritesStore
+    @EnvironmentObject private var playback: PlaybackStore
     @State private var playing = false
 
     var body: some View {
@@ -75,7 +76,14 @@ struct ChannelDetailView: View {
                     .font(.title3)
                     .foregroundStyle(.secondary)
                 HStack(spacing: 20) {
-                    Button("Play") { playing = true }
+                    Button("Play") {
+                        playback.record(WatchProgress(
+                            id: channel.url, title: channel.name,
+                            kind: .live, url: channel.streamURL, tmdbID: nil,
+                            artwork: channel.logoURL, position: 0, duration: 0,
+                            updatedAt: Date()))
+                        playing = true
+                    }
                     Button(favorites.isFavorite(channel)
                         ? "★ Favorited" : "♡ Favorite") {
                         favorites.toggle(channel)
