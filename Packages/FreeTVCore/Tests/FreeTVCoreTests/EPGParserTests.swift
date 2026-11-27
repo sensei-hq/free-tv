@@ -52,6 +52,15 @@ struct EPGParserTests {
         #expect(normalizeEPGID("BBC One") == "bbc one")
     }
 
+    @Test("programme lookup is case-insensitive")
+    func lookupIgnoresCase() throws {
+        let guide = try parseXMLTV(Data(xmltvFixture.utf8))
+        #expect(guide.programmes["bbc1"]?.count == 2)
+        let found = nowPlaying(channels: guide.programmes, id: "BBC1",
+                               at: Date(timeIntervalSince1970: 1767256200))
+        #expect(found?.title == "Morning News")
+    }
+
     @Test("parses a real trimmed guide sample")
     func parsesRealSample() throws {
         let url = Bundle.module.url(forResource: "al1-sample",

@@ -130,9 +130,10 @@ public func parseXMLTV(_ data: Data) throws -> EPGGuide {
     let parser = XMLParser(data: data)
     parser.delegate = delegate
     guard parser.parse() else { throw EPGParseError.invalidDocument }
-    var programmes = delegate.programmes
-    for key in programmes.keys {
-        programmes[key]?.sort { $0.start < $1.start }
+    var programmes: [String: [EPGProgramme]] = [:]
+    for (id, shows) in delegate.programmes {
+        programmes[normalizeEPGID(id), default: []]
+            += shows.sorted { $0.start < $1.start }
     }
     return EPGGuide(channels: delegate.channels, programmes: programmes)
 }
@@ -140,14 +141,16 @@ public func parseXMLTV(_ data: Data) throws -> EPGGuide {
 /// Programme airing at `at`, if any.
 public func nowPlaying(channels: [String: [EPGProgramme]], id: String,
                        at: Date = Date()) -> EPGProgramme? {
-    (channels[id] ?? []).first { $0.start <= at && at < $0.stop }
+    (channels[normalizeEPGID(id)] ?? []).first {
+        $0.start <= at && at < $0.stop
+    }
 }
 
 /// Next programmes after `at`, soonest first.
 public func upcomingShows(channels: [String: [EPGProgramme]], id: String,
                           at: Date = Date(), limit: Int = 10)
     -> [EPGProgramme] {
-    (channels[id] ?? []).filter { $0.start > at }
+    (channels[normalizeEPGID(id)] ?? []).filter { $0.start > at }
         .sorted { $0.start < $1.start }
         .prefix(limit).map { $0 }
 }
