@@ -6,10 +6,11 @@ import FreeTVCore
 final class TMDBStore: ObservableObject {
     @Published private(set) var hasKey = false
     @Published var region = "US"
-    @Published private(set) var results: [TMDBTitle] = []
+    @Published private(set) var results: [TMDBMedia: [TMDBTitle]] = [:]
     @Published private(set) var trendingMovies: [TMDBTitle] = []
     @Published private(set) var trendingShows: [TMDBTitle] = []
     @Published private(set) var movieGenres: [Int: String] = [:]
+    @Published private(set) var tvGenres: [Int: String] = [:]
     @Published private(set) var isLoading = false
     @Published private(set) var errorMessage: String?
 
@@ -50,7 +51,7 @@ final class TMDBStore: ObservableObject {
     func clearKey() {
         try? keychain.delete(account: "tmdb-api-key")
         hasKey = false
-        results = []
+        results = [:]
         trendingMovies = []
         trendingShows = []
     }
@@ -63,38 +64,35 @@ final class TMDBStore: ObservableObject {
         defaults.set(trimmed, forKey: "free-tv-region")
     }
 
-    func search(query: String) async {
+    func search(media: TMDBMedia, query: String) async {
         guard let client else { return }
         isLoading = true
         errorMessage = nil
         defer { isLoading = false }
         do {
-            results = try await client.search(query: query, region: region)
+            let found = try await client.search(query: query, region: region)
+            results[media] = found.filter { $0.mediaType == media }
         } catch TMDBError.invalidKey {
             errorMessage = "TMDB key rejected — check Settings"
-            results = []
+            results[media] = []
         } catch {
             errorMessage = error.localizedDescription
-            results = []
+            results[media] = []
         }
     }
 
-    func browse(year: String, genreID: Int?) async {
+    func browse(media: TMDBMedia, year: String, genreID: Int?) async {
         guard let client else { return }
         isLoading = true
         errorMessage = nil
         defer { isLoading = false }
         do {
-            async let movies = client.discover(
-                media: .movie, year: year.isEmpty ? nil : year,
+            results[media] = try await client.discover(
+                media: media, year: year.isEmpty ? nil : year,
                 genreID: genreID, region: region)
-            async let shows = client.discover(
-                media: .show, year: year.isEmpty ? nil : year,
-                genreID: genreID, region: region)
-            results = try await movies + shows
         } catch {
             errorMessage = error.localizedDescription
-            results = []
+            results[media] = []
         }
     }
 
@@ -103,13 +101,19 @@ final class TMDBStore: ObservableObject {
         do {
             async let movies = client.trending(media: .movie)
             async let shows = client.trending(media: .show)
-            async let genres = client.genres(media: .movie)
+            async let movieGenreList = client.genres(media: .movie)
+            async let tvGenreList = client.genres(media: .show)
             trendingMovies = try await movies
             trendingShows = try await shows
-            movieGenres = try await genres
+            movieGenres = try await movieGenreList
+            tvGenres = try await tvGenreList
         } catch {
             errorMessage = error.localizedDescription
         }
+    }
+
+    func genres(for media: TMDBMedia) -> [Int: String] {
+        media == .movie ? movieGenres : tvGenres
     }
 
     func providers(for title: TMDBTitle) async -> TMDBProviderGroups? {
