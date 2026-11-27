@@ -10,8 +10,11 @@ from urllib.request import Request, urlopen
 from curator.catalog import build_catalog
 from curator.epg import (
     build_epg_index,
+    build_merged_guide,
     coverage,
     fetch_ids,
+    fetch_guide_bodies,
+    fetch_guide_body,
     filter_by_size,
     guides_for,
     normalize_id,
@@ -167,6 +170,16 @@ def main(argv=None):
           json.dumps(dead, indent=2) + "\n")
     write(os.path.join(args.out, "epg-index.json"),
           json.dumps(build_epg_index(guide_ids), indent=2) + "\n")
+    if matched_global and not args.no_epg:
+        bodies = fetch_guide_bodies(matched_global, args.max_workers)
+        guide_xml = build_merged_guide(
+            bodies, playlist_ids(merged))
+        guide_path = os.path.join(args.out, "guide.xml")
+        os.makedirs(os.path.dirname(guide_path) or ".", exist_ok=True)
+        with open(guide_path, "wb") as fh:
+            fh.write(guide_xml)
+        print(f"guide.xml: {len(guide_xml) / 1e6:.1f} MB from "
+              f"{len(bodies)} guides")
 
     categories = {}
     for entry in live_entries:

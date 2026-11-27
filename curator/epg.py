@@ -3,6 +3,7 @@ keep only guides that cover at least one playlist channel. Dead guides
 and irrelevant 200MB aggregates never reach the published playlists."""
 import gzip
 import re
+import xml.etree.ElementTree as ET
 from urllib.request import Request, urlopen
 
 from curator.probe import USER_AGENT
@@ -77,6 +78,37 @@ def build_epg_index(guide_ids):
     return index
 
 
+def _strip_ns(tag):
+    return tag.split("}", 1)[-1] if "}" in tag else tag
+
+
+def build_merged_guide(guide_bodies, wanted_ids):
+    """Merge programmes for wanted channel ids across guides into one
+    XMLTV document. Broken guides are skipped silently."""
+    tv = ET.Element("tv")
+    seen_channels = set()
+    for body in guide_bodies.values():
+        try:
+            root = ET.fromstring(body)
+        except ET.ParseError:
+            continue
+        for channel in root.iter():
+            if _strip_ns(channel.tag) != "channel":
+                continue
+            cid = channel.get("id", "")
+            if normalize_id(cid) not in wanted_ids:
+                continue
+            if cid not in seen_channels:
+                seen_channels.add(cid)
+                tv.append(channel)
+        for programme in root.iter():
+            if _strip_ns(programme.tag) != "programme":
+                continue
+            if normalize_id(programme.get("channel", "")) in wanted_ids:
+                tv.append(programme)
+    return ET.tostring(tv, encoding="utf-8", xml_declaration=True)
+
+
 def guides_for(entries, guide_ids, min_coverage):
     """Matched guide URLs, or [] when coverage is too thin to justify
     the download cost on the player."""
@@ -86,6 +118,40 @@ def guides_for(entries, guide_ids, min_coverage):
     if total and covered / total >= min_coverage:
         return matched
     return []
+
+
+def fetch_guide_body(url, timeout=120):
+    """Raw (decompressed) bytes of one guide, or b"" on any failure."""
+    try:
+        request = Request(url, headers={"User-Agent": USER_AGENT})
+        with urlopen(request, timeout=timeout) as response:  # noqa: S310
+            body = response.read()
+    except Exception:  # noqa: BLE001 - dead guide, skip it
+        return b""
+    if url.endswith(".gz"):
+        try:
+            return gzip.decompress(body)
+        except (OSError, EOFError):
+            return b""
+    return body
+
+
+def fetch_guide_bodies(urls, max_workers):
+    """Download candidate guides concurrently; failures drop out."""
+    import concurrent.futures
+    bodies = {}
+    with concurrent.futures.ThreadPoolExecutor(
+            max_workers=max_workers) as pool:
+        future_to_url = {pool.submit(fetch_guide_body, url): url
+                         for url in urls}
+        for future in concurrent.futures.as_completed(future_to_url):
+            try:
+                body = future.result()
+            except Exception:  # noqa: BLE001 - dead guide, skip it
+                continue
+            if body:
+                bodies[future_to_url[future]] = body
+    return bodies
 
 
 def select_guides(playlist_ids, guide_ids):
