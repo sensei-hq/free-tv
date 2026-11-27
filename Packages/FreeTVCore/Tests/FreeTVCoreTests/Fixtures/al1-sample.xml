@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><tv><channel id="21.Junior.al">
+    <display-name lang="sq">21 Junior</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/21junior.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/21junior.png" />
+    <url>http://www.ipko.com</url>
+  </channel><programme start="20261127050000 +0000" stop="20261127060000 +0000" channel="21.Junior.al">
+    <title lang="sq">21 Junior</title>
+    <desc lang="sq">Kanali i parë televiziv kosovar dedikuar fëmijëve 24/7.</desc>
+    <category lang="sq">Serial</category>
+    <icon src="https://vimg.ipko.tv/mtcms/16/d/d/16dd501d-e372-4dcb-92f5-5bfeb42bb785.jpg" />
+  </programme><programme start="20261127060000 +0000" stop="20261127070000 +0000" channel="21.Junior.al">
+    <title lang="sq">21 Junior</title>
+    <desc lang="sq">Kanali i parë televiziv kosovar dedikuar fëmijëve 24/7.</desc>
+    <category lang="sq">Serial</category>
+    <icon src="https://vimg.ipko.tv/mtcms/16/d/d/16dd501d-e372-4dcb-92f5-5bfeb42bb785.jpg" />
+  </programme><programme start="20261127070000 +0000" stop="20261127080000 +0000" channel="21.Junior.al">
+    <title lang="sq">21 Junior</title>
+    <desc lang="sq">Kanali i parë televiziv kosovar dedikuar fëmijëve 24/7.</desc>
+    <category lang="sq">Serial</category>
+    <icon src="https://vimg.ipko.tv/mtcms/16/d/d/16dd501d-e372-4dcb-92f5-5bfeb42bb785.jpg" />
+  </programme></tv>

@@ -97,7 +97,7 @@ struct SettingsView: View {
                 }
             }
         }
-        .navigationTitle("Settings")
+
         .sheet(isPresented: $addingSource) {
             AddSourceView(onSave: refresh)
         }

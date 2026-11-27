@@ -21,7 +21,6 @@ struct MoviesView: View {
                     .foregroundStyle(.secondary)
             }
             .frame(maxWidth: .infinity, minHeight: 400)
-            .navigationTitle("Movies")
         } else {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
@@ -65,7 +64,6 @@ struct MoviesView: View {
                 }
                 .padding(.vertical, 32)
             }
-            .navigationTitle("Movies")
             .navigationDestination(for: TMDBTitle.self) { title in
                 TitleDetailView(title: title)
             }
@@ -234,7 +232,7 @@ struct TitleDetailView: View {
                 .padding(60)
             }
         }
-        .navigationTitle(title.name)
+
         .task {
             providers = await tmdb.providers(for: title)
             await matchPlex()

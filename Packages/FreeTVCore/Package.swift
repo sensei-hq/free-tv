@@ -9,6 +9,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "FreeTVCore"),
-        .testTarget(name: "FreeTVCoreTests", dependencies: ["FreeTVCore"]),
+        .testTarget(name: "FreeTVCoreTests", dependencies: ["FreeTVCore"],
+                    resources: [.process("Fixtures")]),
     ]
 )

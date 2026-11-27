@@ -16,7 +16,7 @@ struct PlexView: View {
                 }
             }
         }
-        .navigationTitle(plex.serverName ?? "Plex")
+
         .navigationDestination(for: LibrarySection.self) { section in
             PlexSectionView(section: section)
         }
@@ -59,7 +59,7 @@ struct PlexSectionView: View {
             }
             .padding(60)
         }
-        .navigationTitle(section.title)
+
         .navigationDestination(for: PlexItem.self) { item in
             PlexDetailView(item: item)
         }

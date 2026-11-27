@@ -34,6 +34,12 @@ struct HomeView: View {
                     .navigationDestination(for: Channel.self) { channel in
                         ChannelDetailView(channel: channel)
                     }
+                    .navigationDestination(for: TMDBTitle.self) { title in
+                        TitleDetailView(title: title)
+                    }
+                    .navigationDestination(for: PlexItem.self) { item in
+                        PlexDetailView(item: item)
+                    }
             }
             .tabItem { Label("Search", systemImage: "magnifyingglass") }
             .tag(1)
@@ -102,7 +108,7 @@ struct HomeContentView: View {
         .navigationDestination(for: PlexItem.self) { item in
             PlexDetailView(item: item)
         }
-        .navigationTitle("Free TV")
+
         .fullScreenCover(item: $playing) { item in
             PlayerView(title: item.title, url: item.url,
                        resumeFrom: item.resumeFrom,
