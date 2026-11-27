@@ -8,7 +8,7 @@ enum LaunchTestHooks {
         let args = ProcessInfo.processInfo.arguments
         guard let flag = args.firstIndex(of: "-tab"),
               args.indices.contains(flag + 1) else { return 0 }
-        return ["home", "search", "movies", "channels", "favorites",
+        return ["home", "movies", "shows", "channels", "search",
                 "settings"]
             .firstIndex(of: args[flag + 1]) ?? 0
     }
@@ -21,57 +21,98 @@ enum LaunchTestHooks {
 struct HomeView: View {
     @EnvironmentObject private var store: CatalogStore
     @State private var tab = LaunchTestHooks.initialTab
+    @State private var visited: Set<Int> = []
 
     var body: some View {
-        TabView(selection: $tab) {
-            NavigationStack {
-                HomeContentView()
+        VStack(spacing: 0) {
+            PillBar(selection: $tab)
+            ZStack {
+                if visited.contains(0) { tabPage(0) { HomeContentView() } }
+                if visited.contains(1) {
+                    tabPage(1) { MoviesView(media: .movie) }
+                }
+                if visited.contains(2) {
+                    tabPage(2) { MoviesView(media: .show) }
+                }
+                if visited.contains(3) { tabPage(3) { EPGGridView() } }
+                if visited.contains(4) {
+                    SearchView()
+                        .navigationDestination(for: Channel.self) { channel in
+                            ChannelDetailView(channel: channel)
+                        }
+                        .navigationDestination(for: TMDBTitle.self) { title in
+                            TitleDetailView(title: title)
+                        }
+                        .navigationDestination(for: PlexItem.self) { item in
+                            PlexDetailView(item: item)
+                        }
+                }
+                if visited.contains(5) { tabPage(5) { SettingsView() } }
             }
-            .tabItem { Label("Home", systemImage: "house") }
-            .tag(0)
-
-            NavigationStack {
-                SearchView()
-                    .navigationDestination(for: Channel.self) { channel in
-                        ChannelDetailView(channel: channel)
-                    }
-                    .navigationDestination(for: TMDBTitle.self) { title in
-                        TitleDetailView(title: title)
-                    }
-                    .navigationDestination(for: PlexItem.self) { item in
-                        PlexDetailView(item: item)
-                    }
-            }
-            .tabItem { Label("Search", systemImage: "magnifyingglass") }
-            .tag(1)
-
-            NavigationStack {
-                MoviesView()
-            }
-            .tabItem { Label("Movies", systemImage: "film") }
-            .tag(2)
-
-            NavigationStack {
-                EPGGridView()
-            }
-            .tabItem { Label("Channels", systemImage: "tv") }
-            .tag(3)
-
-            NavigationStack {
-                FavoritesView()
-                    .navigationDestination(for: Channel.self) { channel in
-                        ChannelDetailView(channel: channel)
-                    }
-            }
-            .tabItem { Label("Favorites", systemImage: "heart") }
-            .tag(4)
-
-            NavigationStack {
-                SettingsView()
-            }
-            .tabItem { Label("Settings", systemImage: "gear") }
-            .tag(5)
+            .onAppear { visited.insert(tab) }
+            .onChange(of: tab) { _, next in visited.insert(next) }
         }
+    }
+
+    /// All tabs stay mounted (state preserved); only the selected one
+    /// is visible and focusable.
+    private func tabPage<Content: View>(_ tag: Int,
+                                       @ViewBuilder content: () -> Content)
+        -> some View {
+        NavigationStack {
+            content()
+        }
+        .opacity(tab == tag ? 1 : 0)
+        .disabled(tab != tag)
+        .accessibilityHidden(tab != tag)
+    }
+}
+
+/// Mock-matching pill bar: four tabs plus search and settings icons.
+struct PillBar: View {
+    @Binding var selection: Int
+
+    private let tabs = [(0, "Home"), (1, "Movies"), (2, "Shows"),
+                        (3, "Channels")]
+
+    var body: some View {
+        HStack(spacing: 12) {
+            ForEach(tabs, id: \.0) { tag, label in
+                Button(label) { selection = tag }
+                    .font(.system(size: 26, weight: .medium))
+                    .padding(.horizontal, 30)
+                    .padding(.vertical, 12)
+                    .background(selection == tag
+                        ? Color.white.opacity(0.18) : Color.clear)
+                    .foregroundStyle(selection == tag ? .white : .gray)
+                    .clipShape(Capsule())
+            }
+            Button {
+                selection = 4
+            } label: {
+                Image(systemName: "magnifyingglass")
+                    .font(.system(size: 26))
+                    .frame(width: 60, height: 60)
+                    .background(selection == 4
+                        ? Color.white.opacity(0.18) : Color.clear)
+                    .foregroundStyle(selection == 4 ? .white : .gray)
+                    .clipShape(Circle())
+            }
+            .accessibilityLabel("Search")
+            Button {
+                selection = 5
+            } label: {
+                Image(systemName: "slider.horizontal.3")
+                    .font(.system(size: 26))
+                    .frame(width: 60, height: 60)
+                    .background(selection == 5
+                        ? Color.white.opacity(0.18) : Color.clear)
+                    .foregroundStyle(selection == 5 ? .white : .gray)
+                    .clipShape(Circle())
+            }
+            .accessibilityLabel("Settings")
+        }
+        .padding(.top, 40)
     }
 }
 
@@ -80,7 +121,12 @@ struct HomeContentView: View {
     @EnvironmentObject private var store: CatalogStore
     @EnvironmentObject private var playback: PlaybackStore
     @EnvironmentObject private var tmdb: TMDBStore
+    @EnvironmentObject private var favorites: FavoritesStore
     @State private var playing: WatchProgress?
+
+    private var favoriteChannels: [Channel] {
+        store.channels.filter { favorites.isFavorite($0) }
+    }
 
     var body: some View {
         ScrollView {
@@ -98,6 +144,25 @@ struct HomeContentView: View {
                     }
                     if !playback.items.isEmpty {
                         ContinueRow(items: playback.items, onPlay: play)
+                    }
+                    if !favoriteChannels.isEmpty {
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text("Favorites")
+                                .font(.title2)
+                                .bold()
+                                .padding(.horizontal, 60)
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                LazyHStack(spacing: 24) {
+                                    ForEach(favoriteChannels) { channel in
+                                        NavigationLink(value: channel) {
+                                            ChannelCard(channel: channel)
+                                        }
+                                        .buttonStyle(.card)
+                                    }
+                                }
+                                .padding(.horizontal, 60)
+                            }
+                        }
                     }
                     ForEach(store.shelves, id: \.title) { shelf in
                         ShelfRow(shelf: shelf)

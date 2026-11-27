@@ -4,13 +4,17 @@ import FreeTVCore
 /// Unified movies/shows: TMDB search, year/genre browse, trending,
 /// where-to-watch providers, and Plex ownership matching.
 struct MoviesView: View {
+    let media: TMDBMedia
     @EnvironmentObject private var tmdb: TMDBStore
     @State private var query = ""
     @State private var year = ""
     @State private var genreID: Int?
-    @State private var focusTask: Task<Void, Never>?
     @State private var searchTask: Task<Void, Never>?
     @FocusState private var fieldFocused: Bool
+
+    private var trending: [TMDBTitle] {
+        media == .movie ? tmdb.trendingMovies : tmdb.trendingShows
+    }
 
     var body: some View {
         if !tmdb.hasKey {
@@ -31,7 +35,7 @@ struct MoviesView: View {
                         .accessibilityIdentifier("TitleSearchField")
                         .frame(maxWidth: 600)
                         .padding(.horizontal, 60)
-                        .onSubmit { Task { await tmdb.search(query: query) } }
+                        .onSubmit { Task { await tmdb.search(media: media, query: query) } }
                         .onChange(of: query) { _, new in
                             searchTask?.cancel()
                             let trimmed = new.trimmingCharacters(
@@ -40,22 +44,16 @@ struct MoviesView: View {
                             searchTask = Task {
                                 try? await Task.sleep(for: .seconds(0.6))
                                 guard !Task.isCancelled else { return }
-                                await tmdb.search(query: trimmed)
+                                await tmdb.search(media: media, query: trimmed)
                             }
                         }
                     if tmdb.isLoading {
                         ProgressView().padding(.horizontal, 60)
-                    } else if !tmdb.results.isEmpty {
-                        titleGrid(tmdb.results)
-                    } else {
-                        if !tmdb.trendingMovies.isEmpty {
-                            titleShelf(title: "Trending movies",
-                                       titles: tmdb.trendingMovies)
-                        }
-                        if !tmdb.trendingShows.isEmpty {
-                            titleShelf(title: "Trending shows",
-                                       titles: tmdb.trendingShows)
-                        }
+                    } else if !(tmdb.results[media] ?? []).isEmpty {
+                        titleGrid(tmdb.results[media] ?? [])
+                    } else if !trending.isEmpty {
+                        titleShelf(title: "Trending this week",
+                                   titles: trending)
                     }
                     if let message = tmdb.errorMessage {
                         Text(message).foregroundStyle(.red)
@@ -68,20 +66,7 @@ struct MoviesView: View {
                 TitleDetailView(title: title)
             }
             .task { await tmdb.loadTrending() }
-            .onAppear {
-                focusTask?.cancel()
-                focusTask = Task {
-                    for _ in 0 ..< 4 {
-                        if Task.isCancelled { return }
-                        fieldFocused = false
-                        try? await Task.sleep(for: .seconds(0.3))
-                        if Task.isCancelled { return }
-                        fieldFocused = true
-                        try? await Task.sleep(for: .seconds(1.5))
-                    }
-                }
-            }
-            .onDisappear { focusTask?.cancel() }
+            .onAppear { fieldFocused = true }
         }
     }
 
@@ -90,7 +75,7 @@ struct MoviesView: View {
             TextField("Year", text: $year)
                 .frame(maxWidth: 140)
             Button("Browse") {
-                Task { await tmdb.browse(year: year, genreID: genreID) }
+                Task { await tmdb.browse(media: media, year: year, genreID: genreID) }
             }
             if genreID != nil || !year.isEmpty {
                 Button("Clear") {
@@ -105,11 +90,11 @@ struct MoviesView: View {
 
     private var genreRow: some View {
         Group {
-            if !tmdb.movieGenres.isEmpty {
+            if !tmdb.genres(for: media).isEmpty {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 12) {
                         genreChip(id: nil, name: "All")
-                        ForEach(tmdb.movieGenres.sorted(by: {
+                        ForEach(tmdb.genres(for: media).sorted(by: {
                             $0.value < $1.value
                         }), id: \.key) { id, name in
                             genreChip(id: id, name: name)

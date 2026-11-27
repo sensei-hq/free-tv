@@ -1,10 +1,10 @@
-# Checkpoint: EPG grid + unified search
+# Checkpoint: mock pill bar + Shows split
 
-Slice: free-tv slices 2-3. Repo: sensei-hq/free-tv.
-Done: unified search (channels/TMDB/Plex + scopes), XMLTV parser,
-curator guide.xml merge (234 ch, 30k programmes), Channels grid tab
-with now-line, screen titles removed per mock.
-Remains: verify grid shows programmes on fresh catalog; user preview.
-Next: mock tab bar restyle; Shows split; YouTube shelves; IA vintage.
-Open questions: Tubi/YuppTV schemes still unverified; EPG coverage 5%.
+Slice: free-tv mock chrome. Repo: sensei-hq/free-tv.
+Done: pill tab bar (Home/Movies/Shows/Channels + icons), Shows tab,
+Favorites as Home shelf, redundant titles gone, single-shot field
+autofocus. 43 core, 9 UI tests green; bar verified on sim.
+Remains: user preview of new chrome.
+Next: YouTube shelves; IA vintage; provider deep-link verification.
+Open questions: Tubi/YuppTV schemes still unverified.
 Known-broken: none. (/sensei:checkpoint unavailable in this runtime.)

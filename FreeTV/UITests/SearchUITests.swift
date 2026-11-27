@@ -30,6 +30,22 @@ final class SearchUITests: XCTestCase {
         }
     }
 
+    /// Focuses the first content element from anywhere: climb to the
+    /// pill bar, then step down once.
+    private func focusFirstContent() {
+        press(.up, times: 3)
+        press(.down)
+    }
+
+    /// Focuses a button from anywhere, verifying via focus state.
+    private func focusButton(_ button: XCUIElement) {
+        press(.up, times: 3)
+        for _ in 0 ..< 8 {
+            if button.exists && button.hasFocus { return }
+            press(.down)
+        }
+    }
+
     func testShelvesLoad() {
         let app = launchLoadedApp()
         XCTAssertTrue(app.staticTexts["News"].exists)
@@ -37,7 +53,7 @@ final class SearchUITests: XCTestCase {
 
     func testOpenChannelDetail() {
         let app = launchLoadedApp()
-        press(.down)
+        focusFirstContent()
         press(.select)
         XCTAssertTrue(app.buttons["Play"].waitForExistence(timeout: 15),
                       "channel detail never opened")
@@ -45,10 +61,10 @@ final class SearchUITests: XCTestCase {
 
     func testPlaybackResumeAppears() {
         let app = launchLoadedApp()
-        press(.down)
+        focusFirstContent()
         press(.select)
         XCTAssertTrue(app.buttons["Play"].waitForExistence(timeout: 15))
-        press(.down)
+        focusButton(app.buttons["Play"])
         press(.select)
         sleep(10)
         press(.menu)
@@ -63,6 +79,7 @@ final class SearchUITests: XCTestCase {
         let field = app.textFields.firstMatch
         XCTAssertTrue(field.waitForExistence(timeout: 15),
                       "no search field on Search tab")
+        sleep(1)
         press(.select)
         XCTAssertTrue(app.keyboards.firstMatch.waitForExistence(timeout: 15),
                       "keyboard never appeared after Select")
@@ -108,6 +125,12 @@ final class SearchUITests: XCTestCase {
             timeout: 15))
     }
 
+    func testShowsTabExists() {
+        let app = launch(tab: "shows")
+        XCTAssertTrue(app.staticTexts["TMDB key needed"].waitForExistence(
+            timeout: 15))
+    }
+
     /// Full live TMDB flow. Runs only when /tmp/freetv-tmdb-test-key
     /// holds a key, so CI skips it and local runs prove live search.
     func testMoviesLiveSearch() throws {
@@ -126,6 +149,7 @@ final class SearchUITests: XCTestCase {
             timeout: 30))
         let field = app.textFields["TitleSearchField"]
         XCTAssertTrue(field.waitForExistence(timeout: 10))
+        sleep(1)
         press(.select)
         field.typeText("inception")
         XCTAssertTrue(app.staticTexts["Inception"].waitForExistence(

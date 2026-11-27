@@ -10,7 +10,6 @@ struct SearchView: View {
     @State private var scope: SearchScope = .all
     @State private var tmdbTitles: [TMDBTitle] = []
     @State private var plexHits: [PlexItem] = []
-    @State private var focusTask: Task<Void, Never>?
     @State private var searchTask: Task<Void, Never>?
     @FocusState private var fieldFocused: Bool
 
@@ -96,21 +95,7 @@ struct SearchView: View {
                     .frame(maxWidth: .infinity, minHeight: 300)
             }
         }
-
-        .onAppear {
-            focusTask?.cancel()
-            focusTask = Task {
-                for _ in 0 ..< 4 {
-                    if Task.isCancelled { return }
-                    fieldFocused = false
-                    try? await Task.sleep(for: .seconds(0.3))
-                    if Task.isCancelled { return }
-                    fieldFocused = true
-                    try? await Task.sleep(for: .seconds(1.5))
-                }
-            }
-        }
-        .onDisappear { focusTask?.cancel() }
+        .onAppear { fieldFocused = true }
     }
 
     private func runSearch(query: String) {
@@ -203,15 +188,4 @@ struct PlexCardSmall: View {
     }
 }
 
-struct FavoritesView: View {
-    @EnvironmentObject private var store: CatalogStore
-    @EnvironmentObject private var favorites: FavoritesStore
 
-    var body: some View {
-        ChannelGrid(
-            channels: store.channels.filter { favorites.isFavorite($0) },
-            emptyText: "No favorites yet — open a channel and ♡ it"
-        )
-
-    }
-}

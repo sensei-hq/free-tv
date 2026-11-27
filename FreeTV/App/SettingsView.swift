@@ -145,13 +145,7 @@ struct AddSourceView: View {
             }
         }
         .padding(60)
-        .onAppear {
-            for delay in [0.5, 2.0] {
-                DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
-                    nameFocused = true
-                }
-            }
-        }
+        .onAppear { nameFocused = true }
     }
 
     private func save() {
