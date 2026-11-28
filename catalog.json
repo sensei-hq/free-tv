@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T12:40:09+00:00",
+  "generated_at": "2026-11-28T15:11:30+00:00",
   "epg_urls": [
     "https://epg.kanya.io/us/guide.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
@@ -41,8 +41,8 @@
   ],
   "stats": {
     "total": 5824,
-    "online": 3903,
-    "quarantined": 1834
+    "online": 3879,
+    "quarantined": 1877
   },
   "channels": [
     {
@@ -272,7 +272,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -1382,7 +1382,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -1410,8 +1410,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -1902,7 +1902,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -3578,7 +3578,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3592,7 +3592,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3606,7 +3606,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3620,7 +3620,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3634,7 +3634,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -3704,7 +3704,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4030,7 +4030,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -4044,7 +4044,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -4058,7 +4058,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -4072,7 +4072,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -4114,7 +4114,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4524,7 +4524,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -4621,7 +4621,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": true
     },
@@ -4705,7 +4705,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -5227,7 +5227,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": true
     },
@@ -6821,7 +6821,7 @@
         "free-tv"
       ],
       "status": "blocked",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -9496,7 +9496,7 @@
         "free-tv",
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -10313,7 +10313,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -10369,7 +10369,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": true
     },
@@ -10680,7 +10680,7 @@
         "sports"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -11058,7 +11058,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -11803,7 +11803,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -11887,7 +11887,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true,
       "has_guide": false
     },
@@ -12042,7 +12042,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -12268,7 +12268,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -12758,7 +12758,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -12943,7 +12943,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -13292,7 +13292,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true,
       "has_guide": false
     },
@@ -13573,7 +13573,7 @@
         "free-tv"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -14567,7 +14567,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true,
       "has_guide": false
     },
@@ -14693,8 +14693,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -14707,7 +14707,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -14721,7 +14721,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -14945,7 +14945,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -15884,7 +15884,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -16391,7 +16391,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -20412,7 +20412,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -22059,7 +22059,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -22129,7 +22129,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -22763,7 +22763,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -22777,7 +22777,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -22791,8 +22791,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": false,
+      "status": "timeout",
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -22819,7 +22819,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -22833,7 +22833,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -24370,7 +24370,7 @@
         "free-tv"
       ],
       "status": "blocked",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -24384,7 +24384,7 @@
         "free-tv",
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -24427,7 +24427,7 @@
         "free-tv",
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -24441,7 +24441,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -24483,7 +24483,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -24498,7 +24498,7 @@
         "free-tv",
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -24554,7 +24554,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -25330,7 +25330,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -25344,8 +25344,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -25358,7 +25358,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -25372,7 +25372,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -25386,7 +25386,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -25442,7 +25442,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -27654,7 +27654,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true,
       "has_guide": false
     },
@@ -28220,7 +28220,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -33212,7 +33212,7 @@
       "sources": [
         "sports"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -33549,7 +33549,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -33564,7 +33564,7 @@
         "sports"
       ],
       "status": "blocked",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -33620,7 +33620,7 @@
         "sports"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -33774,7 +33774,7 @@
         "sports"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -33843,7 +33843,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -33998,7 +33998,7 @@
         "sports"
       ],
       "status": "blocked",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -34249,7 +34249,7 @@
       "sources": [
         "sports"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -34473,7 +34473,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -35299,7 +35299,7 @@
       "sources": [
         "sports"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": true
     },
@@ -35986,7 +35986,7 @@
         "sports"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -36447,7 +36447,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -36475,7 +36475,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -37470,7 +37470,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -37498,8 +37498,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -37540,7 +37540,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -38606,7 +38606,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -38647,7 +38647,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -38830,7 +38830,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -38872,7 +38872,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -39082,7 +39082,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -39824,7 +39824,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -40399,7 +40399,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -40538,7 +40538,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": true
     },
@@ -41463,7 +41463,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": true
     },
@@ -41941,7 +41941,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -42319,8 +42319,8 @@
       "sources": [
         "news"
       ],
-      "status": "blocked",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -43173,7 +43173,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -43187,7 +43187,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -44602,8 +44602,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -44798,8 +44798,8 @@
       "sources": [
         "news"
       ],
-      "status": "blocked",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -44812,7 +44812,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -44884,7 +44884,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -45010,7 +45010,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -45401,8 +45401,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -45639,7 +45639,7 @@
       "sources": [
         "news"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -47291,7 +47291,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -47473,7 +47473,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -48176,7 +48176,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -48344,7 +48344,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -48583,7 +48583,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -48751,7 +48751,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -49521,7 +49521,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -49676,7 +49676,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -49997,7 +49997,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -51272,7 +51272,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -51555,7 +51555,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -51638,7 +51638,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -51961,7 +51961,7 @@
         "documentaries"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -52618,7 +52618,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": true
     },
@@ -52660,7 +52660,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -52801,7 +52801,7 @@
         "documentaries"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -52842,7 +52842,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": true
     },
@@ -53066,7 +53066,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -53290,7 +53290,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": true
     },
@@ -53304,7 +53304,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -53360,7 +53360,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -54270,7 +54270,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -55293,7 +55293,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -55783,7 +55783,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": true
     },
@@ -55979,7 +55979,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -56246,7 +56246,7 @@
         "kids"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -56497,7 +56497,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -56679,7 +56679,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -57281,7 +57281,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -57295,7 +57295,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -57309,7 +57309,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -57519,7 +57519,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -58321,7 +58321,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": true
     },
@@ -59428,7 +59428,7 @@
         "kids"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -62019,7 +62019,7 @@
         "movies"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -62438,7 +62438,7 @@
       "sources": [
         "movies"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -62984,7 +62984,7 @@
       "sources": [
         "movies"
       ],
-      "status": "timeout",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -63040,7 +63040,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -63391,7 +63391,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63405,7 +63405,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63419,7 +63419,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63433,7 +63433,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63447,7 +63447,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63461,7 +63461,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63475,7 +63475,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63489,7 +63489,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63503,7 +63503,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -63684,7 +63684,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -63726,7 +63726,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -64104,7 +64104,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -64496,7 +64496,7 @@
       "sources": [
         "movies"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -65238,7 +65238,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": true
     },
@@ -65337,7 +65337,7 @@
         "movies"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -65897,7 +65897,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -66443,7 +66443,7 @@
         "movies"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -66652,8 +66652,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -70112,7 +70112,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -70280,7 +70280,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -70616,7 +70616,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -70672,7 +70672,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": true
     },
@@ -71400,7 +71400,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "blocked",
       "quarantined": true,
       "has_guide": false
     },
@@ -71569,7 +71569,7 @@
         "movies"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -72408,7 +72408,7 @@
       "sources": [
         "music"
       ],
-      "status": "timeout",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -72927,7 +72927,7 @@
         "music"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -72941,7 +72941,7 @@
         "music"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -72955,7 +72955,7 @@
         "music"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -72969,7 +72969,7 @@
         "music"
       ],
       "status": "timeout",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -73066,7 +73066,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -73654,7 +73654,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -73851,7 +73851,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -74117,7 +74117,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -74243,7 +74243,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -74550,7 +74550,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -75754,7 +75754,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -77980,7 +77980,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -78107,7 +78107,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -78163,7 +78163,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -78331,7 +78331,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -78877,7 +78877,7 @@
         "music"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
