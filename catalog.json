@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-11-27T16:16:17+00:00",
+  "generated_at": "2026-11-28T12:40:09+00:00",
   "epg_urls": [
+    "https://epg.kanya.io/us/guide.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz",
@@ -35,12 +36,13 @@
     "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz"
+    "https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz",
+    "https://worker-9dd4.onrender.com/guide.xml.gz"
   ],
   "stats": {
-    "total": 5821,
-    "online": 3916,
-    "quarantined": 1844
+    "total": 5824,
+    "online": 3903,
+    "quarantined": 1834
   },
   "channels": [
     {
@@ -269,7 +271,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -1395,7 +1397,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -1409,7 +1411,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -1871,7 +1873,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -1899,7 +1901,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -2238,7 +2240,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CTV News \u24ce",
@@ -3253,7 +3255,7 @@
         "free-tv"
       ],
       "status": "blocked",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -3267,7 +3269,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -3394,7 +3396,7 @@
         "free-tv"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": true
     },
     {
@@ -3576,7 +3578,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -3590,7 +3592,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -3604,7 +3606,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -3618,7 +3620,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -3632,7 +3634,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -3702,8 +3704,8 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -3902,7 +3904,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -4028,7 +4030,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4042,7 +4044,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4056,7 +4058,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4070,7 +4072,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4112,7 +4114,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -4521,7 +4523,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -4619,7 +4621,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": true
     },
@@ -6366,7 +6368,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -6818,7 +6820,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -10367,7 +10369,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": true
     },
@@ -10677,7 +10679,7 @@
         "free-tv",
         "sports"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -11055,7 +11057,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -12266,7 +12268,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "blocked",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -12756,7 +12758,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -12940,7 +12942,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -13570,7 +13572,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -16702,7 +16704,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -19502,7 +19504,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FightBox Poland (576i) \u24c8",
@@ -19635,7 +19637,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Grjngo \u24c8",
@@ -19705,8 +19707,8 @@
         "free-tv",
         "documentaries"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -19763,7 +19765,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nat Geo People (576i) \u24c8",
@@ -19822,7 +19824,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NewTV (1080p)",
@@ -19938,7 +19940,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Polonia 1 (576i) \u24c8",
@@ -20128,7 +20130,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Radio RAM (1080p)",
@@ -20171,7 +20173,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Red Carpet TV International (1080p)",
@@ -20297,7 +20299,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Sundance TV (Poland) (576i) \u24c8",
@@ -20468,7 +20470,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "TNA Wrestling Channel (720p)",
@@ -20482,7 +20484,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "TOP Barca (1080p)",
@@ -20920,7 +20922,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Wydarzenia 24 (576i) \u24c8",
@@ -22057,7 +22059,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true,
       "has_guide": false
     },
@@ -22789,7 +22791,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -24367,7 +24369,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "blocked",
       "quarantined": false,
       "has_guide": false
     },
@@ -25090,7 +25092,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Parliament \u24c8 \u24bc",
@@ -25118,7 +25120,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "GB News",
@@ -25328,7 +25330,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -25356,7 +25358,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -26627,7 +26629,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Retro TV",
@@ -26655,7 +26657,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Biz TV",
@@ -26711,7 +26713,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Bloomberg",
@@ -26767,7 +26769,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Reuters TV",
@@ -26809,7 +26811,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Home",
@@ -26922,7 +26924,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "WeatherNation",
@@ -26936,7 +26938,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "America's Voice",
@@ -27033,7 +27035,7 @@
       "sources": [
         "free-tv"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -27205,7 +27207,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FilmRise Sci-Fi",
@@ -27219,7 +27221,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Spotlight",
@@ -27712,7 +27714,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Africanews \u24ce",
@@ -27797,7 +27799,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NBC News NOW",
@@ -27812,7 +27814,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Reuters",
@@ -27869,7 +27871,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Ticker News",
@@ -28051,7 +28053,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "USA Today",
@@ -28262,7 +28264,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Fox Weather",
@@ -28276,7 +28278,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "KTCA-DT5",
@@ -28304,7 +28306,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "The Weather Network",
@@ -29010,7 +29012,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Full Moon",
@@ -30718,7 +30720,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "ACI Sport TV SD (1080p)",
@@ -30760,7 +30762,7 @@
         "sports",
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -31084,7 +31086,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "beIN SPORTS XTRA en Espanol (1080p)",
@@ -31098,7 +31100,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BEK Sports West (720p)",
@@ -31168,7 +31170,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Bicolor+ (720p)",
@@ -31238,7 +31240,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Boks TV (720p)",
@@ -31448,7 +31450,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS Sports HQ (720p)",
@@ -31462,7 +31464,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CCTV-5+ (1080p)",
@@ -31731,8 +31733,8 @@
       "has_guide": false
     },
     {
-      "name": "DAZN F1",
-      "url": "https://tvorb.net/ZTV/6918-live.m3u8",
+      "name": "DAZN F1 (1080p)",
+      "url": "http://45.134.141.161:2200/ARG/Formula_1_HD/index.m3u8",
       "logo": "https://i.imgur.com/yFCr5XX.png",
       "tvg_id": "DAZNF1.uk@Spain",
       "category": "Sports",
@@ -31740,8 +31742,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -31896,7 +31898,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "DSports 2",
@@ -32008,7 +32010,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "ESPN 2 Latin America (1080p)",
@@ -32152,7 +32154,7 @@
     },
     {
       "name": "ESPN 5 Latin America (1080p)",
-      "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8",
+      "url": "http://181.78.12.119:16123/play/ch19/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/ESPN_5_logo.svg/960px-ESPN_5_logo.svg.png",
       "tvg_id": "ESPN5LatinAmerica.us@South",
       "category": "Sports",
@@ -32160,8 +32162,8 @@
       "sources": [
         "sports"
       ],
-      "status": "blocked",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -32246,7 +32248,7 @@
       ],
       "status": "timeout",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "ESPN (United States) HD (720p)",
@@ -32260,7 +32262,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "ESPN Deportes HD (720p)",
@@ -32314,7 +32316,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -32372,7 +32374,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Esport3 (1080p) [Geo-blocked]",
@@ -32876,6 +32878,20 @@
       ],
       "status": "online",
       "quarantined": false,
+      "has_guide": true
+    },
+    {
+      "name": "Fast Sports 1 (1080p)",
+      "url": "http://s7.merlive.am/Fastsports/index.m3u8",
+      "logo": "https://i.imgur.com/VmaYUcq.png",
+      "tvg_id": "FastSports1.am@SD",
+      "category": "Sports",
+      "country": "AM",
+      "sources": [
+        "sports"
+      ],
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -32932,7 +32948,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FIFA+ French (720p)",
@@ -32946,7 +32962,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FIFA+ German (720p)",
@@ -32960,7 +32976,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FIFA+ Hispanic America (720p)",
@@ -32974,7 +32990,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FIFA+ Italy (720p)",
@@ -32988,7 +33004,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FIFA+ Portuguese (720p)",
@@ -33002,7 +33018,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FIFA+ Spain (720p)",
@@ -33016,7 +33032,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FIFA+ United States (720p)",
@@ -33030,7 +33046,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FIFA+ Women (720p)",
@@ -33140,8 +33156,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -33196,7 +33212,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -33226,7 +33242,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Fox Sports 2 (720p)",
@@ -33240,7 +33256,7 @@
       ],
       "status": "timeout",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Fox Sports (1080p)",
@@ -33325,7 +33341,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Fubo Sports Network HD (1080p)",
@@ -33339,7 +33355,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FUEL TV (1080p)",
@@ -33353,7 +33369,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FUEL TV AU (1080p)",
@@ -33367,7 +33383,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FUEL TV US (1080p) [Geo-blocked]",
@@ -33381,7 +33397,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Futbol (1080p)",
@@ -33521,7 +33537,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Golf Channel Latin America (1080p)",
@@ -33533,13 +33549,13 @@
       "sources": [
         "sports"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
     {
-      "name": "Hard Knocks (1080p)",
-      "url": "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8?ads.vf=6pOF6kgy418",
+      "name": "Hard Knocks (1080p) [Not 24/7]",
+      "url": "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HardKnocks-SportsTribal/121.m3u8",
       "logo": "https://i.imgur.com/nt9B6jx.png",
       "tvg_id": "HardKnocks.ca@SD",
       "category": "Sports",
@@ -33547,8 +33563,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "blocked",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -33563,7 +33579,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Horse TV (720p)",
@@ -33603,7 +33619,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -33757,7 +33773,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -33973,7 +33989,7 @@
     },
     {
       "name": "Match! Planeta (576p)",
-      "url": "http://s1.merlive.am/matchplaneta/index.m3u8",
+      "url": "https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv",
       "logo": "https://i.imgur.com/vhyMb9D.png",
       "tvg_id": "MatchPlaneta.ru@SD",
       "category": "Sports",
@@ -33981,8 +33997,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "blocked",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -34137,7 +34153,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MMA TV (576p)",
@@ -34179,7 +34195,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Monterrico TV",
@@ -34233,7 +34249,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -34319,7 +34335,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NBC Sports NOW (1080p)",
@@ -34333,7 +34349,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NFL Channel (720p)",
@@ -34347,7 +34363,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NFL Network (576p)",
@@ -34361,7 +34377,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NHL AntenaPlay (576p) [Not 24/7]",
@@ -34389,7 +34405,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NHRA TV (1080p)",
@@ -34557,7 +34573,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pac-12 Insider (1080p)",
@@ -34585,7 +34601,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Persiana Fight",
@@ -34613,7 +34629,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pickleball Now (720p) [Geo-blocked]",
@@ -34669,7 +34685,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Deportes",
@@ -34907,7 +34923,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Polsat Sport Fight",
@@ -34921,6 +34937,34 @@
       ],
       "status": "error",
       "quarantined": true,
+      "has_guide": false
+    },
+    {
+      "name": "Polsat Sport Premium 1",
+      "url": "http://46.149.222.219:18002/polsatsportpremium1",
+      "logo": "https://i.imgur.com/hy1SKE0.png",
+      "tvg_id": "PolsatSportPremium1.pl@SD",
+      "category": "Sports",
+      "country": "PL",
+      "sources": [
+        "sports"
+      ],
+      "status": "online",
+      "quarantined": false,
+      "has_guide": false
+    },
+    {
+      "name": "Polsat Sport Premium 2",
+      "url": "http://46.149.222.219:18002/polsatsportpremium2",
+      "logo": "https://i.imgur.com/myyWeXY.png",
+      "tvg_id": "PolsatSportPremium2.pl@SD",
+      "category": "Sports",
+      "country": "PL",
+      "sources": [
+        "sports"
+      ],
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -35187,7 +35231,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Racing.com (720p)",
@@ -35255,9 +35299,9 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Real Madrid TV English",
@@ -35941,7 +35985,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -36403,7 +36447,7 @@
       "sources": [
         "sports"
       ],
-      "status": "blocked",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -36417,7 +36461,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "timeout",
       "quarantined": true,
       "has_guide": false
     },
@@ -36431,7 +36475,7 @@
       "sources": [
         "sports"
       ],
-      "status": "blocked",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -36445,7 +36489,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -36461,7 +36505,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "SportsMax News (1080p)",
@@ -36545,7 +36589,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Star Sports Khel (1080p)",
@@ -36615,7 +36659,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "SuperTennis",
@@ -36671,7 +36715,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "T Sports 7 (240p)",
@@ -36783,7 +36827,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Tennis Channel +2 (720p)",
@@ -36797,7 +36841,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "The Cycling Channel",
@@ -37178,8 +37222,8 @@
       "has_guide": false
     },
     {
-      "name": "TVP Sport (1080p) [Not 24/7]",
-      "url": "rtsp://213.189.46.75/wmt-14963-1.sdp",
+      "name": "TVP Sport (720p)",
+      "url": "http://91.226.96.110:5555/tvpsport/index.m3u8",
       "logo": "https://i.imgur.com/JUZDOCO.png",
       "tvg_id": "TVPSport.pl@SD",
       "category": "Sports",
@@ -37187,8 +37231,8 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -37341,7 +37385,7 @@
       "sources": [
         "sports"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -37357,7 +37401,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "UPL.TV",
@@ -37386,7 +37430,7 @@
       ],
       "status": "timeout",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "viju+ Sport (1080p)",
@@ -37426,7 +37470,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -37496,7 +37540,7 @@
       "sources": [
         "sports"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -37540,7 +37584,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Win Sports (1080p)",
@@ -37558,7 +37602,7 @@
     },
     {
       "name": "Win+ Futbol (1080p)",
-      "url": "http://181.78.12.119:16123/play/ch19/index.m3u8",
+      "url": "http://190.61.42.218:9000/play/a01s/index.m3u8",
       "logo": "https://i.imgur.com/0UN87vB.png",
       "tvg_id": "WinPlusFutbol.co@SD",
       "category": "Sports",
@@ -37596,7 +37640,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "World Poker Tour Germany",
@@ -37610,7 +37654,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "World Poker Tour UK (1080p)",
@@ -37624,7 +37668,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "XFC TV (720p)",
@@ -37638,7 +37682,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "YES",
@@ -37776,8 +37820,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -38423,7 +38467,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "ABC-TV Paraguay",
@@ -38561,7 +38605,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -38603,7 +38647,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -38659,7 +38703,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -38673,7 +38717,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -38785,7 +38829,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -38827,7 +38871,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -38942,7 +38986,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Al Jazeera English HD (576p)",
@@ -38956,7 +39000,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Al Jazeera Mubasher 24 (1080p)",
@@ -39052,7 +39096,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -39236,7 +39280,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Amu TV",
@@ -39645,6 +39689,20 @@
       "has_guide": false
     },
     {
+      "name": "Atlantico Television (1080p)",
+      "url": "https://live.atlanticotelevision.com/hls/hi/index.m3u8",
+      "logo": "https://i.imgur.com/JB5QkAw.png",
+      "tvg_id": "AtlanticoTelevision.es@HD",
+      "category": "News",
+      "country": "ES",
+      "sources": [
+        "news"
+      ],
+      "status": "online",
+      "quarantined": false,
+      "has_guide": false
+    },
+    {
       "name": "ATN Samachar (1080p)",
       "url": "https://newsliveindia.com:4433/atn/index.m3u8",
       "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ATN_Samachar.png",
@@ -39796,7 +39854,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC News Europe (576p)",
@@ -39810,7 +39868,7 @@
       ],
       "status": "timeout",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC News North America (1080p)",
@@ -39824,7 +39882,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC News South Asia (720p)",
@@ -39838,7 +39896,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC News UK HD (1080p)",
@@ -39852,7 +39910,7 @@
       ],
       "status": "timeout",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Persian (1080p)",
@@ -40272,7 +40330,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BM&C News (720p)",
@@ -40340,7 +40398,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -40480,7 +40538,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": true
     },
@@ -40509,7 +40567,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -40664,7 +40722,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News 24/7 (720p)",
@@ -40678,7 +40736,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Baltimore (720p)",
@@ -40692,7 +40750,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Bay Area (720p)",
@@ -40706,7 +40764,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Boston (720p)",
@@ -40720,7 +40778,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Chicago (720p)",
@@ -40734,7 +40792,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Colorado (720p)",
@@ -40748,7 +40806,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Detroit (720p)",
@@ -40762,7 +40820,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Los Angeles (720p)",
@@ -40776,7 +40834,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Miami (720p)",
@@ -40790,7 +40848,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Minnesota (720p)",
@@ -40804,7 +40862,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News New York (720p)",
@@ -40818,7 +40876,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Philly (720p)",
@@ -40846,7 +40904,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CBS News Sacramento (720p)",
@@ -40860,7 +40918,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CCTV+ 1 (600p) [Not 24/7]",
@@ -41393,7 +41451,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CNN HD (720p) [Geo-blocked]",
@@ -41405,9 +41463,9 @@
       "sources": [
         "news"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CNN Brasil (1080p)",
@@ -41449,7 +41507,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CNN Indonesia",
@@ -41547,7 +41605,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CNN Portugal (720p)",
@@ -41883,7 +41941,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -42262,7 +42320,7 @@
         "news"
       ],
       "status": "blocked",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -42375,7 +42433,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "ERT News HD (1080p)",
@@ -42401,7 +42459,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -42431,7 +42489,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "ETV (Mongolia) (1080p)",
@@ -42529,7 +42587,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Euronews English HD",
@@ -42543,7 +42601,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Euronews French (720p)",
@@ -42767,7 +42825,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Fox News International",
@@ -42807,7 +42865,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -43425,7 +43483,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "HLN Live (720p)",
@@ -44545,7 +44603,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -44754,7 +44812,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -44825,7 +44883,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -44855,7 +44913,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Living India News (1080p)",
@@ -44951,7 +45009,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -45488,6 +45546,20 @@
       "has_guide": false
     },
     {
+      "name": "Mirame TV (1080p)",
+      "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13696&live=1",
+      "logo": "https://i.imgur.com/LK4pLgT.png",
+      "tvg_id": "MirameTV.es@SD",
+      "category": "News",
+      "country": "ES",
+      "sources": [
+        "news"
+      ],
+      "status": "online",
+      "quarantined": false,
+      "has_guide": false
+    },
+    {
       "name": "Mirror Now (720p)",
       "url": "https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8",
       "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MIRROR_NOW/images/LOGO_HD/image.png",
@@ -45567,7 +45639,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -46143,7 +46215,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "News12 Westchester (1080p) [Geo-blocked]",
@@ -46843,7 +46915,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Newsmax 2 KPVM-LD (484p)",
@@ -46857,7 +46929,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Newsmax Spanish (1080p)",
@@ -46885,7 +46957,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NewsX (576p)",
@@ -46927,7 +46999,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NH (1080p)",
@@ -47051,8 +47123,8 @@
       "sources": [
         "news"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -47067,7 +47139,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Noticiero 90 Minutos (1080p)",
@@ -47319,7 +47391,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "OAN Plus KPVM-LD (1080p)",
@@ -47333,7 +47405,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Obozrevatel TV",
@@ -48511,7 +48583,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -48679,7 +48751,7 @@
       "sources": [
         "news"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -49115,7 +49187,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Seraj TV (1080i)",
@@ -49603,7 +49675,7 @@
       "sources": [
         "news"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -49743,7 +49815,7 @@
       "sources": [
         "news"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -49871,7 +49943,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "The Unmute (1080p)",
@@ -50039,7 +50111,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "TOI Global (1080p)",
@@ -50500,7 +50572,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -50529,21 +50601,6 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
-    },
-    {
-      "name": "TV CAJUI WEB (720p)",
-      "url": "https://cdn.live.br1.jmvstream.com/webtv/tvcajui/playlist/playlist.m3u8",
-      "logo": "https://github.com/user-attachments/assets/e7af691d-0d31-4576-a1eb-bcf85507c891",
-      "tvg_id": "TVCAJUIWEB.br@HD",
-      "category": "Entertainment;General;Music;News;Religious",
-      "country": "BR",
-      "sources": [
-        "news",
-        "music"
-      ],
-      "status": "error",
-      "quarantined": true,
       "has_guide": false
     },
     {
@@ -50795,7 +50852,7 @@
         "news"
       ],
       "status": "error",
-      "quarantined": false,
+      "quarantined": true,
       "has_guide": false
     },
     {
@@ -51469,7 +51526,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
@@ -51497,7 +51554,7 @@
         "movies",
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -51513,7 +51570,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Animal Planet (Russia) (1080p)",
@@ -51555,7 +51612,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Animal Planet Latin America (1080p)",
@@ -51581,7 +51638,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -51681,7 +51738,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Earth Czechia",
@@ -51695,7 +51752,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Earth Hungary",
@@ -51709,7 +51766,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Earth Romania (576i)",
@@ -51723,7 +51780,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Earth Turkiye",
@@ -51737,7 +51794,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Earth US (1080p)",
@@ -51751,7 +51808,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BBC Four",
@@ -51779,7 +51836,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Bloomberg Originals SD (1080p)",
@@ -51793,7 +51850,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "BritBox Mysteries (1080p)",
@@ -51807,7 +51864,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cazador de Homicidas",
@@ -51903,7 +51960,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -51947,7 +52004,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Crime 360 (1080p)",
@@ -51961,7 +52018,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Crimen & Historia (720p)",
@@ -51993,7 +52050,7 @@
     },
     {
       "name": "Curiosity NOW EN (1080p)",
-      "url": "https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8",
+      "url": "https://eafbca58.wurl.com/master/319dc4325e352117ff2ba16d22f2fb8968990c39/U2VsZWN0VFZfQ3VyaW9zaXR5Tk9XVVNfSExT/playlist.m3u8",
       "logo": "https://i.imgur.com/gJ9eMaG.png",
       "tvg_id": "CuriosityNOW.de@EN",
       "category": "Documentary",
@@ -52003,7 +52060,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Danger TV (1080p)",
@@ -52031,7 +52088,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Deadly Women (1080p)",
@@ -52157,7 +52214,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Documentary+ International (1080p)",
@@ -52171,7 +52228,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Docurama (1080p)",
@@ -52283,7 +52340,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Forensic Files",
@@ -52297,7 +52354,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Francophonie24 (1080p)",
@@ -52339,7 +52396,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "GZT (1080p)",
@@ -52561,9 +52618,9 @@
       "sources": [
         "documentaries"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "History Asia (720p)",
@@ -52591,7 +52648,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "History Latin America (1080p)",
@@ -52603,7 +52660,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -52703,7 +52760,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Ink Master CA",
@@ -52717,7 +52774,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Into Crime (1080p)",
@@ -52743,7 +52800,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -52785,9 +52842,9 @@
       "sources": [
         "documentaries"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Investigation Discovery Latin America South",
@@ -52871,7 +52928,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Love Pets (1080p)",
@@ -52885,7 +52942,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Love The Planet (1080p)",
@@ -52899,7 +52956,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Love The Planet DE (1080p) [Geo-blocked]",
@@ -52913,7 +52970,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Love The Planet ES (1080p) [Geo-blocked]",
@@ -52927,7 +52984,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Love The Planet IT (1080p) [Geo-blocked]",
@@ -52941,7 +52998,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Lucky Dog (720p)",
@@ -52950,6 +53007,20 @@
       "tvg_id": "LuckyDog.us@SD",
       "category": "Documentary",
       "country": "US",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false,
+      "has_guide": false
+    },
+    {
+      "name": "M3U World 4K (1080p)",
+      "url": "https://m3uworld4k.paid4k.workers.dev/index.m3u8",
+      "logo": "https://i.imgur.com/9V6lrgV.png",
+      "tvg_id": "M3UWorld4K.bd@HD",
+      "category": "Documentary;Relax",
+      "country": "BD",
       "sources": [
         "documentaries"
       ],
@@ -52995,7 +53066,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -53219,9 +53290,9 @@
       "sources": [
         "documentaries"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "National Geographic Latin America (1080p)",
@@ -53233,7 +53304,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -53289,8 +53360,8 @@
       "sources": [
         "documentaries"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -53823,7 +53894,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Investigacao",
@@ -53935,7 +54006,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Paranormal CA",
@@ -53949,7 +54020,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV PetrolHeads",
@@ -54005,7 +54076,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Space (Germany)",
@@ -54089,7 +54160,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV True Crime CA",
@@ -54103,7 +54174,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Turbo",
@@ -54162,6 +54233,20 @@
       "has_guide": false
     },
     {
+      "name": "Reelz (720p)",
+      "url": "https://a-cdn.klowdtv.com/live2/reelz_720p/playlist.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/960px-Reelz.svg.png",
+      "tvg_id": "Reelz.us@SD",
+      "category": "Documentary",
+      "country": "US",
+      "sources": [
+        "documentaries"
+      ],
+      "status": "online",
+      "quarantined": false,
+      "has_guide": true
+    },
+    {
       "name": "Reelz Famous & Infamous (1080p)",
       "url": "https://linear-190.frequency.stream/mt/vizio/190/hls/master/playlist.m3u8",
       "logo": "https://i.imgur.com/czrTtNK.png",
@@ -54185,7 +54270,7 @@
       "sources": [
         "documentaries"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -54313,7 +54398,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Storie Criminali",
@@ -54355,11 +54440,11 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "TERRA (1080p)",
-      "url": "http://s1.merlive.am/TerraHD/index.m3u8",
+      "url": "http://s7.merlive.am/TerraHD/index.m3u8",
       "logo": "https://i.imgur.com/ZxUjCpF.png",
       "tvg_id": "TERRA.ru@SD",
       "category": "Documentary",
@@ -54367,8 +54452,8 @@
       "sources": [
         "documentaries"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -54509,7 +54594,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Viasat Explore (Bulgaria) (1080p)",
@@ -55097,7 +55182,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Baby Time (576p)",
@@ -55208,8 +55293,8 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -55434,7 +55519,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Box Kids TV (720p)",
@@ -55686,7 +55771,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cartoon Network (United States) West (1080p) [Geo-blocked]",
@@ -55698,9 +55783,9 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cartoon Network Arabic",
@@ -55885,8 +55970,8 @@
       "has_guide": false
     },
     {
-      "name": "Cartoon Network Latin America Brazil (720p) [Geo-blocked]",
-      "url": "http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8",
+      "name": "Cartoon Network Latin America Brazil",
+      "url": "https://cdn-1.netplaygo.com.br/CARTOON_NETWORK/tracks-v1a1/mono.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
       "tvg_id": "CartoonNetworkLatinAmerica.us@Brazil",
       "category": "Animation;Kids",
@@ -55894,7 +55979,7 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -55950,7 +56035,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -56160,7 +56245,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -56258,7 +56343,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": true
     },
@@ -56412,7 +56497,7 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -56582,7 +56667,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Disney Channel Latin America (1080p)",
@@ -56594,7 +56679,7 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -56806,7 +56891,7 @@
       ],
       "status": "timeout",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Disney XD (United States) (720p)",
@@ -56820,7 +56905,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Dora TV",
@@ -57072,7 +57157,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "France 4 (1080p)",
@@ -57100,7 +57185,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "GEM Junior",
@@ -57434,7 +57519,7 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -57478,7 +57563,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Ketchup TV (720p)",
@@ -57578,7 +57663,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "KidZone Max SD (1080p) [Geo-blocked]",
@@ -57718,7 +57803,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Little Stars Universe",
@@ -57732,7 +57817,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Logos TV Kids (720p) [Not 24/7]",
@@ -57958,7 +58043,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Mr Bean Animated ES (1080p)",
@@ -57972,7 +58057,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Mr Bean Animated FR (1080p)",
@@ -57986,7 +58071,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Mr Bean Animated IT (1080p)",
@@ -58000,7 +58085,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Mr Bean Live Action (1080p)",
@@ -58014,7 +58099,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Mult (1080p)",
@@ -58236,23 +58321,9 @@
       "sources": [
         "kids"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
-      "has_guide": false
-    },
-    {
-      "name": "Nick Jr. Asia",
-      "url": "http://103.253.74.210:7070/stream/116/index.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",
-      "tvg_id": "NickJrAsia.sg@SD",
-      "category": "Kids",
-      "country": "SG",
-      "sources": [
-        "kids"
-      ],
-      "status": "blocked",
-      "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nick Jr. Club (Germany) (720p)",
@@ -58322,7 +58393,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nick Jr. Pluto TV CA",
@@ -58336,7 +58407,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nick Schweiz",
@@ -58616,7 +58687,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nickelodeon Arabia (1080i)",
@@ -58630,20 +58701,6 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
-    },
-    {
-      "name": "Nickelodeon Asia",
-      "url": "http://103.253.74.210:7070/stream/117/index.m3u8",
-      "logo": "https://i.imgur.com/E84jnP8.png",
-      "tvg_id": "NickelodeonAsia.sg@SD",
-      "category": "Kids",
-      "country": "SG",
-      "sources": [
-        "kids"
-      ],
-      "status": "blocked",
-      "quarantined": true,
       "has_guide": false
     },
     {
@@ -58784,7 +58841,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nickelodeon Teen (720p)",
@@ -58980,7 +59037,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nicktoons (United States) CA",
@@ -58994,7 +59051,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nicktoons Adria (528p)",
@@ -59064,7 +59121,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "O Reino Infantil",
@@ -59274,7 +59331,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Peppa Pig",
@@ -59300,7 +59357,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -59370,7 +59427,7 @@
       "sources": [
         "kids"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -59860,7 +59917,7 @@
       "sources": [
         "kids"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -59932,7 +59989,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Ryzhiy (576i)",
@@ -60142,7 +60199,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "STS kids (1080p)",
@@ -60352,7 +60409,7 @@
       ],
       "status": "timeout",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Teletubbies (720p)",
@@ -60366,7 +60423,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "TG Junior (720p)",
@@ -60380,7 +60437,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "The Jungle Book (1080p)",
@@ -60509,38 +60566,10 @@
       "has_guide": false
     },
     {
-      "name": "Tooncast Argentina (720p)",
-      "url": "http://45.134.141.161:2200/ARG/Tooncast/index.m3u8",
-      "logo": "https://i.imgur.com/3yXRbQy.png",
-      "tvg_id": "Tooncast.us@Argentina",
-      "category": "Animation;Kids",
-      "country": "US",
-      "sources": [
-        "kids"
-      ],
-      "status": "online",
-      "quarantined": false,
-      "has_guide": false
-    },
-    {
       "name": "Tooncast Brazil (720p)",
       "url": "http://170.83.16.50/TOONCAST/index.m3u8",
       "logo": "https://i.imgur.com/3yXRbQy.png",
       "tvg_id": "Tooncast.us@Brazil",
-      "category": "Animation;Kids",
-      "country": "US",
-      "sources": [
-        "kids"
-      ],
-      "status": "online",
-      "quarantined": false,
-      "has_guide": false
-    },
-    {
-      "name": "Tooncast SouthAmerica (480p)",
-      "url": "http://190.61.42.218:9000/play/a06i/index.m3u8",
-      "logo": "https://i.imgur.com/3yXRbQy.png",
-      "tvg_id": "Tooncast.us@SouthAmerica",
       "category": "Animation;Kids",
       "country": "US",
       "sources": [
@@ -60562,7 +60591,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Tortues Ninja TV (720p)",
@@ -60590,7 +60619,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Totally Turtles CA (720p)",
@@ -60604,7 +60633,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "TraLaLa DSN",
@@ -60926,7 +60955,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "WOW Kidz (720p)",
@@ -61108,7 +61137,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "30A TV Classic Movies (720p)",
@@ -61136,7 +61165,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "70s Cinema",
@@ -61150,7 +61179,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "80s Rewind",
@@ -61164,7 +61193,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "90s Throwback",
@@ -61178,7 +61207,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "312 Kino (406p)",
@@ -61403,7 +61432,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "AMC Europe Bulgary",
@@ -61501,7 +61530,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Amedia Hit (1080p)",
@@ -61989,7 +62018,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -62409,7 +62438,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -62593,7 +62622,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cine Amor",
@@ -62733,7 +62762,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cine Premium (1080p)",
@@ -62789,7 +62818,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cine Sci-Fi by Pluto TV",
@@ -62831,7 +62860,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cine Terror BR",
@@ -62845,7 +62874,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cine Terror LatAm",
@@ -62859,7 +62888,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cine Thrillers by Pluto TV",
@@ -63011,7 +63040,7 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -63195,7 +63224,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Cinemax Asia (720p) [Geo-blocked]",
@@ -63361,7 +63390,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63375,7 +63404,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63389,7 +63418,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63403,7 +63432,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63417,7 +63446,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63431,7 +63460,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63445,7 +63474,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63459,7 +63488,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63473,7 +63502,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -63545,7 +63574,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Classique TV (360p)",
@@ -63697,7 +63726,7 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -63839,7 +63868,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "EBS Cinema (720p)",
@@ -64063,6 +64092,20 @@
       ],
       "status": "timeout",
       "quarantined": true,
+      "has_guide": false
+    },
+    {
+      "name": "Film Mania Romania (576i)",
+      "url": "https://dokagents.site/live/filmmania/mono.m3u8",
+      "logo": "https://i.imgur.com/crhsomk.png",
+      "tvg_id": "FilmMania.hu@Romania",
+      "category": "Movies",
+      "country": "HU",
+      "sources": [
+        "movies"
+      ],
+      "status": "error",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -64453,7 +64496,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -64511,7 +64554,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Filmex Clasico (1080p) [Geo-blocked]",
@@ -64525,7 +64568,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FilmRise Forensic Files (720p) [Geo-blocked]",
@@ -64581,7 +64624,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "FMH Movies (1080p)",
@@ -64931,7 +64974,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Grjngo Western Movies (720p)",
@@ -64945,7 +64988,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Groovy TV (360p)",
@@ -64973,7 +65016,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Hallmark Mystery (720p) [Geo-blocked]",
@@ -65099,7 +65142,7 @@
       ],
       "status": "timeout",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "HBO Asia (720p)",
@@ -65195,7 +65238,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": true
     },
@@ -65211,7 +65254,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Hit HD (1080p)",
@@ -65293,7 +65336,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -65323,7 +65366,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "iFilm Persian (1080p)",
@@ -65755,7 +65798,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -65775,7 +65818,7 @@
     },
     {
       "name": "Kinouzhas (1080p)",
-      "url": "http://s1.merlive.am/Kinoujas/index.m3u8",
+      "url": "http://s7.merlive.am/Kinoujas/index.m3u8",
       "logo": "https://i.imgur.com/mAcAAQF.png",
       "tvg_id": "Kinouzhas.ru@SD",
       "category": "Movies",
@@ -65783,8 +65826,8 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -65853,7 +65896,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -65995,7 +66038,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MAX4 (1080p)",
@@ -66399,7 +66442,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -66471,7 +66514,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MovieSphere AU (1080p)",
@@ -66485,7 +66528,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MovieSphere CA",
@@ -66499,7 +66542,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MovieSphere UK (1080p)",
@@ -66513,7 +66556,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MovieSphere Gold WFXT (1080p)",
@@ -66723,7 +66766,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Nash Kinopokaz HD (576p)",
@@ -66821,7 +66864,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NewFlix",
@@ -66906,7 +66949,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NonStop Kung Fu",
@@ -67046,7 +67089,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pantalla Clasica EC (512p) [Not 24/7]",
@@ -67074,7 +67117,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Paramount Network (Poland) (1080p)",
@@ -67102,7 +67145,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Paramount+ Picks",
@@ -67116,7 +67159,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Patriot (720p)",
@@ -67284,7 +67327,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Action Movies",
@@ -67480,7 +67523,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Cine Comedia (United States) BR",
@@ -67494,7 +67537,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Cine Comedia (United States) LatAm",
@@ -67508,7 +67551,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Cine Comedia Romantica",
@@ -67816,7 +67859,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Crime Drama CA",
@@ -67830,7 +67873,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Crime Movies",
@@ -67844,7 +67887,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Cult Films (Germany)",
@@ -67872,7 +67915,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Danske klassikere",
@@ -67900,7 +67943,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Drama Movies",
@@ -68264,7 +68307,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Horror CA",
@@ -68278,7 +68321,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Icons",
@@ -68292,7 +68335,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Invasion Alien",
@@ -68586,7 +68629,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Retro Action Movies",
@@ -68614,7 +68657,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Romantik",
@@ -68670,7 +68713,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Sci-Fi CA",
@@ -68684,7 +68727,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Sci-Fi LatAm",
@@ -68698,7 +68741,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Serie Sci-Fi",
@@ -68726,7 +68769,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Staff Picks",
@@ -68740,7 +68783,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Star Trek (Germany)",
@@ -68782,7 +68825,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Terror Trash",
@@ -68810,7 +68853,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Toto",
@@ -68838,7 +68881,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Weihnachten im Sommer",
@@ -68908,7 +68951,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Westerns CA",
@@ -68922,7 +68965,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Pluto TV Wild West",
@@ -69608,7 +69651,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Russkiy Bestseller (576p)",
@@ -70032,20 +70075,6 @@
       "has_guide": false
     },
     {
-      "name": "Sony Max HD (1080p)",
-      "url": "https://rangdhonulive.samiulislamabhi.workers.dev/sonyMAXhd/tracks-v1a1/mono.ts.m3u8",
-      "logo": "https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540",
-      "tvg_id": "SonyMax.in@HD",
-      "category": "Movies",
-      "country": "IN",
-      "sources": [
-        "movies"
-      ],
-      "status": "error",
-      "quarantined": true,
-      "has_guide": false
-    },
-    {
       "name": "Sony Movies (Brazil) (720p)",
       "url": "http://45.177.114.115/SONY_MOVIES/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png",
@@ -70083,7 +70112,7 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -70251,7 +70280,7 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -70271,7 +70300,7 @@
     },
     {
       "name": "Star Cinema (576p)",
-      "url": "http://s1.merlive.am/starsinema/index.m3u8",
+      "url": "http://s7.merlive.am/starsinema/index.m3u8",
       "logo": "https://i.imgur.com/5sis895.png",
       "tvg_id": "StarCinema.ru@SD",
       "category": "Movies",
@@ -70279,8 +70308,8 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -70603,7 +70632,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "T2 Movies",
@@ -70631,7 +70660,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "TCM West (720p) [Geo-blocked]",
@@ -70645,7 +70674,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Telecine Action (1080p)",
@@ -70671,7 +70700,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -70685,7 +70714,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -70699,7 +70728,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -70713,7 +70742,7 @@
       "sources": [
         "movies"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -70925,7 +70954,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "TVCARiB Cinema (720p) [Not 24/7]",
@@ -71371,7 +71400,7 @@
       "sources": [
         "movies"
       ],
-      "status": "blocked",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -71471,7 +71500,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Xtrema Accion",
@@ -71539,7 +71568,7 @@
       "sources": [
         "movies"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -72379,7 +72408,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -72897,7 +72926,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -72911,7 +72940,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -72925,7 +72954,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -72939,7 +72968,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "timeout",
       "quarantined": false,
       "has_guide": false
     },
@@ -72997,7 +73026,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Clubbing TV France",
@@ -73053,7 +73082,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "CMT Equal Play (720p)",
@@ -73067,7 +73096,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Company TV (720p)",
@@ -73821,7 +73850,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -74073,7 +74102,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -74087,7 +74116,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -74213,7 +74242,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -74248,7 +74277,7 @@
     {
       "name": "H!t Music Channel (Romania) (576i)",
       "url": "http://91.235.165.117:8001/play/a01e/index.m3u8",
-      "logo": "https://i.imgur.com/sqC2hqV.png",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/8/88/H%21T_Music_Channel_%282013%29.svg/revision/latest?cb=20210206133912",
       "tvg_id": "HtMusicChannel.ro@SD",
       "category": "Music",
       "country": "RO",
@@ -74437,8 +74466,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -74521,7 +74550,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -74556,7 +74585,7 @@
     {
       "name": "Impact TV Dance (1080p)",
       "url": "https://online.tvimpact.live/hls/dancetv.m3u8",
-      "logo": "https://i.imgur.com/G5mNdpE.png",
+      "logo": "https://ritsatv.ru/files/poster/medium/900491.webp",
       "tvg_id": "ImpactTVDance.ro@SD",
       "category": "Music",
       "country": "RO",
@@ -74801,7 +74830,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -75431,7 +75460,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -75725,7 +75754,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -76105,7 +76134,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MTV Biggest Pop BR (1080p)",
@@ -76119,7 +76148,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MTV Biggest Pop CA (1080p)",
@@ -76133,7 +76162,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MTV Biggest Pop LatAm (1080p)",
@@ -76147,7 +76176,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MTV Classic BR (720p)",
@@ -76220,6 +76249,20 @@
       "has_guide": false
     },
     {
+      "name": "MTV Live (1080p)",
+      "url": "http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8",
+      "logo": "https://i.imgur.com/3UByLqb.png",
+      "tvg_id": "MTVLive.us@SD",
+      "category": "Music",
+      "country": "US",
+      "sources": [
+        "music"
+      ],
+      "status": "online",
+      "quarantined": false,
+      "has_guide": false
+    },
+    {
       "name": "MTV Spankin' New (1080p)",
       "url": "https://jmp2.uk/plu-5d14fdb8ca91eedee1633117.m3u8",
       "logo": "https://images.pluto.tv/channels/6541010f770cf1000866be98/colorLogoPNG.png",
@@ -76231,7 +76274,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "MTV Spankin' New CA (1080p)",
@@ -76245,7 +76288,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Music (480p) [Not 24/7]",
@@ -76651,7 +76694,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "NH BollyRaga (1080p)",
@@ -76957,7 +77000,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -77603,7 +77646,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Qmusic (720p)",
@@ -77937,7 +77980,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -78063,7 +78106,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -78119,7 +78162,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -78133,8 +78176,8 @@
       "sources": [
         "music"
       ],
-      "status": "error",
-      "quarantined": true,
+      "status": "online",
+      "quarantined": false,
       "has_guide": false
     },
     {
@@ -78259,7 +78302,7 @@
       "sources": [
         "music"
       ],
-      "status": "error",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -78287,7 +78330,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -78833,7 +78876,7 @@
       "sources": [
         "music"
       ],
-      "status": "online",
+      "status": "error",
       "quarantined": false,
       "has_guide": false
     },
@@ -78931,7 +78974,7 @@
       "sources": [
         "music"
       ],
-      "status": "timeout",
+      "status": "error",
       "quarantined": true,
       "has_guide": false
     },
@@ -79297,7 +79340,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray Classica (1080p)",
@@ -79311,7 +79354,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray Cozy Cafe (1080p)",
@@ -79339,7 +79382,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray Easy Listening (1080p)",
@@ -79367,7 +79410,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray Flashback 70's (1080p)",
@@ -79409,7 +79452,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray Holiday Hits (1080p)",
@@ -79451,7 +79494,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray iConcerts HD",
@@ -79493,7 +79536,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray Naturescape (1080p)",
@@ -79507,7 +79550,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray Nothin' But 90s (1080p)",
@@ -79605,7 +79648,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Stingray The Spa (1080p)",
@@ -80333,7 +80376,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Trace Brazuca HD (1080p)",
@@ -80347,7 +80390,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Trace Caribbean (1080p)",
@@ -80571,7 +80614,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Trace Urban Africa Franco (1080p)",
@@ -80585,7 +80628,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Trace Urban Caribbean And Indian Ocean (1080p)",
@@ -80599,7 +80642,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Trace Urban HD (1080p)",
@@ -80613,7 +80656,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Trace Urban International HD (1080p)",
@@ -80627,7 +80670,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Trace Urban Southern Africa (1080p)",
@@ -80641,7 +80684,7 @@
       ],
       "status": "blocked",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Trace Vanilla Islands (1080p)",
@@ -81201,7 +81244,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Vevo '70s (1080p)",
@@ -81215,7 +81258,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Vevo '80s (1080p)",
@@ -81229,7 +81272,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Vevo '90s (1080p)",
@@ -81243,7 +81286,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Vevo Country (1080p)",
@@ -81257,7 +81300,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Vevo Hip Hop (1080p)",
@@ -81299,7 +81342,7 @@
       ],
       "status": "error",
       "quarantined": true,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Vevo R&B (1080p)",
@@ -81313,7 +81356,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Vevo Retro Rock (1080p)",
@@ -81355,7 +81398,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Video Mix TV (1080p)",
@@ -81423,7 +81466,7 @@
       "sources": [
         "music"
       ],
-      "status": "blocked",
+      "status": "online",
       "quarantined": false,
       "has_guide": false
     },
@@ -81635,7 +81678,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "Yo! MTV CA (1080p)",
@@ -81649,7 +81692,7 @@
       ],
       "status": "online",
       "quarantined": false,
-      "has_guide": false
+      "has_guide": true
     },
     {
       "name": "YRF Music (1080p)",

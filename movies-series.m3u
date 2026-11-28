@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epg.kanya.io/us/guide.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz" x-tvg-url="https://epg.kanya.io/us/guide.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz"
 #EXTINF:-1 tvg-id="50CentAction.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/bcfb9977-809f-49ae-acc7-430f2c6ffb26/50CentAction_Logo_1500x1000_DarkBG_-_Chris_Connors.png" group-title="Movies" tvg-country="US",50 Cent Action (720p)
 https://jmp2.uk/plu-68487fb3f212bedacf5a53e3.m3u8
 #EXTINF:-1 tvg-id="AXNAsia.sg@Indonesia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies" tvg-country="SG",AXN Asia Indonesia (720p)

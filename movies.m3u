@@ -301,6 +301,8 @@ http://88.212.7.14/live/film4_hun/index.m3u8
 http://88.212.7.14/live/film_cafe/index.m3u8
 #EXTINF:-1 tvg-id="FilmCafe.hu@Romania" tvg-logo="https://i.imgur.com/jaKRnzU.png" group-title="Movies" tvg-country="HU",Film Cafe Romania (576i)
 https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/cofyfilm/usergendxn8lzrnd.m3u8
+#EXTINF:-1 tvg-id="FilmMania.hu@Romania" tvg-logo="https://i.imgur.com/crhsomk.png" group-title="Movies" tvg-country="HU",Film Mania Romania (576i)
+https://dokagents.site/live/filmmania/mono.m3u8
 #EXTINF:-1 tvg-id="FilmNow.ro@SD" tvg-logo="https://i.imgur.com/sSoRvGz.png" group-title="Movies" tvg-country="RO",Film Now (576i)
 https://rundle.tv/proxy5.php?src=https://thor1.syndula001.cfd/df/usergendlg1ks0t2n.m3u8
 #EXTINF:-1 tvg-id="FilmPlus.cz@SD" tvg-logo="https://i.imgur.com/OBYuY3S.png" group-title="Movies" tvg-country="CZ",Film+ (Czech Republic)
@@ -445,6 +447,8 @@ http://s7.merlive.am/Kinoseria/index.m3u8
 https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinoteatr.uz@SD" tvg-logo="https://i.imgur.com/emH1BgC.png" group-title="Movies" tvg-country="UZ",Kinoteatr (1080p)
 https://stream8.cinerama.uz/1009/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 tvg-id="Kinouzhas.ru@SD" tvg-logo="https://i.imgur.com/mAcAAQF.png" group-title="Movies" tvg-country="RU",Kinouzhas (1080p)
+http://s7.merlive.am/Kinoujas/index.m3u8
 #EXTINF:-1 tvg-id="KuriakosCine.pt@SD" tvg-logo="https://i.imgur.com/CZViCwB.jpg" group-title="Movies" tvg-country="PT",Kuriakos Cine (1080p)
 https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LaxmiTVGujarati.in@SD" tvg-logo="https://i.imgur.com/8wLfkl9.jpg" group-title="Movies" tvg-country="IN",Laxmi TV Gujarati (576p)
@@ -853,6 +857,8 @@ https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 http://85.237.89.159:3342/ar-s/STAR-Action-HD/index.m3u8
 #EXTINF:-1 tvg-id="StarChannel.bg@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Movies" tvg-country="BG",Star Channel (Bulgaria)
 http://213.91.179.28:8000/play/a0c9
+#EXTINF:-1 tvg-id="StarCinema.ru@SD" tvg-logo="https://i.imgur.com/5sis895.png" group-title="Movies" tvg-country="RU",Star Cinema (576p)
+http://s7.merlive.am/starsinema/index.m3u8
 #EXTINF:-1 tvg-id="StarFamily.ru@SD" tvg-logo="https://i.imgur.com/eGuGHnZ.png" group-title="Movies" tvg-country="RU",Star Family (1080p)
 https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="StarMaaMovies.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=720x540" group-title="Movies" tvg-country="IN",Star Maa Movies HD (720p)

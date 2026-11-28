@@ -3,10 +3,6 @@
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.mpd
 #EXTINF:-1 tvg-id="HRT2.hr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Htv2-logo.png" group-title="Croatia" tvg-country="HR",HRT 2 Ⓖ
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT2/default/index.mpd
-#EXTINF:-1 tvg-id="HRT3.hr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/HRT3_Logo_aktuell.png" group-title="Croatia" tvg-country="HR",HRT 3
-https://webtvstream.bhtelecom.ba/hls9/hrt3_1200.m3u8
-#EXTINF:-1 tvg-id="HRT4.hr" tvg-logo="https://i.imgur.com/VcNrY0m.png" group-title="Croatia" tvg-country="HR",HRT 4 Ⓨ
-https://www.youtube.com/@HRT_vijesti/live
 #EXTINF:-1 tvg-id="CMCTV.hr" tvg-logo="https://i.imgur.com/Fh2vawT.png" group-title="Croatia" tvg-country="HR",CMC TV
 https://stream.cmctv.hr:49998/cmc/live.m3u8
 #EXTINF:-1 tvg-id="PlavaVinkovacka.hr" tvg-logo="https://i.imgur.com/WJJNtQ3.jpg" group-title="Croatia" tvg-country="HR",Plava Vinkovačka
@@ -17,8 +13,6 @@ http://89.201.163.244:8080/hls/hdmi.m3u8
 https://live.osjecka.com/live/index.m3u8
 #EXTINF:-1 tvg-id="SBTV.hr" tvg-logo="https://i.imgur.com/MIampxZ.png" group-title="Croatia" tvg-country="HR",SBTV
 https://live.leveex.hr/hls/live.m3u8
-#EXTINF:-1 tvg-id="KanalRi.hr" tvg-logo="https://i.imgur.com/aSPMh0o.png" group-title="Croatia" tvg-country="HR",Kanal Ri
-https://live.kanalri-transfer.org/kanalri/main_stream.m3u8
 #EXTINF:-1 tvg-id="TVNova.hr" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" group-title="Croatia" tvg-country="HR",TV Nova
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 #EXTINF:-1 tvg-id="TVJadran.hr" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/9/9a/Tv_jadran_logo.png" group-title="Croatia" tvg-country="HR",TV Jadran

@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epg.kanya.io/us/guide.xml.gz" x-tvg-url="https://epg.kanya.io/us/guide.xml.gz"
 #EXTINF:-1 tvg-id="KidsMovieClub.us@SD" tvg-logo="https://i.imgur.com/avFk0Tt.png" group-title="Kids" tvg-country="US",Kids Movie Club
 https://jmp2.uk/plu-5db0ad56edc89300090d2ebb.m3u8
 #EXTINF:-1 tvg-id="KidsFlix.us@SD" tvg-logo="https://i.imgur.com/4Pn0ADQ.png" group-title="Kids" tvg-country="US",KidsFlix (1080p) [Not 24/7]
