@@ -69,7 +69,9 @@ as a source, not a tab. Home opens with a hero plus continue-watching
 shelf (progress tracked in-player, resume seek for VOD, recency for
 live). Search is unified across live channels, TMDB, and Plex. The
 Channels tab renders a 3-hour EPG grid from the published `guide.xml`
-(merged from matched guides for our channels only). Direct-play only
+(merged from matched guides for our channels only, with non-Latin
+titles translated offline into language variants the app picks by
+device locale). Direct-play only
 in v1; no prices exist in TMDB.
 CI builds the app and runs core + UI tests on every push touching `FreeTV/`
 or `Packages/`.
