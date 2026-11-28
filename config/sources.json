@@ -44,5 +44,8 @@
     }
   ],
   "epg_max_mb": 8,
-  "epg_min_coverage": 0.25
+  "epg_min_coverage": 0.25,
+  "epg_languages": [
+    "en"
+  ]
 }

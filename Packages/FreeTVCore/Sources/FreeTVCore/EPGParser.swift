@@ -13,6 +13,32 @@ public struct EPGProgramme: Hashable, Sendable {
     public let stop: Date
     public let title: String
     public let desc: String?
+    public let altTitles: [String: String]
+
+    public init(channelID: String, start: Date, stop: Date, title: String,
+                desc: String? = nil, altTitles: [String: String] = [:]) {
+        self.channelID = channelID
+        self.start = start
+        self.stop = stop
+        self.title = title
+        self.desc = desc
+        self.altTitles = altTitles
+    }
+
+    /// Title in the device language when available, else the original.
+    public func displayTitle(preferredLanguages: [String] = Locale
+        .preferredLanguages) -> String {
+        for language in preferredLanguages {
+            let prefix = language.split(separator: "-").first.map(String.init)
+                ?? language
+            if let match = altTitles.first(where: {
+                $0.key.lowercased().hasPrefix(prefix.lowercased())
+            }) {
+                return match.value
+            }
+        }
+        return title
+    }
 }
 
 public struct EPGGuide: Sendable {
@@ -40,7 +66,8 @@ private final class XMLTVParserDelegate: NSObject, XMLParserDelegate,
     var currentIcon: String?
     var currentStart = ""
     var currentStop = ""
-    var currentTitle = ""
+    var currentTitles: [(String?, String)] = []
+    var currentTitleLang: String?
     var currentDesc = ""
     var text = ""
     var inChannel = false
@@ -71,10 +98,12 @@ private final class XMLTVParserDelegate: NSObject, XMLParserDelegate,
             currentChannelID = attributes["channel"] ?? ""
             currentStart = attributes["start"] ?? ""
             currentStop = attributes["stop"] ?? ""
-            currentTitle = ""
+            currentTitles = []
             currentDesc = ""
         case "display-name": inDisplayName = true
-        case "title": inTitle = true
+        case "title":
+            inTitle = true
+            currentTitleLang = attributes["lang"]
         case "desc": inDesc = true
         case "icon":
             if inChannel { currentIcon = attributes["src"] }
@@ -94,7 +123,10 @@ private final class XMLTVParserDelegate: NSObject, XMLParserDelegate,
             if !value.isEmpty, currentName.isEmpty { currentName = value }
             inDisplayName = false
         case "title":
-            currentTitle += value
+            if !value.isEmpty {
+                currentTitles.append((currentTitleLang, value))
+            }
+            currentTitleLang = nil
             inTitle = false
         case "desc":
             currentDesc += (currentDesc.isEmpty ? "" : " ") + value
@@ -108,10 +140,17 @@ private final class XMLTVParserDelegate: NSObject, XMLParserDelegate,
         case "programme":
             if let start = Self.dateFormat.date(from: currentStart),
                let stop = Self.dateFormat.date(from: currentStop) {
+                let original = currentTitles.first { $0.0 == nil }?.1
+                    ?? currentTitles.first?.1 ?? ""
+                var alt: [String: String] = [:]
+                for (lang, text) in currentTitles {
+                    if let lang { alt[lang] = text }
+                }
                 programmes[currentChannelID, default: []].append(
                     EPGProgramme(channelID: currentChannelID, start: start,
-                                 stop: stop, title: currentTitle,
-                                 desc: currentDesc.isEmpty ? nil : currentDesc))
+                                 stop: stop, title: original,
+                                 desc: currentDesc.isEmpty ? nil : currentDesc,
+                                 altTitles: alt))
             }
             inProgramme = false
         default: break

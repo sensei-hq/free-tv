@@ -20,18 +20,27 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Cache translation models
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/argos-translate
+          key: argos-models-${{ hashFiles('curator/requirements.txt') }}
+
+      - name: Install dependencies
+        run: python3 -m pip install -r curator/requirements.txt
+
       - name: Run tests
         run: python3 -m unittest discover -s tests
 
       - name: Run curator
         run: python3 -m curator.cli --state state/state.json --out output
 
-      - name: Persist quarantine state
+      - name: Persist curator state
         run: |
           git config user.name "free-tv-bot"
           git config user.email "free-tv-bot@users.noreply.github.com"
-          git add state/state.json
-          git diff --cached --quiet || git commit -m "Update quarantine state"
+          git add state/
+          git diff --cached --quiet || git commit -m "Update curator state"
           git pull --rebase origin main
           git push
 

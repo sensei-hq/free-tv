@@ -43,6 +43,16 @@ class MergedGuideTest(unittest.TestCase):
         self.assertEqual(len(root.findall("channel")), 0)
         self.assertEqual(len(root.findall("programme")), 0)
 
+    def test_lang_variants_appended(self):
+        out = build_merged_guide(
+            {"http://x/g.xml": SAMPLE}, {"bbc1"},
+            translate=lambda text, url: {"en": f"EN:{text}"})
+        root = ET.fromstring(out)
+        titles = [(t.text, t.get("lang"))
+                  for t in root.findall("programme/title")]
+        self.assertEqual(titles, [("Morning News", None),
+                                  ("EN:Morning News", "en")])
+
     def test_broken_guide_is_skipped(self):
         out = build_merged_guide({"http://x/bad.xml": b"not xml {{{",
                                   "http://x/g.xml": SAMPLE},

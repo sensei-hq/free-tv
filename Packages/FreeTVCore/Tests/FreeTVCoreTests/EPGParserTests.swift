@@ -52,6 +52,31 @@ struct EPGParserTests {
         #expect(normalizeEPGID("BBC One") == "bbc one")
     }
 
+    @Test("picks the device language when available")
+    func prefersDeviceLanguage() {
+        let show = EPGProgramme(channelID: "x", start: Date(), stop: Date(),
+                                title: "סרטים אולימפיים",
+                                altTitles: ["en": "Olympic Films"])
+        #expect(show.displayTitle(preferredLanguages: ["en-US"]) ==
+            "Olympic Films")
+        #expect(show.displayTitle(preferredLanguages: ["fr-FR"]) ==
+            "סרטים אולימפיים")
+    }
+
+    @Test("parses lang variants")
+    func parsesLangVariants() throws {
+        let xml = """
+        <?xml version="1.0"?><tv>
+        <programme start="20260101080000 +0000" stop="20260101090000 +0000" channel="c1">
+        <title>סרטים</title><title lang="en">Films</title>
+        </programme></tv>
+        """
+        let guide = try parseXMLTV(Data(xml.utf8))
+        let show = guide.programmes["c1"]?.first
+        #expect(show?.title == "סרטים")
+        #expect(show?.displayTitle(preferredLanguages: ["en"]) == "Films")
+    }
+
     @Test("programme lookup is case-insensitive")
     func lookupIgnoresCase() throws {
         let guide = try parseXMLTV(Data(xmltvFixture.utf8))

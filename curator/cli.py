@@ -20,6 +20,7 @@ from curator.epg import (
     normalize_id,
     select_guides,
 )
+from curator.epg_i18n import make_translator
 from curator.playlist import merge_sources, parse_m3u, render_m3u
 from curator.probe import USER_AGENT, ProbeResult, probe_url
 from curator.quarantine import Tracker
@@ -176,8 +177,24 @@ def main(argv=None):
           json.dumps(build_epg_index(guide_ids), indent=2) + "\n")
     if matched_global and not args.no_epg:
         bodies = fetch_guide_bodies(matched_global, args.max_workers)
+        memory_path = os.path.join(os.path.dirname(args.state) or ".",
+                                   "epg-i18n.json")
+        try:
+            with open(memory_path, encoding="utf-8") as fh:
+                memory = json.load(fh)
+        except (OSError, ValueError):
+            memory = {}
+        translate = make_translator(
+            memory, tuple(config.get("epg_languages", ["en"])))
         guide_xml = build_merged_guide(
-            bodies, playlist_ids(merged))
+            bodies, playlist_ids(merged), translate=translate)
+        if translate is not None:
+            state_dir = os.path.dirname(memory_path)
+            if state_dir:
+                os.makedirs(state_dir, exist_ok=True)
+            with open(memory_path, "w", encoding="utf-8") as fh:
+                json.dump(memory, fh, indent=2, sort_keys=True,
+                          ensure_ascii=False)
         guide_path = os.path.join(args.out, "guide.xml")
         os.makedirs(os.path.dirname(guide_path) or ".", exist_ok=True)
         with open(guide_path, "wb") as fh:

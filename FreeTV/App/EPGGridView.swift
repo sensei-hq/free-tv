@@ -150,7 +150,7 @@ struct EPGGridView: View {
     private func nowTitle(_ channel: Channel) -> String {
         nowPlaying(channels: epg.guide?.programmes ?? [:],
                    id: normalizeEPGID(channel.tvgID ?? ""),
-                   at: now)?.title ?? "No guide data"
+                   at: now)?.displayTitle() ?? "No guide data"
     }
 
     private func programmesStrip(_ channel: Channel) -> some View {
@@ -183,7 +183,7 @@ struct EPGGridView: View {
         let stop = min(show.stop, windowEnd)
         let width = max(110, stop.timeIntervalSince(start) / 60 * pxPerMinute)
         return Button { play(channel) } label: {
-            Text(show.title)
+            Text(show.displayTitle())
                 .font(.caption)
                 .lineLimit(2)
                 .frame(width: width, height: 72, alignment: .leading)

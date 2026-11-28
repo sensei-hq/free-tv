@@ -82,12 +82,14 @@ def _strip_ns(tag):
     return tag.split("}", 1)[-1] if "}" in tag else tag
 
 
-def build_merged_guide(guide_bodies, wanted_ids):
+def build_merged_guide(guide_bodies, wanted_ids, translate=None):
     """Merge programmes for wanted channel ids across guides into one
-    XMLTV document. Broken guides are skipped silently."""
+    XMLTV document. Broken guides are skipped silently. When translate
+    is given, it maps (title, guide_url) to {lang: text} variants that
+    are appended as extra <title> elements."""
     tv = ET.Element("tv")
     seen_channels = set()
-    for body in guide_bodies.values():
+    for url, body in guide_bodies.items():
         try:
             root = ET.fromstring(body)
         except ET.ParseError:
@@ -104,8 +106,18 @@ def build_merged_guide(guide_bodies, wanted_ids):
         for programme in root.iter():
             if _strip_ns(programme.tag) != "programme":
                 continue
-            if normalize_id(programme.get("channel", "")) in wanted_ids:
-                tv.append(programme)
+            if normalize_id(programme.get("channel", "")) not in wanted_ids:
+                continue
+            if translate is not None:
+                for title in list(programme.iter()):
+                    if _strip_ns(title.tag) != "title" or not title.text:
+                        continue
+                    for lang, text in translate(
+                            title.text, url).items():
+                        variant = ET.Element("title", {"lang": lang})
+                        variant.text = text
+                        programme.append(variant)
+            tv.append(programme)
     return ET.tostring(tv, encoding="utf-8", xml_declaration=True)
 
 
